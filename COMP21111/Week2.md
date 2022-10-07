@@ -26,6 +26,60 @@
 	- If a true value is found, the model (interpretation which evaluates to true) is just found by copying the path/choices made on the branch which terminates at $\top$
 
 # Monotonicity, position, polarity
+- the order < is defined using 0 < 1
+- a function is monotonic on its Kth argument if $a_k \leq a'_k$ $f(a_1...a_k...a_n) \leq f(a_1...a'_k...a_n)$. What this basically means that by changing the boolean value of $a_k$ from 0 to 1, the function can only keep the same value or increase, but NOT go down
+- the oposite of this is **anti-monotonic**. Where if you decrease the value of the Kth argument, the value of the function decreases (or stays the same)
+- $\land$ and $\lor$ are monotonic on all their arguments - if you increase an argument, the value of the connectives can only stay the same or increase
+- $\neg$ is **anti-monotonic** (by increasing the value that is being negated, you decrease the output from the function)
+- $\rightarrow$ is monotonic on its second argument, but anti-monotonic on its first argument
+- $\leftrightarrow$ is neither monotonic or anti-monotonic on either arguments
 
+- Positions are used to defined subformulas within a formula
+- We can define positions by numbering connectives in a formula in order, then using a number path down a parse tree to refer to parts of the formula
+![[Pasted image 20221005231834.png]]
+
+- The formal definition for a position is as follows:
+  A **Position** is a sequence of any positive integers $a_1 .. a_n$ where $n\geq 0$, written as $a_1 . a_2 ... a_n$
+  The empty position is denoted by $\epsilon$ when n = 0
+  The position in formula $A$ is denoted $A|_{position}$
+
+- Every formula has a position $\epsilon$, which is just the formula itself
+
+- **Polarity** - There are 3 types of polarity - Positive, Negative, Neutral. The main rules are as follows:
+	- pol($A,\epsilon$) = 1
+	- Let $A|_\pi = B$
+		- if $B$ is made up of conjunctions or disjunctions, for all $B_i .. B_n$, pol($A,\pi.i$) = pol($A,\pi$)
+		- if $B$ is $\neg B$, and $B$ has the position $\pi.1$, pol($A,\pi.1$) = $-$pol($A,\pi$)
+		- if $B$ is $B_1 \rightarrow B_2$, so $\pi.1$ and $\pi.2$ are positions in $A$, pol($A,\pi.1$) = $-$pol($A,\pi$), **but** pol($A,\pi.2$) = pol($A,\pi$) [because implication is monotonic on second argument]
+		- if $B$ is $B_1 \leftrightarrow B_2$, so $\pi.1$ and $\pi.2$ are positions in $A$, pol($A,\pi.i$) = 0 for all i [because double implication isnt monotonic or anti-monotonic for either argument]
+
+- Colouring method to determine polarity for all positions:
+![[Pasted image 20221005233141.png]]
+
+- Note that once reaching a 0 in the tree, you'll never get any value other than 0. This is because +0 and -0 are both equal to 0
 
 # Monotonic replacement / pure atom rule
+
+- As stated in [[Week1]] $A[B]$ denoted that $B$ was a subformula of $A$
+- Now, $A[B]_\pi$ can be used to denote that $B$ is a subformula of $A$ at position $\pi$
+- For any interpretation $I$:
+	  $I(A) \leq I(B)$ if and only $I \vDash A \rightarrow B$
+- Reminder that $\vDash$ denotes model, aka $I$ satisfies $A\rightarrow B$
+
+
+- **Equivalent Replacement Lemma** - if $I \vDash B \leftrightarrow B'$ then $I \vDash A[B] \leftrightarrow A[B']$
+- Basically meaning if $B$ and $B'$ are the same in an interpretation, you can just replace $B$ with $B'$ and the value will stay the same
+
+- **Monotonic Replacement Lemma** 
+	- if pol($A,\pi$) = 1 and $I\vDash B\rightarrow B'$ 
+	- then $I \vDash A[B]_\pi \rightarrow A[B']_\pi$ 
+	- Basically meaning if the interpretation of $B'$ is greater than or equal to interpretation of $B$ then $I(A[B']_\pi)$ is greater than or equal to $I(A[B]_\pi)$. Therefore for formulas with positive polarity, then the formula is monotonic
+	- if pol($A,\pi$) = -1 and $I\vDash B'\rightarrow B$
+	- then $I \vDash A[B]_\pi \rightarrow A[B']_\pi$ 
+
+- **Pure atom** - An atom (propositional variable) is pure in a certain formula, given that all occurences of it are positive, or all are negative (in terms of polarity). You can once again determine this using colouring method within parse trees
+- **Pure atom theorem** - An atom *p* having only positive occurences in $A$ implies $A$ is satisfiable if and only if so is $A^\top_p$
+	- When all occurences are negative = Replace with $\bot$
+	- When all occurences are positive = Replace with $\top$
+- This can be proved by applying the **monotonic replacement theorem**
+- This theorem allows you to replace certain variables with $\top$ / $\bot$, and still satisfy interpretations as you would with the variables included

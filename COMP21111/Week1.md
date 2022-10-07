@@ -95,6 +95,7 @@
 	
 	6. $A$ and $B$ are equivalent if and only if $\lnot (A\leftrightarrow B)$ is unsatisfiable
 
+- Note that **validity = tautology**
 - These properties allow us to decompose formulas in ways that allow us to determine satisfiability / validity / equivalence using one or the other
 - Propositional satisfiability is NP-complete, and propositional validity is coNP-complete
 
