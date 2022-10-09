@@ -5,7 +5,7 @@
 - Propositional logic can be applied to many problems, one including the russian spy problem shown in the first video, or circuit equivalence (also shown in the first video)
 
 # Satisfiability algorithms
-- The main difference between evaluation algorithms and satisfiability algorithms using a truth table is that with evaluation algorithms we are just trying to find the result of a certain interpretation, meanwhile for satisfiability we are trying to find an interpretation which is a model of the propositional formula
+- The main difference between evaluation algorithms and satisfiability algorithms using a truth table is that with evaluation algorithms we are just trying to find the result of a certain interpretation, meanwhile for satisfiability we are trying to find  a model of the propositional formula (an interpretation which satisfies the formula)
 - The major drawback once again of all truth tables is scaling - we can try and solve this formula by using a compact truth table, which allows you to explore all possible values of the formula, without exploring all possible values of the propositional variables
 - The key to satisfiability algorithms is guessing variable values and propagation
 
@@ -56,6 +56,7 @@
 - Colouring method to determine polarity for all positions:
 ![[Pasted image 20221005233141.png]]
 
+- For conjunction / disjunction you do not colour the line blue nor red.
 - Note that once reaching a 0 in the tree, you'll never get any value other than 0. This is because +0 and -0 are both equal to 0
 
 # Monotonic replacement / pure atom rule
