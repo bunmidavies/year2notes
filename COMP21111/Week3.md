@@ -1,4 +1,3 @@
-# Week 3
 - CNF - Standard transformation to CNF
 - Clausal Normal Form
 - Definitional clausal transofmration
