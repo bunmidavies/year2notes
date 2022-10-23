@@ -96,3 +96,18 @@ $$T(n) = 2T(n/2) + \Theta(n)$$
 - In our proof we also need to handle the base case
 
 - I think parts of the method can get confusing given that there is $n$, $n_0$, $n'_0$, but the last sentence kind of sums it up: *You ground the induction on a range of values from a positive constant $n_0$ up to some constant $n'_0 > n_0$, such that for $n \geq n'_0$, the recurrence always bottoms out to a constant sized base case between $n_0$ and $n'_0$s
+
+## 4.5 - Master Method for solving recurrences
+
+- The master method is designed for recurrences in the form:
+  $$T(n) = aT(n/b) + f(n)$$
+  Where $a > 0$, $b > 1$, and both are constants
+- $f(n)$ is the driving function (divides and combines the subproblems once solved)
+
+- The **master theorem** has 3 cases which determine the asymptotic behaviour of $T(n)$
+	1. If there is a constant $\epsilon > 0$ such that $f(n) = O(n^{log_b{a-\epsilon}})$, $T(n) = \Theta(n^{log_b{a}})$
+	2. If there is a constant $k \geq 0$ such that $f(n) = \Theta(n^{log_b{a}}\cdot log_k{n})$, $T(n) = \Theta(n^{log_b{a}} \cdot log_{k+1}n)$ 
+	3. If there is a constant $\epsilon > 0$ such that $f(n) = \Omega(n^{log_b{a+\epsilon}})$, and if $f(n)$ additionally satisfies the *regularity condition* $af(n/b)\leq cf(n)$ for some constant $c < 1$ (and all sufficiently large $n$), then $T(n)=\Theta(f(n))$
+
+- $n^{log_b{a}}$ is called the *watershed function*
+- In order to determine these cases, you notice that you are typically comparing the driving function $f(n)$ to the *watershed function*
