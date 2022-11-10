@@ -75,7 +75,7 @@ $$T(n) = 2T(n/2) + \Theta(n)$$
 	1. Guess the form of the solution using symbolic constants
 	2. Use induction to show that the solution works, then find the constants
 - The guessed solution is substituted for the function on smaller values, which is where the 'substitution' name comes from
-- The substitution method is recommended for establishing an upper  O) or lower ($\Theta$) bound on a recurrence, which can then be combined to give a $\Theta$ bound
+- The substitution method is recommended for establishing an upper  (O) or lower ($\Omega$) bound on a recurrence, which can then be combined to give a $\Theta$ bound
 
 - **Example of the substitution method** 
 - we will determine an upper bound on the recurrence equation:
