@@ -1,0 +1,2 @@
+- A QBF formula is called closed if it has no free variables ([[QBF - bound and free]])
+- For every interpretation and closed QBF formula $F$ - if $I$ is a model of $F$, then $F$ is both **satisfiable** and **valid**
