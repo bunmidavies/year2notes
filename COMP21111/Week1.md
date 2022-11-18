@@ -22,12 +22,7 @@
 - $A[B]$ means that $B$ occurs in $A$ as a subformula (immediate or non immediate)
 
 - **precedence** and levels of precedence are introduced to remove ambiguity and occassionally be able to drop brackets when they aren't needed
-- The order of precedence goes (from first priority being 1):
-	  1. Negation $\lnot$
-	  2. Conjunction $\land$
-	  3. Disjunction $\lor$
-	  4. Implication $\rightarrow$
-	  5. Equivalence $\leftrightarrow$
+- [[connective precedence]]
 
 - This **isn't part of the logic itself**, we use this for convenience (as said in Week1Video2)
 - By using precedence we can *parse formulas*:
@@ -99,12 +94,7 @@
 - These properties allow us to decompose formulas in ways that allow us to determine satisfiability / validity / equivalence using one or the other
 - Propositional satisfiability is NP-complete, and propositional validity is coNP-complete
 
-- Equivalent Replacement Lemma:
-	*Let $I$ be an interpretation and $I \vDash A_1 \leftrightarrow A_2$. Then $I\vDash B[A_1] \leftrightarrow B[A_2]$* 
-- **Notation**: $A[B]$ = formula $A$ with fixed occurence of formula $B$. Therefore $A[B']$ is the formula obtained from $A$ by replacing the occurence of $B$ with $B'$
-- The lemma means by replacing $A_1$ with $A_2$ given they're equivalent, the syntactic structure is irrelevant thus the value of the resulting formula stays the same
-- This becomes the **Equivalent Replacement Theorem**:
-	  *Let $A_1 \equiv A_2$. Then $B[A_1] \equiv B[A_2]$.*
+- [[equivalent replacement]]
 
 - If given a formula consisting of only $\top$ and $\bot$, by using equivalences the formula can be simplified. This is known as the **rewrite rule system**, e.g.:
 	- $\top \land ... \land \top$ = $\top$
