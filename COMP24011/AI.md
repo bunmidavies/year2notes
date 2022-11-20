@@ -2,7 +2,13 @@
 ### overall topics
 
 - IV [[planning with logic]]
-- V [[probability in AI]]
+- VI [[probability in AI]]
+- VII [[bayes networks]]
+
+***
+### course textbooks
+
+- [[r+n.pdf]]
 
 ***
 ### optional reading pieces (WIP)
