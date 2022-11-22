@@ -1,3 +1,5 @@
+[[COMP24011]]
+
 - in planning with logic we use *general first order logic*
 
 - an important part to note about the first order logic we use is that **we do not assume that unique constants imply different entities**. We HAVE to specify that say $a \neq b$ within other statements if we'd like to introduce them as separate entities. 
