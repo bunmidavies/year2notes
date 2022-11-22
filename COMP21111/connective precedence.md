@@ -1,3 +1,5 @@
+[[COMP21111]]
+
 | connective | name | precedence |
 | ---- | ---- | ---- |
 | $\forall$ | for all | 5 |

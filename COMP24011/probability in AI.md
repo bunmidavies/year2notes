@@ -1,3 +1,5 @@
+[[COMP24011]]
+
 - Chapter 13 [[r+n.pdf]] covers all + more of the background required for uncertainty / probability theory in AI
 
 the video within COMP24011 is split into some sections:

@@ -1,8 +1,11 @@
-- prenex formulas take the form $\exists\forall_1p_1 ... \exists\forall_np_n G$, where $G$ is quantifier free (i.e. just a propositional formula)
-- **all QBFs can be converted to prenex form**
+[[COMP21111]]
 
-**prenexing rules**
-- prenexing ONLY works if the formula is rectified before application of prenex form ([[QBF - rectification]])
+- prenex formulas take the form $\exists\forall_1p_1 ... \exists\forall_np_n G$, where $G$ is quantifier free 
+
+***
+## prenexing rules
+
+- prenexing ONLY works if the formula is rectified before application of prenex form ([[QBF - rectified formulas]])
 ![[Pasted image 20221115005439.png]]
 
 - **prenexing example**

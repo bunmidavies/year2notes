@@ -1,3 +1,5 @@
+[[COMP24011]]
+
 - degrees of belief are a formal way to represent the strength with which one believes the truth of some proposition
 - the higher the degree of belief, the higher the confidence in a proposition being true
 - **all propositions have some degree of belief**

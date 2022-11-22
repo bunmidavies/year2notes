@@ -1,3 +1,5 @@
+[[COMP21111]]
+
 basic definition of a propositional formula:
 - Every boolean variable is a formula
 - $\top$ and $\bot$ are formulas
