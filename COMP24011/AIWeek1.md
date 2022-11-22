@@ -1,3 +1,4 @@
+[[r+n.pdf#page=150]]
 # Week 1 topics
 - Inferential tasks, being solved using search algorithms (DFS, BFS, Branch-and-bound, A*)
 

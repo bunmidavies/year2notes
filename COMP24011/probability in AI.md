@@ -6,7 +6,7 @@ the video within COMP24011 is split into some sections:
 
 probability theory isn't the only choice within AI - other alternatives include:
 - depmpser-shafer theory
-- fuzzy logic
+- [[fuzzy logic]]
 - probability intervals
 probability theory today though remains the popular vote by a landslide
 

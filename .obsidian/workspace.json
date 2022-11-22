@@ -4,16 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "bc3fcd600cbe6aaa",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "COMP21111/Week3.md",
-            "mode": "source",
-            "source": false
+        "id": "702aa2536eaa9275",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d1b694466635721",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP24011/r+n.pdf"
+              }
+            }
+          },
+          {
+            "id": "0e3d93967fdc4249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP21111/prenex form.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -31,7 +48,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -77,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP21111/Week3.md",
+                "file": "COMP21111/prenex form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP21111/Week3.md",
+                "file": "COMP21111/prenex form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP21111/Week3.md"
+                "file": "COMP21111/prenex form.md"
               }
             }
           }
@@ -128,17 +147,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bc3fcd600cbe6aaa",
+  "active": "0e3d93967fdc4249",
   "lastOpenFiles": [
-    "COMP26120/Week3.md",
-    "COMP22111/Week3.md",
-    "COMP24011/AIWeek3.md",
-    "COMP22111/VerilogOverview.md",
-    "COMP24011/AIWeek2.md",
-    "COMP24011/Heuristic Methods.md",
-    "Pasted image 20221005231834.png",
-    "COMP22111/StumpOverview.md",
+    "COMP21111/connective precedence.md",
+    "COMP21111/prenex form.md",
+    "COMP21111/equivalent replacement.md",
+    "COMP21111/polarity of formulas.md",
+    "COMP21111/QBF - bound and free.md",
+    "COMP21111/QBF - rectification.md",
     "README.md",
-    "COMP24011/AIWeek1.md"
+    "COMP21111/QBF - substitution.md",
+    "COMP21111/QBF syntax + semantics.md",
+    "COMP21111/Week2.md"
   ]
 }
