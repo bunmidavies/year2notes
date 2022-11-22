@@ -1,3 +1,5 @@
+[[COMP26020]]
+
 - Iterators aim to emulate [[pointers]] in arrays - they are basically **generalised pointers**
 
 - Operators within iterators are overriden by different containers, in order to traverse such containers as needed

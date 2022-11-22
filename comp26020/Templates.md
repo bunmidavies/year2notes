@@ -1,3 +1,5 @@
+[[COMP26020]]
+
 A template is the generic programming mechanism in C++
 
 Templates are only instantiated for specific types at compile-time

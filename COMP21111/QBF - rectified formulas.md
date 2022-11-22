@@ -1,3 +1,5 @@
+[[COMP21111]]
+
 - a rectified formula $F$
 	- has no variable which appears both free and quantified in $F$
 	- for every variable $p$, $F$ contains at most one occurence of a quantifier of $p$

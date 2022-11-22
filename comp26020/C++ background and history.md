@@ -1,3 +1,5 @@
+[[COMP26020]]
+
 C++ started as C with classes, and is a straightforward extension of C (hence the **++**), started by Bjarne Stroustrup in 1985
 
 There are 3 main eras describing the advancements C++ made from C:

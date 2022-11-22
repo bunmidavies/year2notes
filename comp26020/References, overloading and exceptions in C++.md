@@ -1,3 +1,5 @@
+[[COMP26020]]
+
 C has two main ways of accessing data - normal variables and pointer variables. C++ adds a third way - references.
 References in C++ are declared using an ampersand, `&` -  a reference variable will point to the memory address of an existing variable, such that any changes made to the reference variable's value will change the value of the original variable
 

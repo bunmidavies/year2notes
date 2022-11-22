@@ -1,3 +1,5 @@
+[[COMP26020]]
+
 As mentioned earlier within the videos earlier, python can typically do what C++ does with generics, without having to worry about data types at all
 
 - Within Python this is known as [[Type Erasure]]

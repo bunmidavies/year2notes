@@ -1,3 +1,5 @@
+[[COMP21111]]
+
 - Let $p$ be a boolean variable and $F_\pi = p$
 	- The occurence of $p$ at the position $\pi$ in $F$ is **bound** if $\pi$ can be represented as the concatenation of two strings $\pi_1 \pi_2$ (2 positions?) such that $F_{\pi_1}$ has the form $\forall pG$ or $\exists pG$ for some $G$
 	- **in simpler terms** - an occurence of $p$ is called **bound** if a quantifier appeared earlier

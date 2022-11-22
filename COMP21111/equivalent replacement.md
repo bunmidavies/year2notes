@@ -1,3 +1,5 @@
+[[COMP21111]]
+
 Propositional formula notes from week1
 **Equivalent Replacement Lemma:**
 	*Let $I$ be an interpretation and $I \vDash A_1 \leftrightarrow A_2$. Then $I\vDash B[A_1] \leftrightarrow B[A_2]$* 
