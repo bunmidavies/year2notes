@@ -7,7 +7,7 @@
 
 - plans typically involve **goals, a plan, and knowledge**
 - if knowledge is $\Phi$ and a statement showing that a particular plan achieves a goal is $\gamma$, we can say $\Phi \models \gamma$ to express that our knowledge **guarantees** gamma will work
-- contrary to [[Week1]] logic and modelling, where $\models$ means **models**, we call it **entails** here 
+- contrary to [[propositional logic semantics]] logic and modelling, where $\models$ means **models**, we call it **entails** here 
 - Essentially, your plan works if $\Phi \models \gamma$ 
 
 - when making moves while planning with logic, its important to specify not just what moves do, but what moves **don't** do

@@ -55,7 +55,7 @@
 
 # Monotonic replacement / pure atom rule
 
-- As stated in [[Week1]] $A[B]$ denoted that $B$ was a subformula of $A$
+- As stated in [[propositional logic semantics]] $A[B]$ denoted that $B$ was a subformula of $A$
 - Now, $A[B]_\pi$ can be used to denote that $B$ is a subformula of $A$ at position $\pi$
 - For any interpretation $I$:
 	  $I(A) \leq I(B)$ if and only $I \vDash A \rightarrow B$
