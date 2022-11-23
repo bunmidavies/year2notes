@@ -21,7 +21,7 @@
 - **Conjunctive Normal Form** - A formula $A$ is of CNF if it is:
 	- $\bot$
 	- $\top$
-	- A **conjunction** of **disjunctions** - $A = $\land_i \lor_j L_{i.j}$
+	- A **conjunction** of **disjunctions** - $A$ = $\land_i \lor_j L_{i.j}$
 
 - Formula $B$ is called a CNF of formula $A$ if $A \equiv B$ and $B$ is in CNF
 - Interpretation $I$ satisfies a formula in CNF *iff* it satisfies **every clause**

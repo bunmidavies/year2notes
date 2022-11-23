@@ -31,3 +31,11 @@
 - Quantifiers cause variables to be **bound** - [[QBF - bound and free]] - this means that the value of the formula doesn't depend on the values of the variables within any given interpretation
 
 - note that [[equivalent replacement]] holds for QBFs as well as propositional formulas
+
+- Given a formula $F$ with propositional variables $p_1,...,p_n$, we can represent it as $F(p_1,...,p_n)$
+- Therefore, we can say that
+i) $F(p_1,...,p_n)$ is satisfiable iff $\exists p_1 ... \exists p_n F(p_1,...,p_n)$ is true
+ii) $F(p_1,...,p_n)$ is valid iff $\forall p_1 ... \forall p_n F(p_1,...,p_n)$ is true
+
+- Algorithms like splitting and DPLL for QBFs will check whether a closed formula is true or false ([[QBF - bound and free]]):
+	- [[splitting for QBFs]]
