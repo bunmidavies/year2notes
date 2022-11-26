@@ -42,12 +42,7 @@
 - **This is the only form a tautology can take**
 - Because tautological formulas are always true, we can remove them from clause sets without affecting satisfiability
 
-- **Pure literal elimination**
-- This rule is similar to the pure atom rule used for satisfiability - if an atom only occurs without any negation, we know that its polarity is the same everywhere, so we can replace it with $\top$ or $\bot$
-- A literal $L$ in a formula $F$ is known as **pure** iff:
-	- $F$ contains no clauses of the form $\bar{L} \lor C$ (no clauses containing complement of $L$)
-- If we find a **pure** literal within any clause, we can remove **all clauses which contain this literal**. This also doesn't affect satisfiability
-- Certain literals may also become pure during the process, as you may remove certain clauses while eliminating some pure literal, which happens to remove a certain clause which was causing another literal to be impure
+
 
 - **Horn Clauses**
 - A clause is called a **Horn Clause** if the clause contains at most 1 positive literal
