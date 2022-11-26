@@ -1,5 +1,8 @@
 {
   "cssTheme": "Sanctum",
   "accentColor": "#ee9ef0",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "important"
+  ]
 }
