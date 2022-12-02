@@ -7,7 +7,7 @@
 - The standard library has 4 *core* parts:
 	- **[[Containers]]**
 	  Common data structures that hold data - fully encapsulated, all memory allocations are handled
-	- **[[Iterators + Ranges]]**
+	- **[[c++ iterators]]**
 	  Abstracts certain processes involving accessing containers 
 	- **Algorithms**
 	  Applied to iterators and ranges, to find certain elements or apply user defined functions to each element
