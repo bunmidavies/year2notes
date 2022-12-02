@@ -1,6 +1,6 @@
 [[COMP21111]]
 
-- pure literal rule is a [[DPLL]] optimisation
+- pure literal rule is a [[DPLL - QBFs and Propositional]] optimisation
 
 ## propositional logic
 - **Pure literal elimination**
