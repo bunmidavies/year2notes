@@ -1,3 +1,5 @@
+[[COMP24011]]
+
 Recommended reading is Chapter 14.1 - 14.4 [[r+n.pdf]]
 
 - the robot example that was used in the lectures to describe [[Bayesian Updating]] would work, but has a problem - it would struggle sometimes with processing the amount of data (for instance a 3D array holding a probability distribution)

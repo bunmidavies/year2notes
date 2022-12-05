@@ -4,57 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "702aa2536eaa9275",
+        "id": "c0e59302e3fec838",
         "type": "tabs",
         "children": [
           {
-            "id": "7d1b694466635721",
+            "id": "f11012e4a8eaf7c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP21111/propositional logic semantics.md",
+                "file": "COMP26120/priority queues.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1355b09d2f7157cc",
+            "id": "8eab0bf7bf652401",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP21111/Week2.md",
+                "file": "COMP26120/skip lists.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "99c0fb5dbf44b83e",
+            "id": "a095d465208e8a37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP26120/skip list complexities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6be002cf5f9e4afc",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "images/Pasted image 20221123103645.png"
-              }
-            }
-          },
-          {
-            "id": "0e3d93967fdc4249",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP24011/COMP24011.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20221204214746.png"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,8 +120,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20221123103645.png",
-                "collapseAll": false,
+                "file": "images/Pasted image 20221204214746.png",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20221123103645.png",
+                "file": "images/Pasted image 20221204214746.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Pasted image 20221123103645.png"
+                "file": "images/Pasted image 20221204214746.png"
               }
             }
           }
@@ -173,15 +173,15 @@
   },
   "active": "2696624323034777",
   "lastOpenFiles": [
-    "COMP21111/splitting for QBFs.md",
-    "Pasted image 20221123103428.png",
-    "COMP21111/truth value simplification rules.md",
-    "COMP21111/QBF syntax + semantics.md",
-    "COMP21111/Week2.md",
-    "COMP21111/Week3.md",
-    "COMP21111/Week5.md",
-    "COMP21111/Week4.md",
-    "COMP21111/connective precedence.md",
-    "COMP21111/equivalent replacement.md"
+    "COMP21111/state transition systems.md",
+    "COMP21111/state changing systems.md",
+    "COMP26120/disjoint sets.md",
+    "COMP26120/skip list complexities.md",
+    "COMP26120/skip lists.md",
+    "COMP26120/priority queues.md",
+    "COMP26120/avl tree complexities.md",
+    "COMP26120/binary heap complexities.md",
+    "COMP26120/binary heap.md",
+    "COMP26120/avl trees.md"
   ]
 }
