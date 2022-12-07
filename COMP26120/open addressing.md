@@ -8,7 +8,7 @@
 - if there is an item already sitting in the bucket you planned to insert an item into, there are 3 main techniques that comp26120 looks at:
 	- linear probing: Probe (hash(k) + i) % N for $i = 0 \rightarrow N$
 	- quadratic probing: Probe (hash(k) + $i^2$) % N for $i = 0 \rightarrow N$
-	- double hashing: Probe (hash(k) + ($i \times hash2(k))) % N for $i = 0 \rightarrow N$
+	- double hashing: Probe (hash(k) + ($i \times hash2(k)$)) % N for $i = 0 \rightarrow N$
 
 ## linear probing
 - the directly next available space is checked
