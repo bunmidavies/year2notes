@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 Recommended reading is Chapter 14.1 - 14.4 [[r+n.pdf]]
 

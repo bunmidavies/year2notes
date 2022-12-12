@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - An ontology, defined by Thomas Gruber is:
 "Every ontology is a treaty - a social agreement - among people with some common motive in sharing"

@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - A **probability assignment** $p$ is a function mapping any proposition in an agent's language to a number
   $$p(\phi)\in [0,1]$$

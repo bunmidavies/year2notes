@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - perception allows agents to obtain information about the world
 - e.g. **sensors** are how agents typically collect data, by interpreting responses from sensors accordingly, specifically visual sensors

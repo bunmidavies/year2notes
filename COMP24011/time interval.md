@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - The term **interval** is used interchangeably with **duration**
 - There are two types of time interval:

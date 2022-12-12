@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - Modal Logic is used to represent beliefs, i.e. **A knows P**
 

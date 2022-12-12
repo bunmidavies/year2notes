@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - Event calculus: representation of events/actions (fluents too) based on points of time
   $$T(At(Shankar,Berkeley),t)$$

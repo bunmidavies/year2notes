@@ -10,5 +10,10 @@
 - if $A$ is a formula then $\neg A$ is a formula
 - if $A$ and $B$ are formulas, $(A\rightarrow B)$ and $(A\leftrightarrow B)$ are too
 
+- if $F$ is a formula, then $\bigcirc F$, $\square F$ and $\Diamond F$  are formulas
+- if $F$ and $G$ are formulas, then $F  \mathcal{U}  G$  is a formula and $F\mathcal R G$ are formulas
+
 ## LTL connectives
 ![[Pasted image 20221208010707.png]]
+
+# [[LTL semantics]]

@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 [[feature detection]]
 
 ## feature detection example: FAST

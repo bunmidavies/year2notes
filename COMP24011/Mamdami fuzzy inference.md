@@ -1,4 +1,4 @@
-[[COMP24011]] - [[Fuzzy Control]]
+[[COMP24011]] / #comp24011 - [[Fuzzy Control]]
 
 - In mamdami fuzzy inference, we evaluate truth values based off crisp inputs
 ![[Pasted image 20221122170748.png]]

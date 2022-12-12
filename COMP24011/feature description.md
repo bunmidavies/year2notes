@@ -1,7 +1,7 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 following on from [[feature detection]]
 
-- the region around each detected feature is compacted
+- the region around each detected feature is compacted into a descriptor
 
 ## example: SIFT descriptor
 - you have a 16x16 pixel patch around a feature

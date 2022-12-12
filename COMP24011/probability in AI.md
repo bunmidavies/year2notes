@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - Chapter 13 [[r+n.pdf]] covers all + more of the background required for uncertainty / probability theory in AI
 

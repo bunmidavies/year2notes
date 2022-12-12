@@ -1,4 +1,4 @@
-[[COMP24011]] - [[Fuzzy Logic]]
+[[COMP24011]] / #comp24011 - [[Fuzzy Logic]]
 
 - Fuzzy Control is a method of creating control systems where **fuzzy rules** are used to map **crisp inputs** into **crisp outputs**
 ![[Pasted image 20221122164759.png]]

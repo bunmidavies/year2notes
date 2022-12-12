@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - Start with covering [[Ontologies]]
 - [[categories]] are important to understand for ontologies, and [[object]]s are also important to understand

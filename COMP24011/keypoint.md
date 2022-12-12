@@ -1,13 +1,13 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 [[feature detection]]
 
 ## keypoints
 - keypoints are useful for finding corresponding locations between two images
 - **correspondence methods** are what find these corresponding locations
 
-there are two main feature based correspondence methods:
+## feature based correspondence methods:
 - **matching** = independently finding features in all images then matching them
-- **tracking** = finding features in one image, then tracking these in succeeding images
+- **tracking** = finding features in one image, then tracking these in the next images
 
 ## keypoint matching / tracking
 1. search images for keypoints

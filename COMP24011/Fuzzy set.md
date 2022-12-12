@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 **Fuzzy Set**
 - A set with no sharp boundaries; members are defined implicitly

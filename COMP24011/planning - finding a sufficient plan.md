@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - in order to be able to use first order logic theorem solvers with our goals, we can simply create a situation in logic where our goals are achieved
 $$\sigma := \exists w(\textrm{goal achieved...})$$

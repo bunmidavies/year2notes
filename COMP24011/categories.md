@@ -1,4 +1,4 @@
-[[COMP24011]]
+[[COMP24011]] / #comp24011
 
 - A category is the most basic level used in reasoning. If you know if an [[object]] exists within a certain category, you can make certain assumptions based off this
 
