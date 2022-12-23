@@ -1,4 +1,5 @@
 {
-  "sanctum@@color-accent-rgb-d": "165, 119, 218",
-  "sanctum@@active-line-accent": "var(--background-hover)"
+  "sanctum@@color-accent-rgb-d": "92, 153, 124",
+  "sanctum@@active-line-accent": "var(--background-hover)",
+  "sanctum@@color-accent-rgb-l": "236, 90, 118"
 }
