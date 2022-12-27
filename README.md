@@ -1,9 +1,10 @@
 ## <span style="font-family:roman pls">university of manchester, BSc computer science, year 2</span>
-- 
 
-- Notes by me
-- <a href="COMP26020/contents">COMP26020 (prog languages/paradigms) Notes</a>
-- <a href="COMP26120/contents">COMP26120 (algos/ds) Notes</a>
+year2 sem1 modules
+- [[COMP24011]] / #comp24011
+- [[COMP26020]]
+- [[COMP21111]]
+- [[COMP22111]]
 
-- Other pages
-- 
+year2 sem1+2 modules
+- [[COMP26120]]
