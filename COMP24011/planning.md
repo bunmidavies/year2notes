@@ -22,3 +22,5 @@ the domain consists of a set of cube-shaped blocks sitting on a table
 blocks can be stacked, but only one block can fit directly on top of another
 a robot arm can pick up and move blocks, but only ==one block at a time==
 the goal is defined with first order logic as $Goal()$
+
+#### a hybrid approach to planning is [[means-ends-analysis]]
