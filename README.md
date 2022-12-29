@@ -1,4 +1,4 @@
-## <span style="font-family:roman pls">university of manchester, BSc computer science, year 2</span>
+## <span style="font-family:Times New Roman">university of manchester, BSc computer science, year 2</span>
 
 year2 sem1 modules
 - [[COMP24011]] / #comp24011
