@@ -1,6 +1,6 @@
-[[updating degrees of belief]]
+[[COMP24011]]
 
-- conditional probability:
+- ==conditional probability==:
   *given $p$ is a probability assignment*
   $p(a\land b) / p(b)$ is known as the probability of $a$ given $b$, and is written $p(a|b)$
 
@@ -15,4 +15,4 @@ $p(a)$ (not updated after learning b) > $p(a|b)$
 
 - Therfore: assuming $p(b) \neq 0$
   $$p_b(a) = p(a|b)$$
-  This is [[Bayesian Updating]], a belief-revision policy
+  This is [[Bayesian Updating]], a ==belief-revision policy==

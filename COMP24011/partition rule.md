@@ -1,4 +1,6 @@
-- a partition for a propositions $\varphi_1,...\varphi_n$ means that they are both mutually exclusive and jointly exhaustive - **exactly 1 proposition is true**
+[[COMP24011]]
+
+- a partition for a propositions $\varphi_1,...\varphi_n$ means that they are both mutually exclusive and jointly exhaustive - ==exactly 1 proposition is true==
 - this means that 
   $p(\varphi_1) + ... + p(\varphi_n) = 1$
 
