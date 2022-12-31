@@ -29,27 +29,6 @@ Constraints:
 	Group sizes should be even
 ```
 
-- A **constraint network** is a tuple:
-	$$\langle\bar{x},\bar{D},\mathcal{C}\rangle$$
-
-- $\bar{x}$ = $x_1,...,x_2$ = set of variables
-- $\bar{D} = D_1,...D_n$ = set of domains, one for each variable
-- $\mathcal(C) = {R_1,...,R_m}$ = set of relations (**constraints**)
-
-- $x_i$ can only take on the values within $D_i$. Therefore we say $D_i$ is the domain of $x_i$
-- arity of a relation = number of arguments
-- $R_j$ is a relation with $j$ arguments (arity of $j$) over the domain:
-  $D_{i_{j,1}} \times ... \times D_{i_{j,a(j)}}$
-${i_{j,1}}$ to ${i_{j,a(j)}}$ are indices from $1,...,n$
-
-- The basic point of $R_j$ is to place constraints on what can be assigned the the variables
-- A solution is a tuple (i.e. a variable assignment) which satisfies all the contraints of all $R_j$, and only contains variables which are allowed:
-
-  $\bar{a} = a_1,...,a_n$ such that
-  - $a_i \in D_i (1 \leq i \leq n)$
-  - $\langle a_{i_{j,1}},...,a_{i_{j,1}} \rangle \in R_j (1 \leq j \leq m)$
-
-
 - Constraint network example following original example:
 - Suppose a student is taking COMP21111, COMP21044:
 	the **variables** are: $x_{COMP21111.ex},x_{COMP21044.lab}$
@@ -65,10 +44,6 @@ ${i_{j,1}}$ to ${i_{j,a(j)}}$ are indices from $1,...,n$
 - Should be noted that constraint satisfaction problems are also known as **commutative** - the order in which values are assigned to variables doesn't actually matter
 
 ## How are constraint satisfaction problems solved?
-
-- All constraint satisfaction problems can be viewed as a **search problem**
-- We create a tree, where for each level a partial assignment is made. The first node in the tree is where no variables are assigned
-- While going down the tree, we can just eliminated nodes which violate the constraints, and traverse these nodes no further. **We will always find a solution using this approach, however it is the least practical as problem size increases**
 
 ## Constraint propagation
 
@@ -89,7 +64,7 @@ ${i_{j,1}}$ to ${i_{j,a(j)}}$ are indices from $1,...,n$
 - **Path consistency** tightens binary constraints by using implicit constraints that are created by looking at triples of variables, for instance:
 	- The set {Xi, Xj} is path consistent with Xm if for each assignment {Xi = a, Xj = b}, there exists an Xm which satisfies the constraints on {Xi, Xm} and {Xm, xj}
 - This has basically introduced a third variable in between i and j, and is stricter on problems with binary constraints, and can figure it out if no actual solution exists for these kinds of problems
-- This can then be extended with the notion of **k-consistency** - however the algorithm for establishing this gets tricky, being exponential in time and space in terms of $k$
+- This can then be extended with the notion of **k-consistency** - 
 
 - **Global constraints** - a global constraint is a constraint which involves an arbitrary number of variables. They occur much more frequently in real problems
 - The basic way of checking whether global constraints are satisfied is if there are more variables in the problem than there are possible values in the constraint. If this is the case then you know there cannot be a possible solution

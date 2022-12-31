@@ -25,9 +25,7 @@
 - Syllogisms are the arguments, while syllogistic is the language
 - The question is whether there is a process to break down propositions
 - In logic, **There exists... = Some... = $\exists$**
-- The syllogism rules can be used to formalise real life arguments which follow first order logic, and present things in a more compact manner
-- The negation of $\forall(p,q) = \exists(p,\bar{q})$.
-   If  $\forall(p,q)$ implies  $\exists(p,\bar{q})$, you can basically assume anything, because logic breaks down (?) 
+
 
 - Inference rules define a tree of knowledge states, such that proving a conclusion can basically be done by searching a tree
 

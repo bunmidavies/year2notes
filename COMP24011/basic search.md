@@ -1,6 +1,6 @@
 [[COMP24011]]
 
-search algorithms require a data structure to keep track of the search tree that is being constructed
+search algorithms require a data structure to keep track of the search tree that is being constructed, and are used to solve [[inference tasks]]
 
 for each node in the tree, a structure should contain the following:
 - ==state== - the state of the node
