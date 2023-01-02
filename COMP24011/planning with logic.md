@@ -3,10 +3,11 @@
 - this section follows on from [[planning]]
 - in planning with logic we use *general first order logic*
 
-- an important part to note about the first order logic we use is that **we do not assume that unique constants imply different entities**. We HAVE to specify that say $a \neq b$ within other statements if we'd like to introduce them as separate entities. 
+- an important part to note about the first order logic we use is that ==**we do not assume that unique constants imply different entities**==. We HAVE to specify that say $a \neq b$ within other statements if we'd like to introduce them as separate entities. 
 - [[planning - the frame problem]] and [[planning - the qualification problem]] explain where possible reasons as to why logic in AI may be unsuitable
 
 - plans typically involve **goals, a plan, and knowledge**
+
 - if knowledge is $\Phi$ and a statement showing that a particular plan achieves a goal is $\gamma$, we can say $\Phi \models \gamma$ to express that our knowledge **guarantees** gamma will work
 - contrary to [[propositional logic semantics]] logic and modelling, where $\models$ means **models**, we call it **entails** here 
 - Essentially, your plan works if $\Phi \models \gamma$ 
