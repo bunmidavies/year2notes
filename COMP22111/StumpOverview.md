@@ -1,6 +1,6 @@
 # Stump
 
-- This page is made as notes for **Video 3** and **Video 4** for Week 1 of COMP22111
+- This page is made as notes for ==**Video 3**== and ==**Video 4**== for ==Week 1== of COMP22111
 - Stump has an ARM like ISA, but just simpler in design
 - It's important to understand Stump for the labs
 
