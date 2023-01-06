@@ -16,4 +16,4 @@ evaluating IR systems involves a table like such:
 (false negative rate = 1 - recall)
 
 ==F1 score== = harmonic mean of precision and recall:
-$$2PR/(P+R)$$
+$$ $$
