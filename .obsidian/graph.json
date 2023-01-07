@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,31 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "COMP26020",
+      "query": "tag:#read",
       "color": {
         "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "COMP21111",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "COMP24011",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
+        "rgb": 7324552
       }
     }
   ],
@@ -46,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4948937485898785,
+  "scale": 0.25178307669397465,
   "close": true
 }

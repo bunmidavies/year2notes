@@ -8,23 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7cda90c9d68d2ae1",
+            "id": "7ad6e859d2a8680f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP24011/calculating w bayes networks.md",
+                "file": "COMP23311/test driven development.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "686b250372175aab",
+            "id": "0a52b72e2fd533a5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "COMP24011/COMP24011.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "COMP24011/COMP24011.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "COMP24011/COMP24011.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "COMP24011/COMP24011.md"
+              }
             }
           }
         ]
@@ -152,17 +160,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "686b250372175aab",
+  "active": "0a52b72e2fd533a5",
   "lastOpenFiles": [
     "README.md",
-    "start here.md",
-    "Untitled.canvas",
-    "stream.md",
-    "5am, friday 23rd december.md",
-    "exams y2 sem1.md",
-    "COMP22111/voltage, current and resistance.md",
-    "COMP22111/VLSI systems.md",
-    "COMP22111/systolic array architecture.md",
-    "COMP26120/solution space view.md"
+    "COMP21111/COMP21111.md",
+    "COMP23311/software architecture patterns.md",
+    "COMP23311/COMP23311.md",
+    "COMP23311/software design patterns.md",
+    "COMP23311/design for testability.md",
+    "COMP23311/code smells, technical debt and refactoring.md",
+    "COMP23311/writing git commit messages.md",
+    "COMP23311/git workflows.md",
+    "COMP23311/code review.md"
   ]
 }
