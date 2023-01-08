@@ -1,5 +1,9 @@
 {
-  "sanctum@@color-accent-rgb-d": "92, 153, 124",
+  "sanctum@@color-accent-rgb-d": "102, 153, 97",
   "sanctum@@active-line-accent": "var(--background-hover)",
-  "sanctum@@color-accent-rgb-l": "236, 90, 118"
+  "sanctum@@color-accent-rgb-l": "236, 90, 118",
+  "sanctum@@tag-radius": "2em",
+  "sanctum@@sticky-view-actions": false,
+  "sanctum@@nav-folder-indicators": true,
+  "sanctum@@colorful-active-nav": false
 }
