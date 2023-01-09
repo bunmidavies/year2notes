@@ -1,5 +1,13 @@
 [[COMP21111]]
 
+OBDDs are the same as [[BDD]]s, but also:
+- introduce an ordering $>$, which makes the tests ==in order==
+
+==Every boolean function has a unique OBDD==
+We can describe OBDDs are being ==canonical== for boolean functions
+
+boolean operations become ==easy to implement== with OBDDs - [[boolean operations with OBDDs]]
+
 ## building an obdd with `integrate` and `obdd`
 
 - `integrate` is the main algorithm used in order to add nodes to an obdd
@@ -13,6 +21,8 @@
 ## build obdd
 ![[Pasted image 20221127164455.png]]
 - the obdd procedure combines the algorithm for building decision trees, with the algorithm for eliminating redundancies 
+
+note that the `p = max_variable(F)` in order to ensure the ==correct ordering== is followed
 
 - So given some propositional formula, the basic steps are:
 	- Simplify the formula
