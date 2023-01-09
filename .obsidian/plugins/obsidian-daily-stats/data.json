@@ -1,0 +1,28 @@
+{
+  "dayCounts": {
+    "2023/0/8": 0,
+    "2023/0/9": 717
+  },
+  "todaysWordCount": {
+    "COMP22111/COMP22111 note summaries.md": {
+      "initial": 684,
+      "current": 690
+    },
+    "COMP21111/OBDD.md": {
+      "initial": 311,
+      "current": 372
+    },
+    "BDD.md": {
+      "initial": 1,
+      "current": 159
+    },
+    "boolean operations with OBDDs.md": {
+      "initial": 1,
+      "current": 474
+    },
+    "COMP21111/COMP21111.md": {
+      "initial": 0,
+      "current": 19
+    }
+  }
+}
