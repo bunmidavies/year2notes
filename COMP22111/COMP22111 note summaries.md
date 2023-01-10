@@ -35,3 +35,6 @@ this shouldnt be used as a source of information to revise, but more as a genera
 - **video 3:** pull-up/pull-down network, CMOS circuit elements, pull-up network = when a 1 is to be outputted (i.e. conduct the power supply), pull-down network = when a 0 is to be outputted (i.e. conduct the ground), CMOS NAND gate, CMOS AND gate using inverter
 - **video 4:** factors affecting transistor properties, input load, output impedance, capacitive load proportional to area, nMOS impedance vs pMOS impedance, why NAND logic is preferred over NOR logic, dynamic power dissipation, $P_D \propto C_L \cdot VDD^2$ , implications of stray capacitance, RC circuit delay due to capacitance, methods to reduce signal delay in transistor, unwanted power dissipation while switching signals, $P_S \propto C_P \cdot VDD^2$ and $P_T = P_D + P_S$
 ***
+==week 6== - reading week
+***
+==week 7== - 
