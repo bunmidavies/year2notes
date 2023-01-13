@@ -2,7 +2,7 @@
 
 **hardware emulation** - like FPGAs are common ways to simulate large logic subsystems without having to actually produce the real version intended to be developed
 
-[[software simulation vs hardware emulation]] explains more about hardware vs software
+[[COMP22111/software simulation vs hardware emulation]] explains more about hardware vs software
 
 there are two main types of simulation
 ***

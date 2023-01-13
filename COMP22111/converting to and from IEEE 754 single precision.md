@@ -68,3 +68,40 @@ $01000010001101011100110011001100$
 ![[Pasted image 20230110001846.png]]
 
 as can be seen, we gain the closest possible approximation given 32 bits
+***
+### single precision to decimal
+
+example: convert $10001000100010001000000000000000$ to decimal in the format:
+$1. ...\times 2^e$ 
+
+the first step is to break the binary number down into the sign, exponent and mantissa
+
+for single precision remember that:
+- sign = 1 bit
+- exponent = 8 bit
+- mantissa = 23 bit
+which all add up to 32 bits
+
+sign = $1$
+exponent = $00010001$
+mantissa = $00010001000000000000000$
+
+since our sign is 1, we know our number is negative
+
+our expoonent gives a value of 17, but as we know we apply a ==bias== to the exponent, we subtract 127 and our actual exponent is -110
+
+we convert the mantissa by the following idea: the first 0 represents $0 * 2^{-1}$, the second 0 represents $0 * 2^{-2}$, etc.
+
+therefore, we have $1 * 2^{-4} + 1 * 2^{-8}$, which is equal to 0.06640625
+
+since we know we always remove the first 1 before the decimal point when representing our mantissa, we add a 1 to this value:
+
+1.06640625
+
+now the final part is to put the correct sign and add the exponent:
+
+$$-1.06640625 * 2^{-110}$$
+![[Pasted image 20230110094617.png]]
+
+due to floating point accuracy this is as accurate as we can get to the value we want:
+![[Pasted image 20230110094821.png]]
