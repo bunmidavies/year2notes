@@ -32,6 +32,7 @@ Intent: *"Define a family of algorithms, encapsulate each one, and make them int
 - Refactoring to the strategy pattern involves pulling out the algorithm from some class that contains it, and encapsulating the ==algorithm itself== as an object
 - ==Algorithm = strategy==
 
+![[Pasted image 20230119123315.png]]
 
 ### <span style="background-color:#797ca3;padding:3px;border-radius:5px;">Behavioural</span> - State
 
@@ -57,7 +58,7 @@ Intent: *"Convert the interface of a class into another interface clients expect
 - An adpater can be useful when working with ==legacy code== that can't be changed at the time 
 
 ![[Pasted image 20230107115113.png]]
-In this example the interfaces between ==target== and ==adaptee== are incompatible, but the adapter allows adaptee's functionality to be implemented, and any outputs returned to the client
+In this example the interfaces between ==target== and ==adaptee== are incompatible, and adaptee has a function which the target wants to use. The adapter allows adaptee's functionality to be implemented, and returns the output wanted by target in a compatible format
 
 ### <span style="background-color:#bfbc67;padding:3px;border-radius:5px;">Creational</span> - Factory Method
 
@@ -73,3 +74,4 @@ Intent: *"Ensure a class only has one instance, and provide a global point of ac
 - Implementing the singleton pattern means creating a class whose constructor ==can't be called in the usual way== - all calls to create a new object return to the same instance
 - Refactoring away from a singleton pattern can be as valid as refactoring to one
 - Example: there might only be one accounting system for a company - trying to instantiate a new one should return the already existing system
+![[Pasted image 20230119131100.png]]
