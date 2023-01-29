@@ -1,0 +1,418 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "4d6d6f87-9fff-11ed-b322-00d861fcc5bb",
+    "deck_config_uuid": "4d6d6f88-9fff-11ed-97c7-00d861fcc5bb",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "4d6d6f88-9fff-11ed-97c7-00d861fcc5bb",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 200
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 2000
+            },
+            "reviewOrder": 0,
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-11e6bd2312a35eb196b6ec3646838029b011a8e8.jpg",
+        "paste-17a8ba1d2fa98974a69c2b4fa04127a3ce9ae29c.jpg",
+        "paste-2a3a808bc69180b49d0d4b73bf14c785a06647cd.jpg",
+        "paste-38db835e947773da51d424ad3e6814e19cb5ecfa.jpg",
+        "paste-5926c85d62741a0635ed28e073cd7d93ec324f00.jpg",
+        "paste-9d205e6eed01b06b2c474005d9e1b87f5236e95c.jpg",
+        "paste-a2a223453e3c22a37676596940db812d0f1445b9.jpg",
+        "paste-e17a3634bd7367f56d56b344d9196ac2e9887d2e.jpg",
+        "rec1674225854.mp3"
+    ],
+    "name": "COMP26120",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-9a713",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "What two things does an algorithm have to do in order to be <b>correct</b>?",
+                "- Halt for every problem instance it has been provided<br>- Solves the given computational problem for every problem instance"
+            ],
+            "guid": "xE%Y7#dr+6",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an <b>online algorithm</b>?",
+                "An online algorithm is an algorithm that receives its input data over time, rather than having all the input data present at the start"
+            ],
+            "guid": "hqAv]3BigG",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What type of problems precisely, can only be NP-complete?",
+                "problems with a \"yes/no\" answer&nbsp;"
+            ],
+            "guid": "fLUL;*HU6-",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "how do you calculate the balance of any given node?",
+                "B(n) = H(n.leftChild()) - H(n.rightChild())<div><br></div><div>where n is the node we want the balance of, and H returns the height of some given node</div>"
+            ],
+            "guid": "eX]88g;g?",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "after calculating the balance of a node, how do you determine whether it is left heavy, right heavy, or balanced?",
+                "B(n) &gt; 0 = left heavy<div>B(n) &lt; 0 = right heavy</div><div>B(n) == 0 = balanced</div>"
+            ],
+            "guid": "EPUNzrjman",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is the additional invariant that exists within AVL trees?",
+                "for every node in the tree <b>n</b>:<div>-1 &lt;= B(n) &lt;= 1</div>"
+            ],
+            "guid": "NYEx,o`vGk",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "when is a left-right rotation used in an avl tree?",
+                "when you have a <b>right subtree</b> which is <b>left heavy </b>(in the video this is described as a LEFT heavy RIGHT subtree)<div><br></div><div>you perform a right rotate on the left subtree, then perform a right rotate on the new root node</div>"
+            ],
+            "guid": "jrAIr)0pu6",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "when is a right-left rotation used, and when is a left-right rotation used? what do they involve?<div>(AVL trees)</div>",
+                "right-left is used for a RIGHT heavy LEFT subtree<div><br></div><div>left-right is used for a LEFT heavy RIGHT subtree</div><div><br></div><div>[sound:rec1674225854.mp3]<br></div><div><br></div><div>right-left involves you left rotating the left subtree, then right rotating the original root</div><div><br></div><div>left-right involves you right rotating the right subtree, then left rotating the original root</div>"
+            ],
+            "guid": "E{_w,_ZmLt",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is the typical height of an AVL tree with n nodes?",
+                "O(logn)"
+            ],
+            "guid": "b5kAtuDtOK",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is the average complexity for searching, inserting and deleting in an AVL tree?",
+                "O(logn), where n is the number of nodes<div><br></div><div>this is because the max height of the AVL tree is O(logn)</div>"
+            ],
+            "guid": "b==YzoC%3K",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is required in order to make average case analysis about some algorithm?",
+                "the probability distribution of the algorithms possible inputs (it is possible to assume all inputs are equally likely)"
+            ],
+            "guid": "Nw}FzDFV=)",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is an external node in a tree?",
+                "a leaf node"
+            ],
+            "guid": "fm<E%>7Q#!",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is an internal node in a tree?",
+                "a node which has one or more child nodes (i.e. <b>not a leaf</b>)"
+            ],
+            "guid": "O[cPCRmAbg",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is a general tree?",
+                "any tree where at least 1 node has &gt; 2 children"
+            ],
+            "guid": "p~p595nMa*",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is a proper binary tree?",
+                "a tree where all nodes have 0 or 2 children"
+            ],
+            "guid": "Oo_CLiD8^|",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is a complete binary tree?",
+                "a binary tree where all levels are full, except for the last level (where all nodes are to the <b>left </b>- note that if the tree is completely full, then technically there are no nodes on the last level and it still counts)"
+            ],
+            "guid": "fX~:TNT*Q)",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is a perfect binary tree?",
+                "a binary tree which is proper (all nodes have 0 or 2 children), and all external nodes (leaves) have the same depth"
+            ],
+            "guid": "fJ~uth$]8}",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "assuming a uniform distribution of elements, what are the average complexities of a binary search tree?",
+                "find = O(logn)<div>insert = O(logn)</div><div>delete = O(logn)</div>"
+            ],
+            "guid": "DFkHJ([h8-",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what are the worst case complexities within a binary search tree?",
+                "find, insert, and delete are all O(n)<br><div><br></div><div>where n is the no of nodes in the tree</div>"
+            ],
+            "guid": "OVVZv1j}{L",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is the pure atom theorem?",
+                "an atom is pure given all occurences of the atom are positive or negative<div><br></div><div>if an atom only has positive occurences in a formula, it means the formula is only satisfiable <b>if and only if </b>that pure atom is set to <b>true</b></div><div><b><br></b></div><div>in the case where the atom only has negative occurences, the atom must be set to <b>false</b></div>"
+            ],
+            "guid": "AkNU`!Q@&Y",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what are the 3 rules for the master method, and what format of recurrence equations can it operate on?",
+                "<div><img src=\"paste-17a8ba1d2fa98974a69c2b4fa04127a3ce9ae29c.jpg\"><br></div><div>operates on aT(n/b) + f(n)</div>"
+            ],
+            "guid": "v73XF?{AUn",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-9d205e6eed01b06b2c474005d9e1b87f5236e95c.jpg\">",
+                "2n<div><img src=\"paste-e17a3634bd7367f56d56b344d9196ac2e9887d2e.jpg\"><br></div>"
+            ],
+            "guid": "Hnr&<A8d.=",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what structure is used to implement a disjoint set with a fast find? what are the complexities of find and union?",
+                "linked structure<div><img src=\"paste-5926c85d62741a0635ed28e073cd7d93ec324f00.jpg\"><br></div><div>O(1) for find,</div><div>O(n) for union</div>"
+            ],
+            "guid": "H@EH>ytQa&",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is the amortized time complexity for m union operations over disjoint sets of size n?",
+                "O(logN)"
+            ],
+            "guid": "w0X.-apb=G",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "in a fast find array, what is the time complexity for union?",
+                "O(n) - this is because you have to go through the entire array, find any items which point to the required set, and change their pointer to the bigger set you are unioning into:<div><br></div><div><img src=\"paste-11e6bd2312a35eb196b6ec3646838029b011a8e8.jpg\"><br></div><div>Union(2,4)</div><div><img src=\"paste-38db835e947773da51d424ad3e6814e19cb5ecfa.jpg\"><br></div>"
+            ],
+            "guid": "J1#yn8G{",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what are the techniques required to obtain both fast union and very good fast find operations in a disjoint set?",
+                "path compression<div>path halving</div><div>path splitting</div>"
+            ],
+            "guid": "l_v.s</&x%",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-2a3a808bc69180b49d0d4b73bf14c785a06647cd.jpg\">",
+                "true"
+            ],
+            "guid": "HF:^%.g]Uu",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "what is the general formula for any kind of arithmetic sequence?",
+                "<img src=\"paste-a2a223453e3c22a37676596940db812d0f1445b9.jpg\">"
+            ],
+            "guid": "qAn2/,g294",
+            "note_model_uuid": "4d6d96a3-9fff-11ed-816d-00d861fcc5bb",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
