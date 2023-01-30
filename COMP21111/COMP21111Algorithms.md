@@ -45,6 +45,11 @@ exhaustive list of all COMP21111 algorithms + other vaguely related properties /
 - when $\pi = 0$ for GSATwithWalks, GSATwithWalks technically reduces to WSAT (only walks)
 ![[Pasted image 20230123220418.png]]
 
+***
+
+### semantic tableaux rules for propositional formulas
+
+![[Pasted image 20230122063332.png]]
 
 ***
 # BDTs / BDDs / OBDDs

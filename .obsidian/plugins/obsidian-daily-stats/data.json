@@ -1,28 +1,50 @@
 {
   "dayCounts": {
     "2023/0/8": 0,
-    "2023/0/9": 717
+    "2023/0/9": 850,
+    "2023/0/10": 1315,
+    "2023/0/11": 412,
+    "2023/0/12": 95,
+    "2023/0/13": 1691,
+    "2023/0/14": 299,
+    "2023/0/15": 0,
+    "2023/0/17": 424,
+    "2023/0/18": 124,
+    "2023/0/19": 554,
+    "2023/0/20": 491,
+    "2023/0/21": 668,
+    "2023/0/22": 464,
+    "2023/0/23": 265,
+    "2023/0/24": 714,
+    "2023/0/25": 10,
+    "2023/0/26": 980,
+    "2023/0/27": 36,
+    "2023/0/29": 31
   },
   "todaysWordCount": {
-    "COMP22111/COMP22111 note summaries.md": {
-      "initial": 684,
-      "current": 690
+    "README.md": {
+      "initial": 29,
+      "current": 27
     },
-    "COMP21111/OBDD.md": {
-      "initial": 311,
-      "current": 372
-    },
-    "BDD.md": {
-      "initial": 1,
-      "current": 159
-    },
-    "boolean operations with OBDDs.md": {
-      "initial": 1,
-      "current": 474
-    },
-    "COMP21111/COMP21111.md": {
+    "COMP27112.md": {
       "initial": 0,
-      "current": 19
+      "current": 21
+    },
+    "COMP26020/COMP26020.md": {
+      "initial": 4,
+      "current": 8
+    },
+    "COMP24112.md": {
+      "initial": 0,
+      "current": 2
+    },
+    "COMP22712.md": {
+      "initial": 0,
+      "current": 1
+    },
+    "COMP23412.md": {
+      "initial": 0,
+      "current": 3
     }
   }
 }
