@@ -4,7 +4,7 @@ the typical ML strategy is the ==Data + Model== strategy:
 
 Data: X $\rightarrow$ Model: $f(\theta,X)$
 
-Data can be described as a collection of ==experience==, $E$
+Data can also be described as ==experience==, $E$
 
 the function $f$, is controlled by its parameters $\theta$, and provides solutions to a task $T$
 
