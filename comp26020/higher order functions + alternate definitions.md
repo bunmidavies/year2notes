@@ -8,11 +8,25 @@ addConst n m = n + m
 addThree = addConst 3
 ```
 
-printing `addThree 7` will return 10. There is a more explicit way of defining these functions:
+`addConst n` is essentially how we construct the function to return. `m` will simply be a parameter of the function we create
+
+==this is the natural way to define a 'multiple argument' function==
+defining a function which takes a pair of arguments is not as natural
+
+printing `addThree 7` will return 10 - however, from this definition it doesn't seem very obvious that this is a function which outputs another function - we can define it a different way
 
 ```Haskell
 addConst n = \m -> n + m
 ```
+
+this basically means you return `function m = n + m`, where you ==predefined== n
+furthermore you could define the actual `addConst` function like this as well:
+
+```haskell
+addConst = \n -> (\m -> n + m)
+```
+
+and this is probably the closest way to represent a function like data
 
 it should also be possible to write a function which takes ==functions as inputs==
 ```Haskell

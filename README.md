@@ -6,7 +6,7 @@ semester 1 modules (10 credits)
 - [[COMP23311]]
 
 semester 2 modules (10 credits)
-- [[COMP22712]]
+- [[COMP25212]]
 - [[COMP27112]]
 - [[COMP23412]]
 - [[COMP24112]]

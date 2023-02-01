@@ -1,8 +1,11 @@
 [[COMP26020]] - [[haskell]]
 
-a typeclass in haskell is a group of operations, each of which can be applied when faced with a particular data type - it is comparable to an ==interface== in imperative languages. It is ==not like a class==
+a typeclass is a group of operations/functions, each of which can be applied to a given type
 
-typeclasses are simply defined with the ==class== keyword:
+a type is ==part of a typeclass== if it supports and implements all the operations that typeclass describes. We describe a type that implements a typeclass as an ==instance of the typeclass==
+
+for example, in Haskell itself `Eq` and `Show` are typeclasses which the regular built-in types like `Int`,`Bool`, etc. are all ==instances== of
+
 ```haskell
 class Descriptive a where
 	describe :: a -> String
@@ -17,13 +20,22 @@ instance descriptive Int where
 
 main = print(describe (1::Int))
 ```
-integers themselves in haskell are already overloaded, so for that reason the `::Int` needs to be added onto the end
 
-to then create further functions which only apply on data types within a typeclass, we can use the `=>` notation
+- we define the typeclass with the `class` keyword
+- we make a type an ==instance of the typeclass== by using `instance`, and then providing implementations for the functions described within the typeclass
+- once this is done, we can then use any of the typeclass's functions on types which are instances of the typeclass
+
+Lecture: *integers themselves in haskell are already overloaded, so for that reason the `::Int` needs to be added onto the end*
+
+we can then create functions which are only applicable to types which are instances of a given typeclass
+
 ```haskell
 descrLen :: Descriptive a => a -> Int
 descrLen x = length(describe x)
 ```
+since types which aren't instances of the `descriptive` class won't have the `describe` functionality, we use the `=>` notation to say `a` ==must be an instance of Descriptive==
+
+
 
 we can use this when dealing with list structures:
 ```haskell

@@ -1,6 +1,12 @@
 [[COMP26020]] - [[haskell]]
 
-in haskell, ==types are checked at compile time==, and ==every expression has a type==
+- in haskell, ==types are checked at compile time==, and ==every expression has a type== - this means that haskell uses ==static types==. This can lead to safer code
+- haskell also has type inference (unlike languages like Java)
+- ==every expression in haskell has a type==
+- the `:t` command will tell us the type of any expression we provide
+- types in haskell are always denoted by the first character being ==capitalised==
+
+- when we declare the types for a function, we use `->`, and there is no special distinction between the parameters and return type
 
 to explicitly define a functions type, use :: notation:
 ```Haskell
