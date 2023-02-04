@@ -1,3 +1,5 @@
+notes are generally linked, but check the graph to see if there are any other pages
+
 
 semester 1 modules (10 credits)
 - [[COMP24011]]
