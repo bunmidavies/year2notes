@@ -3,7 +3,7 @@
 
 ==Robots are physical agents that perform tasks by manipulating the physical world==
 
-robots have [[effectors]], which include legs, wheels, joints and grippers
+robots have [[SEM1/COMP24011/effectors]], which include legs, wheels, joints and grippers
 
 robots also have [[sensors]], which allow for [[perception]] of their environment
 

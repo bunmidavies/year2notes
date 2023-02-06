@@ -4,79 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fb80981e5741ce0d",
+        "id": "183f1dde06974cf1",
         "type": "tabs",
         "children": [
           {
-            "id": "e5b177c5f5256a25",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP26120/Algorithm Design and Applications.pdf"
-              }
-            }
-          },
-          {
-            "id": "0dab8b2fa4243ac8",
+            "id": "51f41af22216b888",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP26120/tree traversal.md",
+                "file": "COMP26120/COMP26120.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "31fa459ab4eb21ff",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4ed083c47804cf12",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "bb3e597a5026caec",
+            "id": "b686dbf74e759cec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP26120/analysing insertion sort.md",
+                "file": "COMP26120/graph traversal.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "8e385e743b6494a0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP26120/intro to algorithms 4th edition.pdf"
-              }
-            }
-          },
-          {
-            "id": "76f007190c941d74",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "moores law",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "816477a836b3aa08",
@@ -142,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "COMP26120/graph traversal.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "COMP26120/graph traversal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,35 +134,20 @@
             }
           },
           {
-            "id": "9bf539cf2fe0536f",
-            "type": "leaf",
-            "state": {
-              "type": "stats-tracker",
-              "state": {}
-            }
-          },
-          {
-            "id": "22fcb6519cc886ae",
+            "id": "de4f36146b56bd20",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "9d31dbd2a7e61230",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {
+                "file": "COMP26120/graph traversal.md"
+              }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -218,17 +162,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "76f007190c941d74",
+  "active": "2696624323034777",
   "lastOpenFiles": [
-    "the black box method.md",
+    "COMP26120/live lectures/6th feb.md",
+    "COMP26120/COMP26120.md",
+    "COMP26120/toppological sort.md",
+    "COMP26120/graph traversal.md",
+    "COMP26120/representing graphs + graph operations.md",
     "COMP27112/COMP27112.md",
-    "COMP26020/haskell.md",
-    "COMP22712/COMP22712.md",
-    "a year in your garden.md",
-    "README.md",
-    "COMP24112/COMP24112.md",
-    "COMP23412/COMP23412.md",
-    "COMP26020/COMP26020.md",
-    "COMP26120/analysing insertion sort.md"
+    "COMP27112/openGL.md",
+    "COMP25212/bus.md",
+    "COMP26020/learnyouahaskell.pdf",
+    "SEM1/COMP22111/COMP22111.md"
   ]
 }
