@@ -1,3 +1,5 @@
+[[COMP21111]]
+
 - DPLL algorithm
 - DPLL optimisations - tautology elimination
 ***

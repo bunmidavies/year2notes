@@ -1,3 +1,5 @@
+[[COMP21111]]
+
 exhaustive list of all COMP21111 algorithms + other vaguely related properties / rules, attempted to be kept in chronological order in terms of course weeks
 
 ***

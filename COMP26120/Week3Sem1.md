@@ -1,3 +1,5 @@
+[[COMP26120]]
+
 # Week 3 - Divide and Conquer
 
 - Divide and conquer algorithms typically have 3 steps

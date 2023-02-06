@@ -1,3 +1,4 @@
+[[COMP24011]]
 # Week 3
 - Constraint satisfaction, and how to solve such problems
 

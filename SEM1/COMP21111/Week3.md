@@ -1,4 +1,5 @@
-	- CNF - Standard transformation to CNF
+[[COMP21111]]
+ - CNF - Standard transformation to CNF
 - Clausal Normal Form
 - Definitional clausal transofmration
 - Encoding problems as propositional satisfiability problems
