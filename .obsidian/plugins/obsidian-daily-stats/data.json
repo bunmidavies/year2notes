@@ -19,32 +19,16 @@
     "2023/0/25": 10,
     "2023/0/26": 980,
     "2023/0/27": 36,
-    "2023/0/29": 31
+    "2023/0/29": 31,
+    "2023/0/30": 1235,
+    "2023/0/31": 1511,
+    "2023/1/4": 15,
+    "2023/1/5": 645
   },
   "todaysWordCount": {
-    "README.md": {
-      "initial": 29,
-      "current": 27
-    },
-    "COMP27112.md": {
+    "comp26120 lab.md": {
       "initial": 0,
-      "current": 21
-    },
-    "COMP26020/COMP26020.md": {
-      "initial": 4,
-      "current": 8
-    },
-    "COMP24112.md": {
-      "initial": 0,
-      "current": 2
-    },
-    "COMP22712.md": {
-      "initial": 0,
-      "current": 1
-    },
-    "COMP23412.md": {
-      "initial": 0,
-      "current": 3
+      "current": 645
     }
   }
 }

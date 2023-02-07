@@ -4,35 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "183f1dde06974cf1",
+        "id": "ee425ec2c94dd1ce",
         "type": "tabs",
         "children": [
           {
-            "id": "51f41af22216b888",
+            "id": "9c29934acabe3240",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f5e56b3653a9b1fb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e2cd6bee25a883d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP26120/COMP26120.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b686dbf74e759cec",
+            "id": "10cbbd4990060f55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP26120/graph traversal.md",
+                "file": "comp26120 lab.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "moores law",
+                "query": "polymorphism",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP26120/graph traversal.md",
+                "file": "comp26120 lab.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP26120/graph traversal.md",
+                "file": "comp26120 lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,20 +150,37 @@
             }
           },
           {
-            "id": "de4f36146b56bd20",
+            "id": "9bf539cf2fe0536f",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
+          },
+          {
+            "id": "22fcb6519cc886ae",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP26120/graph traversal.md"
+                "file": "comp26120 lab.md"
               }
             }
+          },
+          {
+            "id": "9d31dbd2a7e61230",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 417.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -162,17 +195,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2696624323034777",
+  "active": "10cbbd4990060f55",
   "lastOpenFiles": [
-    "COMP26120/live lectures/6th feb.md",
-    "COMP26120/COMP26120.md",
-    "COMP26120/toppological sort.md",
-    "COMP26120/graph traversal.md",
-    "COMP26120/representing graphs + graph operations.md",
-    "COMP27112/COMP27112.md",
-    "COMP27112/openGL.md",
-    "COMP25212/bus.md",
+    "README.md",
+    "comp26120 lab.md",
+    "COMP26020/algebraic datatypes.md",
     "COMP26020/learnyouahaskell.pdf",
-    "SEM1/COMP22111/COMP22111.md"
+    "COMP27112/COMP27112.md",
+    "COMP26020/typeclasses.md",
+    "COMP26020/haskell.md",
+    "COMP26020/higher order functions + alternate definitions.md",
+    "COMP26020/type constructors in haskell + algebraic datatypes.md",
+    "COMP26020/haskell lists.md"
   ]
 }
