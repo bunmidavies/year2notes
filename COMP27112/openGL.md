@@ -24,12 +24,14 @@ openGL is a library, so the openGL API sits between the application program and 
 
 ![[Pasted image 20230131220201.png]]
 
-Conceptually, all graphics systems will work the same - graphics software will typically run on a GPU. The software will output a set of pixels, which is written into ==frambuffer memory==, which maps to a screen memory
+Conceptually, all graphics systems will work the same - graphics software will typically run on a GPU. The software will output a set of pixels, which is written into ==framebuffer memory==, which maps to a screen memory
 
 Graphics systems involve a ==graphics pipeline==, which will perform a set of algorithms / operations to some 3D vertices in order to get the pixels to be displayed
 
 as mentioned above, there are two main types of pipeline:
 - [[fixed graphics pipeline]] - as part of openGL v1, v2
 - [[programmable graphics pipeline]] - openGL v3+
+
+the main difference between the programmable pipeline and the fixed pipeline is that the programmable pipeline allows you to write the code for the ==vertex== and ==fragment== processing
 
 their pros and cons are covered in [[fixed vs programmable pipeline]]
