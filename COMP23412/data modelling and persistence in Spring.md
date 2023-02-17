@@ -67,7 +67,7 @@ the ==venue service== implements a service interface - this can be a useful laye
 @Service
 public class VenueServiceImpl implements VenueService
 {
-	@AutoWired
+	@Autowired
 	private VenueRepository venueRepository;
 
 	@Override
