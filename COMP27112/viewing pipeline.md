@@ -10,6 +10,15 @@ the main algorithm used to perform scan conversion for a vertex is ==Bresenham's
 - $y_{n+1}$ is rounded to the nearest pixel, and the according pixel is coloured in
 this algorithm was developed in the 60s and is still used today
 
+```
+y = mx
+for (x = x1; x <= x2, x++)
+{
+	y += m;
+	write_pixel(x, round(y), colour);
+}
+```
+
 ### scan converting a polygon
 - as explained above, Bresenham's has been the main algorithm for scan converting vertices for a while. There are many different approaches to scan converting a polygon
 - when scan converting any polygon, we scan convert its edges (i.e. individual vertices) first - then the pixels inside the polygon need to be filled in
