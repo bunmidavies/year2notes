@@ -1,9 +1,9 @@
 {
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
-    "pageSize": "A5",
+    "pageSize": "A4",
     "landscape": false,
-    "margin": "2",
+    "margin": "0",
     "downscalePercent": 100
   },
   "promptDelete": false

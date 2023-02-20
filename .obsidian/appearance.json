@@ -3,6 +3,8 @@
   "accentColor": "#ee9ef0",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "important"
-  ]
+    "important",
+    "align"
+  ],
+  "baseFontSize": 12
 }

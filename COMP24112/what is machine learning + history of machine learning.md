@@ -23,7 +23,7 @@ Machine Learning also plays a key point in data science - with huge amounts of d
 [wikipedia - timeline of machine learning](https://en.wikipedia.org/wiki/Timeline_of_machine_learning)
 
 - 1940s: human reasoning / logic first studied as a formal subject within maths (the general ==start of ML==)
-- 1950s: the ==Turing Test== is proposed
+- 1950s: the [[Turing Test]] is proposed
 - 1956: the term ==Artifical Intelligence== is coined by Dartmouth
 - 1959: Arthur Samuel writes a program that learns to play checkers
 - 1960s: AI funding increased (mainly military)

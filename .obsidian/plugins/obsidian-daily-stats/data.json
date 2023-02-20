@@ -23,12 +23,96 @@
     "2023/0/30": 1235,
     "2023/0/31": 1511,
     "2023/1/4": 15,
-    "2023/1/5": 645
+    "2023/1/5": 645,
+    "2023/1/9": 91,
+    "2023/1/12": 85,
+    "2023/1/13": 1800,
+    "2023/1/14": 2760
   },
   "todaysWordCount": {
-    "comp26120 lab.md": {
+    "classification performance measures.md": {
+      "initial": 88,
+      "current": 314
+    },
+    "regression performance measures.md": {
       "initial": 0,
-      "current": 645
+      "current": 137
+    },
+    "COMP24112/COMP24112.md": {
+      "initial": 109,
+      "current": 150
+    },
+    "sample error.md": {
+      "initial": 1,
+      "current": 94
+    },
+    "true error.md": {
+      "initial": 1,
+      "current": 90
+    },
+    "limited data issues.md": {
+      "initial": 1,
+      "current": 125
+    },
+    "training methods.md": {
+      "initial": 1,
+      "current": 408
+    },
+    "machine learning experiment.md": {
+      "initial": 1,
+      "current": 65
+    },
+    "hyper-parameter selection.md": {
+      "initial": 1,
+      "current": 114
+    },
+    "bias-variance decomposition.md": {
+      "initial": 1,
+      "current": 146
+    },
+    "COMP24112/true error.md": {
+      "initial": 90,
+      "current": 144
+    },
+    "model comparison.md": {
+      "initial": 1,
+      "current": 48
+    },
+    "confidence interval.md": {
+      "initial": 1,
+      "current": 154
+    },
+    "z-tests for hypotheses.md": {
+      "initial": 1,
+      "current": 53
+    },
+    "COMP27112/COMP27112.md": {
+      "initial": 167,
+      "current": 185
+    },
+    "viewing 3D in 2D.md": {
+      "initial": 0,
+      "current": 145
+    },
+    "3D viewing pipeline.md": {
+      "initial": 145,
+      "current": 299
+    },
+    "duality of modelling and viewing.md": {
+      "initial": 1,
+      "current": 145
+    },
+    "camera coordinate system.md": {
+      "initial": 1,
+      "current": 368
+    },
+    "2D viewing pipeline.md": {
+      "initial": 1,
+      "current": 145
+    },
+    "clipping (viewport).md": {
+      "initial": 1,
+      "current": 44
     }
   }
 }
