@@ -8,53 +8,107 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9c29934acabe3240",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP26020/higher order functions + alternate definitions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e2cd6bee25a883d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM1/COMP24011/visual odometry.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "10cbbd4990060f55",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "61106641d427900c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP23412/authentication.md",
+                "file": "dontadd/factory records book.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a76b64695cf6b3bc",
+            "id": "ade725ab4e3ba5fd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "be24f4241ea1d232",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "af059e796db00b1d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f629fc926df5619d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "480b81fd73fbeafb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f23923e387df15b6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4236c69534ab4308",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4fc95d115d4cafb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "COMP26020/learnyouahaskell.pdf"
+                "file": "COMP24112/discriminant function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93d48f8033264363",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP24112/classification.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "orthogonal",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,8 +174,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP23412/authentication.md",
-                "collapseAll": true,
+                "file": "dontadd/factory records book.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -137,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP23412/authentication.md",
+                "file": "dontadd/factory records book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP23412/authentication.md"
+                "file": "dontadd/factory records book.md"
               }
             }
           },
@@ -180,8 +234,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,17 +253,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "10cbbd4990060f55",
+  "active": "2696624323034777",
   "lastOpenFiles": [
-    "COMP23412/Pasted image 20230220104655.png",
+    "dontadd/good grime garage uk shit.md",
+    "dontadd/factory records book.md",
+    "comp26120lab5report.md",
     "Pasted image 20230213135858.png",
-    "Pasted image 20230212234546.png",
-    "Pasted image 20230212234305.png",
-    "Pasted image 20230212233922.png",
     "Pasted image 20230209113130.png",
+    "COMP24112/probabilistic inference.md",
     "COMP23412/COMP23412.md",
     "COMP23412/privacy in web applications.md",
-    "COMP23412/authentication.md",
-    "COMP23412/security in web applications.md"
+    "COMP23412/security in web applications.md",
+    "COMP23412/data relationships in Spring.md"
   ]
 }
