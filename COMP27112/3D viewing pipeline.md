@@ -11,16 +11,17 @@ to generate scene views, a camera analogy can be used:
 - choose a camera lens now that its pointing at the scene
 - decide on the size of the final image
 
-this analogy then translates into the computer graphics:
+this analogy then translates into 3D viewing:
 
 ==starting point = 3D vertex==
-- set modelling transformation $M$
-- set viewing transformation $V$
-- set projection transformation $P$
-- clip to view volume
-- perspective division
-- set viewport transformation
+1. set modelling transformation $M$ - this arranges objects in a 3D world
+2. set viewing transformation $V$ - this transforms the world to give the view as if photographed by a camera
+3. set projection transformation $P$ - performs parallel/perspective projection within limits 
+4. clip to view volume
+5. perspective division - flatten the image if we have a perspective view
+6. set viewport transformation - map the final image to part of the display screen window
 ==end point = 2D pixel==
+
 in [[openGL]], $M$ and $V$ are combined into a single ==modelview matrix==, $C = V \times M$
 
 ### default view
