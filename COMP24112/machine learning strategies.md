@@ -6,7 +6,7 @@ Data: X $\rightarrow$ Model: $f(\theta,X)$
 
 Data can also be described as ==experience==, $E$
 
-the function $f$, is controlled by its parameters $\theta$, and provides solutions to a task $T$
+the function $f$, is controlled by its parameters $\theta$, and provides solutions to a task $T$ - this is the actual ==model== itself. We can call it the 'prediction function', 'target function', or as said just a model
 
 the actual task within machine learning is to find the best parameters, resulting in the best function, i.e. the ==best performance P of task T==
 

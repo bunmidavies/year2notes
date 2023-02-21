@@ -15,8 +15,7 @@ When going from requirements to design, there are different ==fidelity levels== 
 - wireframes - typically used to arrange content (in a website for example)
 - mockups - more advanced wireframes, more ui controls are added, and the mockup can actually be interacted with
 - prototypes - the highest level of fidelity. Prototypes often have the exact same look as the real thing, but with hardcoded values for certain functions
-
-![[Pasted image 20230213150438.png]]
+![](https://i.imgur.com/ZfF5gV2.png)
 
 For creating mockups in COMP23412 we use ==MockFlow== - there are many reasons for using mockups:
 - Mockups simulate a dialogue with the customer

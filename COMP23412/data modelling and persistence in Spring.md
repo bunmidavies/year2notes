@@ -30,7 +30,7 @@ further annotations can be used to help Spring, i.e. an annotation for primary k
 the appeal in this is that ==Spring has abstracted all the details of an underlying database for us== - we now have stored the venues in some kind of database table to be used for later, but what type of database and how it is structured is unknown to us, saving time and effort
 
 this abstraction can be shown as such:
-![[Pasted image 20230213153902.png]]
+![](https://i.imgur.com/9DMyrtv.png)
 
 ==The service layer holds the business logic==, and the venue repository simply talks to the database using SQL (which we don't have to worry about, as we only write Java) - this is largely what Spring actually does (but in reality is more complex than this in order to abstract all details away)
 

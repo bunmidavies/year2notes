@@ -1,8 +1,7 @@
 [[COMP23412]]
 
 there are many web app security risks that exists, and any of these can be exploited by any type of attacker to cause problems within a system - COMP23412 covers top risks from the ==OWASP top 10 security risks (2017)==
-
-![[Pasted image 20230220104655.png]]
+![](https://i.imgur.com/TiqQ0JP.png)
 
 ### Broken Authentication
 - broken [[authentication]] is mainly to do with storing passwords in plain text in a database

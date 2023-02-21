@@ -33,7 +33,8 @@ Machine learning research builds on optimisation theory, linear algebra, probabi
 
 
 ### ml pipeline example: wine classification
-![[Pasted image 20230131141253.png]]
+![](https://i.imgur.com/7mCL1Bs.png)
+
 
 the wine must be made of one of the two grapes shown in the picture, but which one was actually used is unknown
 

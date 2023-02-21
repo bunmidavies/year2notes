@@ -14,6 +14,4 @@ $O$ is the ==optimisation objective function==, i.e. the loss function
 
 $f_1,...,f_m$ are the ==constraints== - these restrict the sets from which the input variables can choose values from
 
-
-
-![[Pasted image 20230131140751.png]]
+![](https://i.imgur.com/tij3kpC.png)
