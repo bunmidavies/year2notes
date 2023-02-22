@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+        </style>
+
+        <body>
+            <script type="module">
+                import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.module.js";
+
+                var camera, scene, renderer;
+
+                scene = new THREE.Scene();
+
+                camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+                /*  QUESTION 1
+                    PerspectiveCamera function arguments:
+                    1st argument is FOV i.e. field of view, the number of degrees of the scene which can be scene from the camera
+                    increasing the FOV is like increasing the degrees the camera can see - for context, most humans have an fov of about 180
+                    some bird eyes have an FOV of 360 degrees, meaning they can see all around them 
+                    ---
+
+                    2nd argument is aspect ratio of the camera, by using window.innerWidth / window.innerHeight we just get the ratio of the whole window
+                    by increasing the aspect ratio, things will be stretched in the y axis
+                    for instance adding 1000 to the aspect ratio starts to make the cube look like a tall building
+                    because overflow is set to hidden as well, it means the scene will take up more space than is available in our window, so the cube may not fully appear in the scene
+                    ---
+
+                    3rd argument is 'near', the minimum distance from the camera that threejs renders the scene from
+                    the greater the near, the further away objects have to be at a minimum to be rendered
+                    for instance if we set near to 10, the cube would disappear as it becomes too close
+                    ---
+
+                    4th argument is 'far', the max distance we can see the scene from the camera - objects outside of this distance may not get rendered
+                    it is essentially opposite to far, where the greater far is, the more further away objects can be and still be rendered
+                    however, a very high far can cause rendering issues    
+                    setting far to 1 stops the cube from rendering, 
+                */
+
+                camera.position.z = 12;
+                /*  QUESTION 2
+                    camera.position.z defines the z coordinate of the camera
+                    in three js a camera looks down its local, negative z axis
+                    this means when the camera position is 5, its looking at objects going in the direction where z is 0
+                    therefore increasing camera.position.z makes the cube look farther away
+                    and decreasing camera.position.z makes the camera closer to the cube, causing it to appear bigger
+                    so camera.position.z = 50 would make the cube look very far away
+                    camera.position.z = -5 puts the camera in front of the cube
+                    and camera.position = 0 basically puts you inside the cube (?)
+                */
+                
+                renderer = new THREE.WebGLRenderer();
+                renderer.setClearColor(0x000000, 1.0);
+                //renderer.setSize(50,50);
+                renderer.setSize( window.innerWidth, window.innerHeight);
+                /*  QUESTION 3
+                    renderer.setSize makes the output canvas to the given width and height
+                    it also takes into account the previously declared aspect ratio, and sets the viewport to the required size
+                    for this reason, it means that even if we made setSize very small e.g. (50, 50), the cube will still appear, but be very small
+                    changing the width and height just changes how big the actual outputted canvas on the HTML page is, without affecting what the camera can/cant see
+                */
+                document.body.appendChild( renderer.domElement );
+
+                var geometry, mesh, material;
+
+                var geometry = new THREE.BoxGeometry(1.0, 1.0, 1.0);
+                /*  QUESTION 4
+                    the 3 arguments in the BoxGeometry constructor are:
+                    - width (X axis)
+                    - height (Y axis)
+                    - depth (Z axis)
+                    that means when all of these are equal, a cube will be created, and increasing these all makes a bigger cube
+                    when the arguments are different to eachother, a cuboid is formed
+                    
+                    in this app, increasing the width makes the cuboid wider (in the sense that it reaches closer to the edges of your screen)
+                    increasing the height makes the cuboid taller
+                    and increasing the z makes the cuboid look as if it is reaching closer to the camera
+                */
+                var material = new THREE.ShaderMaterial({
+                    fragmentShader: fragmentShader(),
+                    vertexShader: vertexShader(),
+                })
+                mesh = new THREE.Mesh(geometry, material);
+                scene.add(mesh);
+
+                animate();
+
+                function vertexShader()
+                {
+                    return `
+                        vec4 p;
+                        varying vec3 vposInterpolated;
+                        void main() {
+                            p = projectionMatrix * modelViewMatrix * vec4(position,1.0);
+                            gl_Position = p;
+                            vposInterpolated = p.xyz;
+                        }
+                        `
+                }
+
+                var currentY = 0;
+                var currentX = 0;
+                /*  QUESTION 7
+                    the animate function is where i am able to alter the cubes motion
+                    by altering how much mesh.rotation.x, currentY or currentX are incremented
+                    i am able to speed up the cuboids motion
+                */
+                function animate()
+                {
+                    renderer.render(scene, camera);
+                    requestAnimationFrame(animate);
+
+                    mesh.rotation.x += 0.05;
+                    currentY += 0.026;
+                    currentX += 0.1;
+                    mesh.rotation.y = Math.sin(currentY);
+                    mesh.position.y = Math.sin(currentY);
+                    mesh.position.x = Math.sin(currentX);
+                    //console.log(mesh.rotation.y);
+                }
+
+                /*  QUESTION 8
+                    the fragmentShader function is where the cuboids colour can be changed
+                    in the commented code, i've written a line which would make the cuboid a solid purple colour
+                    by changing gl_FragColor, i am able to change the colour of the cuboid
+                */
+                function fragmentShader()
+                {
+                    return `
+                        varying vec3 vposInterpolated;
+
+                        void main() 
+                        {
+                            gl_FragColor = vec4(vposInterpolated, 1.0);
+                            //gl_FragColor = vec4(0.5,0.0,1.0,1.0);
+                        }
+                        `
+                }
+
+            </script>
+        </body>
+    </head>
+</html>
