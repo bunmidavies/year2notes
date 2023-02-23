@@ -1,5 +1,4 @@
-notes are generally linked, but check the graph to see if there are any other pages
-
+theme = sanctum
 
 semester 1 modules (10 credits)
 - [[COMP24011]]
@@ -16,5 +15,3 @@ semester 2 modules (10 credits)
 semester 1 and 2 modules (20 credits)
 - [[COMP26120]]
 - [[COMP26020]]
-
-[[misc]]

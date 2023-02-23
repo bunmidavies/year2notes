@@ -8,10 +8,11 @@ There are 3 main eras describing the advancements C++ made from C:
 	- 2011: C++11 (Functional, Type safety, threading, simpler syntax etc.)
 
 Why use C++?
-	- C++ thrives to be pragmatic and fast - elegance and low latency is common within C++, and C++ aims to provide static type safety through determining things at compilation time, rather than runtime
-	- RAII - Resource Allocation Is Initialisation. Resource allocation is automated through the compiler - this allows certain operations which may be complicated, to be done easily with some sense of abstraction
+	- C++ thrives to be ==pragmatic and fast== - elegance and low latency is common within C++, and C++ aims to provide static type safety through determining things at compilation time, rather than runtime
+	- ==RAII - Resource Allocation Is Initialisation==. Resource allocation is automated through the compiler - this allows certain operations which may be complicated, to be done easily with some sense of abstraction
 
-Why **not** use C++?
+==Why not use C++==?
 	- C++ can be more complex than other languages, as well as dangerous due to the ability it gives to its users to misuse certain functions
 	- There are many many syntax / library approaches within C++, which again allows for more unintentional misuse
-	- **No garbage collection** - C++ is notorious for memory bugs and the amount of money that big corporations have probably lost through some C++ memory bug
+	- ==No garbage collection== - C++ is notorious for memory bugs and the amount of money that big corporations have probably lost through some C++ memory bug
+
