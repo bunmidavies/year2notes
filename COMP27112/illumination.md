@@ -29,4 +29,8 @@ COMP37111 (year 3) looks at global models, meanwhile in COMP27112 we just implem
 - diffuse reflectivity of a surface aka the ==diffuse reflection coefficient== of the surface is known as $k_d$
 - the amount of the diffusely reflected light is:
 	- $I_\textrm{diffuse} = I_pk_dcos\theta$ aka  $I_\textrm{diffuse} = I_pk_d(\hat{N}\cdot\hat{L})$
-- 
+
+### combining ambient + diffuse
+- $I$ = ambient + diffuse results in:
+	$I = k_aI_a + I_pk_d(\hat{N} \cdot \hat{L})$
+![](https://i.imgur.com/Nbe0Sz0.png)
