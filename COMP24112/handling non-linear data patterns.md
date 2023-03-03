@@ -28,7 +28,7 @@ basis functions are created by ==directly formulating many nonlinear functions==
 the kernel method differs to basis functions in that it doesn't directly define a mapping function $\phi(x)$, but defines the ==inner product function== in the new space using a kernel function
 
 ![](https://i.imgur.com/3FByWCh.png)
-
+![](https://i.imgur.com/iYT4ClP.png)
 ![](https://i.imgur.com/iYT4ClP.png)
 
 
