@@ -5,7 +5,7 @@ a discriminant function is a simple mapping function which maps ==an input to a 
 - discriminant functions are typically used for [[classification]]
 ![](https://i.imgur.com/UNfejcM.png)
 
-- outputs can be converted to a class prediction simply by ==thresholding==
+- outputs can be converted to a class prediction simply by ==thresholding== - the example below shows binary classification involving two classes, A and B
   ![](https://i.imgur.com/WSCVUdn.png)
 
 - the real number $t$ can be treated as a ==hyper-parameter==

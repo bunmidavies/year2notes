@@ -3,7 +3,7 @@
 an ML system is comprised of the following components:
 - Data
 - A mathematical model / function
-- Objective function (i.e. loss function, error function)
+- Objective function (i.e. [[loss function]], error function)
 - Training algorithm (which ==uses the objective function==)
 
 The training algorithm is what ==optimises the parameters== for the function, unlike the objective function which is only able to judge ==how well== the parameters are set, without actually changing the parameters
