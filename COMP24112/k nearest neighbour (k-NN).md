@@ -4,8 +4,8 @@ k-NN is the ==simplest of all machine learning algorithms==, and dates back very
 
 early academic works on k-NN start in the 60s
 
+***
 # k-NN classification
-
 we'd like to construct a model which can classify objects into one of several known classes
 
 example data = $\{x_i,y_i\}^n_{i=1}$
@@ -29,8 +29,8 @@ classifiction(x,k)
 in short, the nearest neighbours from the point you are trying to classify are identified, sorted, and of the ==k== nearest neighbours, whichever class is most common among these is the class you think your point belongs to
 
 
+***
 # k-NN Regression
-
 the example data and feature vectors take the same format as it is in k-NN classifcation, but instead of a class label, we simply have ==output== instead (refer to [[classification]] and [[regression]])
 
 ==Regression Rule==

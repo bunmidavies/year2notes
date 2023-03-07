@@ -9,3 +9,4 @@ There are multiple types of classification:
 - Multi-class: all data patterns belong to one of ==many classes==
 - Multi-label: all data patterns can belong to ==some of many classes==
 - Structured classification: data can be classified into ==structured== classes
+

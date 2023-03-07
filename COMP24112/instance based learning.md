@@ -2,7 +2,7 @@
 
 all instance based learning algorithms follow the same idea of trying to ==predict output== based on the similarity/distance of the query to its nearest neighbours in the training set
 
-the representative allgorithm for this is [[k nearest neighbour (k-NN)]]
+the representative algorithm for this is [[k nearest neighbour (k-NN)]]
 
 the main aspects to be considered in an instance based learning problem:
 - how to compute the distance
