@@ -10,7 +10,9 @@ The training algorithm is what ==optimises the parameters== for the function, un
 
 ==the final model with predetermined parameters is your 'final product'==
 
-building a machine learning system is comprised of a few key stages:
+The pipeline for building a machine learning system essentially comprises of 2 main components: ==construction== and ==training==. But there is also a final evaluation part
+![ | 500](https://i.imgur.com/CKOnZYA.png)
+
 
 ### model construction
 
@@ -20,16 +22,13 @@ The performance metric, which is essential for [[ML optimisation]] needs to be c
 
 
 ### training
-
-Training/learning involves determining what model parameters should be used, by finding the parameters which ==optimise== the objective function (i.e. minimizing/maximizing)
+- Training/learning involves determining what model parameters should be used, by finding the parameters which ==optimise== the objective function (i.e. minimizing/maximizing)
+- we also know this as the parameters obeying the [[optimality condition]]
 
 
 ### evaluation
-
-The determined model / parameters are evaluated using some performance metric
-
-
-Machine learning research builds on optimisation theory, linear algebra, probability theory etc.
+- The determined model / parameters are evaluated using some performance metric
+- Machine learning research builds on optimisation theory, linear algebra, probability theory etc.
 
 
 ### ml pipeline example: wine classification
