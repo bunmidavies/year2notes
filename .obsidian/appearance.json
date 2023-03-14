@@ -6,5 +6,8 @@
     "important",
     "align"
   ],
-  "baseFontSize": 12
+  "baseFontSize": 13,
+  "translucency": true,
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter"
 }
