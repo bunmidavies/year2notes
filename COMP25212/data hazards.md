@@ -16,6 +16,7 @@ MUL R0, R1, R1
 - rather than detecting dependencies in hardware, dependencies would be detected by the compiler, and if the compiler finds something useful to do while instructions writeback their results, they can be reordered
 - if an appropriate reordering can't be found, NOP instructions are just inserted, which at that point basically makes it no different to pipeline stalling
 ![](https://i.imgur.com/7nzliGP.png)
+- further info exists within [[reordering instructions]]
 
 ### forwarding (adding extra hardware)
 - extra data paths can be added for specific cases - e.g. the output of the execution (EX) stage feeds back into the input of the same stage
