@@ -9,9 +9,9 @@ there are different methods of measuring how well a classifier actually performs
 
 
 ### classification accuracy / error
-classification accuracy and error are quite simple:
-- accuracy = number of correctly classified samples $\div$ total sample number
-- error = number of wrongly classified samples $\div$ total sample number
+classification accuracy and error rates are quite simple:
+- accuracy rate = number of correctly classified samples $\div$ total sample number
+- error rate = number of wrongly classified samples $\div$ total sample number
 
 there are certain reasons why these measures aren't always used:
 - ==unbalanced data== makes accuracy/error unreliable
