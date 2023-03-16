@@ -6,5 +6,4 @@
 	3. Saturation - the depth of colour. Lower saturation = more white
 - IHS is able to represent colours just like RGB can, but they typically have different uses in the real world
 - this means that its possible to convert to/from RGB <-> IHS
-<!--⚠️Imgur upload failed, check dev console-->
-![[Pasted image 20230315184906.png]]
+![ | 450](https://i.imgur.com/1VjspED.png)

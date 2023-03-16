@@ -8,12 +8,11 @@
 - S cone: sensitive to short wavelength visible light (roughly ==blue==)
 - M cone: sensitive to medium wavelength visible light (roughly ==green==)
 - L cone: sensitive to long wavelength visible light (roughly ==red==)
+![ | 450](https://i.imgur.com/22ynu6p.png)
 
-<!--⚠️Imgur upload failed, check dev console-->
-![[Pasted image 20230315183044.png]]
 
 ### pigments vs lights
 - the primary colours for pigments (e.g. paints) are different to the primary colours for light
-<!--⚠️Imgur upload failed, check dev console-->
-![[Pasted image 20230315183234.png]]
+![ | 450](https://i.imgur.com/xCNw8FM.png)
+
 - the human eye will see that a green object is green, due to white light from the sun illuminating the object, the object reflecting green light and absorbing all other colours, and the eye's green cones detecting this green light
