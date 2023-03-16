@@ -33,7 +33,8 @@ begin
 	p := select_variable(F)
 	return binary tree(p,bdt(F(neg(p))),bdt(F(pos(p)))) 
 ```
-![[Pasted image 20221112170727.png]]
+![](https://i.imgur.com/7VJUCDj.png)
+
 
 **Every formula has an if-then-else normal form**
 
@@ -57,4 +58,4 @@ begin
 - a BDD is **ordered** if it respects some order
 
 ## <span style="font-family:roman">OBDD algorithm</span>
-![[Pasted image 20221112174850.png]]
+![](https://i.imgur.com/hGKw6kL.png)

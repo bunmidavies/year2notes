@@ -17,11 +17,11 @@ scenes can be represented with polygonsm, and when a bunch of polygons are put t
 ### polygon mesh
 - the alternative to polygon soup is a ==polygon mesh==, where a vertex can reference multiple polygons at once. This is widely used as it is much more efficient than polygon soup
 - meshes can be made up of triangle ==strips==, where adding 1 vertex = adding 1 triangle
-![[Pasted image 20230214154054.png]]
+![](https://i.imgur.com/bM8yrAZ.png)
 - this means $N$ triangles can be represented with $N + 2$ vertices
 - this is much more efficient than $3N$ vertices for $N$ triangles in a polygon soup
 - an alternative to a triangle strip is a triangle ==fan==, where there is a singular vertex which all other vertices connect to in order to make triangles
-![[Pasted image 20230214154324.png]]
+![](https://i.imgur.com/Aeb3MXR.png)
 - the idea of strips can also be extended to quadrilaterals etc.
 
 ### quadrilateral mesh

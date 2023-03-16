@@ -27,12 +27,14 @@
 - CHAOS just takes a set of clauses, a positive integer *MAX-TRIES*, and repeatedly tries random interpretations for the clauses and checks if they're satisfiable
 - If CHAOS finds a model of the provided set of clauses, it will return that interpretation, otherwise it returns *don't know* after trying *MAX-TRIES* times
 - **All randomized satisfiability algorithms in general cannot establish unsatisfiability**
-  ![[Pasted image 20221106164916.png]]
+  ![](https://i.imgur.com/bGWJRPd.png)
+
 
 - To define more sophisticated random algorithms for determining satisfiability, a certain notion of how the interpretations are generated needs to be established:
 	- Choose a random interpretation
 	- If this interpretation isn't a model, repeatedly choose a variable and change its value (i.e. **flip** the variable from $1\rightarrow 0$ / $0\rightarrow 1$)
-![[Pasted image 20221106165221.png]]
+![](https://i.imgur.com/9IQMmmi.png)
+
 
 ### GSAT
 - GSAT is another randomised satisfiability algorithm, taking the same inputs as CHAOS and having the same outputs
@@ -40,7 +42,8 @@
 - Then, for MAX-TRIES number of times, pick a random interpretation and return it if it satisfies the set of clauses
 - If this condition wasn't met, repeat for MAX-FLIPS: find the variable which when flipped satisfies the max no. of clauses in $S$, then modify the current interpretation and check if that interpretation is a model
 - GSAT is known as a **local search algorithm**, and tries to maximise the number of satisfied clauses by local changes
-![[Pasted image 20221106171941.png]]
+![](https://i.imgur.com/N7FEAzh.png)
+
 
 ### GSAT example
 
@@ -55,7 +58,8 @@
 
 the top row shows the random interpretation we have chosen to start with
 not all clauses are satisfied, so we must begin to flip
-![[Pasted image 20221106173032.png]]
+![](https://i.imgur.com/bkm23d7.png)
+
 at the end you see that 5/5 clauses are satisfied, so we have found a model with the algorithm this time around
 
 - Advantages: Can quickly find satisfying assignments in large problems
@@ -70,15 +74,18 @@ at the end you see that 5/5 clauses are satisfied, so we have found a model with
 - The actual algorithm is near the same as GSAT, but with an added condition:
 	- When in the MAX-FLIPS loop: With probability $\pi$ pick a variable that satisfies the max no. of clauses in $S$. Then with probability $1-\pi$ randomly pick a variable that occurs in a false clause in $I$
 	- Now $I = flip(I,p)$
-![[Pasted image 20221106174223.png]]
+![](https://i.imgur.com/lPLvKhk.png)
+
 
 - If $\pi$ itself is 0, then there is no chance that the first condition is taken. Thus the algorithm reduces to only walks (Walk SAT)
-![[Pasted image 20221106174341.png]]
+![](https://i.imgur.com/KFHEi0v.png)
+
 
 - Why does this work? Because given a false clause, you know that flipping any single variable **must make the clause true**, so you may end up with a model
 - But obviously some clauses which were true previously can become false now, so you may not always progress towards a model
 - All random picks are done in **uniformly random fashion**
-![[Pasted image 20221106175149.png]]
+![](https://i.imgur.com/oKi5L6b.png)
+
 
 ***
 
@@ -112,7 +119,8 @@ at the end you see that 5/5 clauses are satisfied, so we have found a model with
 - Tableau = a tree having signed formulas at nodes
 
 Branch Expansion Rules
-![[Pasted image 20221106182927.png]]
+![](https://i.imgur.com/tdjooNZ.png)
+
 
 When is a branch unsatisfiable/closed?
 - it contains $p = 0$ and $p = 1$ for some atom $p$
@@ -132,10 +140,12 @@ So essentially, for **any logical contradictions**
 	  $(q\lor p) = 1$
 	  $(p\lor q) = 0$
 - Two branches can be built off this
-![[Pasted image 20221106190518.png]]
+![](https://i.imgur.com/CkyOwIz.png)
+
 
 ### semantic tableaux example 2
-![[Pasted image 20221106191735.png]]
+![](https://i.imgur.com/Cmbh5yg.png)
+
 
 once we have found a model, we follow the path and give all assigned variables their corresponding values, as well as any unassgined variables an arbitrary value
 **note that you can choose which order to go for when applying the method, but in these examples the formulas are picked in alphabetical order**

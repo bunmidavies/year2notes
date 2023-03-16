@@ -4,7 +4,7 @@
 - This means a common limitation to C++ containers is being restricted to only storing one type within any container
 
 The 3 core types of C++ container
-![[Pasted image 20221118161647.png]]
+![ | 550](https://i.imgur.com/s3KcS9R.png)
 
 The 2 core types of container like objects:
 - Adaptors: Stack, Queue, Prio Queue

@@ -83,6 +83,7 @@
 - Where unsat = no of unsatisfiable clauses, and all = no of all clauses
 - An important parameter is the ratio of clauses per variable - $r = m/n$
 - $m$ = number of clauses, $n$ = number of boolean variables
-  ![[Pasted image 20221019194431.png]]
+  ![](https://i.imgur.com/w0fbWDT.png)
+
 - As you increase the ratio of clauses to boolean variables 
 - As you increase $n$ (80), the no of variables, this curve seen becomes steeper

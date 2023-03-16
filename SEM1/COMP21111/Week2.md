@@ -23,7 +23,8 @@
 
 - Positions are used to defined subformulas within a formula
 - We can define positions by numbering connectives in a formula in order, then using a number path down a parse tree to refer to parts of the formula
-![[Pasted image 20221005231834.png]]
+![](https://i.imgur.com/SdBIcNZ.png)
+
 
 - The formal definition for a position is as follows:
   A **Position** is a sequence of any positive integers $a_1 .. a_n$ where $n\geq 0$, written as $a_1 . a_2 ... a_n$
@@ -35,7 +36,8 @@
 - [[polarity of formulas]]
 
 - Colouring method to determine polarity for all positions:
-![[Pasted image 20221005233141.png]]
+![Uploading file...eig4x]()
+
 
 - For conjunction / disjunction you do not colour the line blue nor red.
 - Note that once reaching a 0 in the tree, you'll never get any value other than 0. This is because +0 and -0 are both equal to 0

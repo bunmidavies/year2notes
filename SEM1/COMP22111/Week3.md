@@ -9,7 +9,8 @@
 - A sequential circuit could be something like a garage door, where its history / current state is important for how it operates e.g. if the door is already closed, or fully open, this needs to be remembered by the circuit, so some memory is needed
 - In almost all sequential circuits, actions are sequenced to an internal clock, and the state is stored within some register. States must be unique values
 - **Note that not all sequential circuits need a datapath**. You only need a datapath if there is data to manipulate! The only required thing is that a sequential system has a **Finite State Machine** to control its behaviour
-  ![[Pasted image 20221010101531.png]]
+![](https://i.imgur.com/Fsqz5z1.png)
+
   - This is the Register Transfer Level (RTL) design of the datapath within a sequential circuit. Registers hold data which can then be processed by combinatorial logic to move to another register - on positive clock edges the data moves from one register to logic block, and vice versa
 
 ### Sequencing instructions within sequential circuits
@@ -43,9 +44,11 @@
 	- We use a multiplexer to decide whether we're trying to decrement the register count, or compare it to the max size (in order to check if we've reached the limit)
 	- If register - max == 0, then a small circuit sends a 'full' signal
 - Datapath from video
-![[Pasted image 20221010112038.png]]
+![](https://i.imgur.com/JGuz4Uw.png)
+
 + RTL view as mentioned earlier
-![[Pasted image 20221010112053.png]]
+![](https://i.imgur.com/cctjXEa.png)
+
 
 - FSM design:
 	- We need 5 states:
@@ -53,4 +56,5 @@
 	  2. Inc_tot: increase total if a car is coming in (signals: add, clock enable)
 	  3. Cmp: compare count to max (signals: sel = 1, sub (add = 0))
 	  4. Closed: if zero from count - max is detected (out signal: disable)
-	  5. Dec_tot: decrement (clock enable, (add = 0 for sub))![[Pasted image 20221010112554.png]]
+	  5. Dec_tot: decrement (clock enable, (add = 0 for sub))
+![](https://i.imgur.com/ZLucXT0.png)

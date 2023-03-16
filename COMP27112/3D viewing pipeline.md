@@ -29,5 +29,5 @@ in [[openGL]], $M$ and $V$ are combined into a single ==modelview matrix==, $C =
 - a point drawn by the user gets projected onto the $z = 0$ plane (i.e. 2D). This projection is orthogonal, meaning the projection of the point drawn by the user is parallel to the z axis and perpendicular to the $z = 0$ plane
 - this means for simple polygons ([[polygons + polygon soup + mesh]]), openGL just projects the lines of the polygon onto the $z = 0$ plane
 - this $z = 0$ plane gets mapped to the display screen and from there it gets scan converted with the z buffer applied ([[viewing pipeline]])
-![[Pasted image 20230214212136.png]]
+![](https://i.imgur.com/WxOursc.png)
 - you can move the camera around the scene, or you can move the scene around the camera while it stays still

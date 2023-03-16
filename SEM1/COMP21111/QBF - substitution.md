@@ -6,7 +6,7 @@
 - the next solution is to only replace free variables in a formula, without worrying about the bound variables, but we want variables that aren't both free and bound for rectification [[QBF - rectification]]
 
 - the solution to above is to **rename bound variables**
-  ![[Pasted image 20221115003140.png]]
+  ![](https://i.imgur.com/GpQYkIj.png)
   
 - symbol 1 means **any quantifier**, and symbol 2 means **and / or**
 

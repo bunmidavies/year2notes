@@ -7,6 +7,6 @@
 ### z-test steps
 
 - firstly calculate $z_p$
-![[Pasted image 20230214121219.png]]
+![](https://i.imgur.com/us1BbsJ.png)
 - then the next 2 steps follow:
-![[Pasted image 20230214121055.png]]
+![ |550](https://i.imgur.com/8H735na.png)

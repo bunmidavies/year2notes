@@ -1,7 +1,8 @@
 [[COMP27112]]
 
 - the first step when trying to view some part of the world within an actual display is to define a 'window' within the world, and a 'viewport' in the actual display screen, both in terms of their own coordinates
-![[Pasted image 20230214221255.png]]
+![ | 550](https://i.imgur.com/bSRS75w.png)
+
 - Mview is the ==viewing transformation==, and transforms the window into the viewport
 - Mview is found in 3 steps:
 	1. translate by (-x0, -y0) to place the window at the origin

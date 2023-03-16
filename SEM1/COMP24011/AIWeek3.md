@@ -112,7 +112,8 @@ Constraints:
 ### Reducing graphs into trees
 **Removing Nodes (Cutset Conditioning)**
 - Removing nodes involves assigning values to some variables so that the remaining variables forms a tree
-![[Pasted image 20221009181140.png]]
+![](https://i.imgur.com/CobtHyb.png)
+
 - In the given example, by removing $SA$, the graph becomes a tree. But how have we been allowed to remove $SA$? By picking a value for $SA$, removing $SA$ then removing all values from any other variable domains which would cause inconsistencies, we can effectively act like $SA$ doesn't exist for the rest of the graph
 - The wrong value could obviously be chosen, so there is a general algorithm:
 	1. Pick a subset $S$ of the CSP's variables such that you are left with a tree by removing $S$. $S$ is known as a **cycle cutset**
@@ -126,7 +127,8 @@ Constraints:
 	2. Two variables connected by a constraint from the original problem must appear together (with the constraint) in at least one of the subproblems
 	3. A variable which appears in two subproblems must appear in all subproblems along the path connecting those subproblems
 - The first two exist to make sure everything is included within the subproblems combined. The third exists to make sure every variable has the same value across subproblems if it happens to occur in multiple subproblems
-- If one subproblem has no solution, the whole problem has no solution
-![[Pasted image 20221009182327.png]]
+- If one subproblem has no solution, the whole problem has no solution!
+![](https://i.imgur.com/EPmWqRN.png)
+
 - **Value symmetry** is where a solution which involves variable assignments can technically be rearranged to form another solution. Symmetry-breaking constraints can stop this, and the reason we may want this is to reduce the search space, improving efficiency and reducing complexity
 - It's **NP-hard** to eliminate all symmetry among intermediate sets of values during search, but breaking value symmetry is an important concept which can be effective on a wide range of problems

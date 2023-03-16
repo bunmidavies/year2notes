@@ -17,9 +17,9 @@ $$\hat{S} = \textrm{normalize} (\hat{F} \times \hat{V})$$
 ### viewing transformation
 - there is a transformation $T_c$ which maps the $X, Y, Z$ coordinates of some object in the world into the camera coordinate system
 - the ==inverse of Tc is what we actually want== - since this would translate and rotate the camera system into the XYZ system, it can be applied to objects in the world so that the camera views everything from $(0,0,0)$
-![[Pasted image 20230214215631.png]]
+![](https://i.imgur.com/Q6is0TS.png)
 - this transformation is made up of a few steps, with the camera being used as a reference below:
 	1. translate the camera to (0,0,0), i.e.e a translation by $-E$
 	2. rotate the camera axes to be coincident with world axes
-	   ![[Pasted image 20230214215758.png]]
+	   ![](https://i.imgur.com/gPtDBO4.png)
 	   3. the overall transformation is just $T_2 \times T_1$

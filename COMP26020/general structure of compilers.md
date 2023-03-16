@@ -1,6 +1,6 @@
 [[COMP26020]] - [[compilers]]
 
-![[Pasted image 20230217124807.png]]
+![ | 550](https://i.imgur.com/QrebGvD.png)
 
 - $I.R.$ = intermediate representation
 

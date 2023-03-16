@@ -6,12 +6,12 @@
 ## prenexing rules
 
 - prenexing ONLY works if the formula is rectified before application of prenex form ([[QBF - rectified formulas]])
-![[Pasted image 20221115005439.png]]
+![](https://i.imgur.com/c0ocwZf.png)
 
 - **prenexing example**
-![[Pasted image 20221115005936.png]]
+![](https://i.imgur.com/SXrSWh4.png)
 
 prenexing can be applied non deterministically - the example below is the same starting formula, and shows the rules being applied in a different order
-![[Pasted image 20221115010146.png]]
+![](https://i.imgur.com/mMqzF6C.png)
 
 these formulas are different, but are **both** semantically equivalent

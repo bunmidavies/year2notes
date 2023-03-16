@@ -22,6 +22,7 @@
 
 - Standard search algorithms will fail or find many unneccessary moves for problems like the towers of hanoi. The key to writing an efficient algorithm is through understanding the search space
 - For the towers of hanoi problem, the current state of the board can be represented through an array, **which is the same size as the number of discs**. Array[i] represents which pole the i'th disc lies on, where disc size increases with i (therefore Array[0] = position of smallest disc)
-  ![[Pasted image 20221009154740.png]]
+  ![](https://i.imgur.com/cba6Obz.png)
+
 
 - The search space can be represented using triangles, and goes to show that in some cases it makes more sense to break down the problem over just bruteforcing
