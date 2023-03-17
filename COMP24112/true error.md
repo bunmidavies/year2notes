@@ -5,7 +5,8 @@ like [[sample error]], true error involves a hypothesis - a prediction which has
 - For classification, true error is the ==probability that a single sample is misclassified==, where the sample is randomly drawn from a distribution
 - For regression, it is the ==expectation of the error==
 
-![[Pasted image 20230214105602.png]]
+![](https://i.imgur.com/vMd7iYC.png)
+
 
 the true error is actually what we wish to know at all times - but it can be very hard or even not possible to compute this
 

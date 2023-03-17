@@ -14,7 +14,9 @@ these regression performance metrics are based off the core idea that you assess
 
 commonly used regression performance metrics:
 
-![[Pasted image 20230214001546.png]]
-![[Pasted image 20230214001552.png]]
+![](https://i.imgur.com/G7oBLCy.png)
+
+![](https://i.imgur.com/z360fpg.png)
+
 
 - $n$ is the number of samples, and $m$ is the number of output values

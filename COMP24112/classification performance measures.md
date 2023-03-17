@@ -19,11 +19,13 @@ there are certain reasons why these measures aren't always used:
 
 ### confusion matrix
 a common type of confusion matrix is the ==error matrix==- each row represents samples in a predicted class, while each column represents samples in an actual class
-![[Pasted image 20230214000056.png]]
+![](https://i.imgur.com/WNWeOXG.png)
+
 
 ==a confusion matrix is always 2x2, and can be created from the above matrix==
 
-![[Pasted image 20230214000227.png]]
+![](https://i.imgur.com/C4M5GQr.png)
+
 
 this is like the regular confusion matrix seen in [[COMP24011]], where you essentially have matching class + included in result set, matching class + not included, wrong class + included, and wrong class + not included
 

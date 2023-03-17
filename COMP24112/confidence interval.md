@@ -3,10 +3,12 @@
 the confidence interval is used to answer the question of *how good an estimate of the true error is provided by the sample error?*
 
 Classification example
-![[Pasted image 20230214120036.png]]
+![](https://i.imgur.com/uEjq6OX.png)
+
 
 this can be drawn as:
-![[Pasted image 20230214120136.png]]
+![](https://i.imgur.com/6YGqt24.png)
+
 where the cross is the true error, and $[error_s - a, error_s + a]$ represents the interval this true error can lie within
 
 - The goal is to have a small $a$ for a more precise estimate, and a higher $p$ for higher confidence
@@ -14,7 +16,8 @@ where the cross is the true error, and $[error_s - a, error_s + a]$ represents t
 
 $$a = z_p\sqrt{\frac{error_s(1-error_s)}{n}}$$
 where as usual $error_s$ is the sample error, and $z_p$ is a constant based on the confidence level $p$
-![[Pasted image 20230214120506.png]]
+![](https://i.imgur.com/ZL0YTBj.png)
+
 
 ==given > 30 samples with the sample error not being too close to 0 or 1, the error interval works well==
 

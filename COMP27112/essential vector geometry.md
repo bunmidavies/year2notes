@@ -10,7 +10,9 @@
 - [[vector normalisation]]
 
 - ==dot product== = inner product, which returns a scalar (multiply each corresponding dimension by eachother, and sum them all)
-![[Pasted image 20230207163246.png]]
+![](https://i.imgur.com/nlk5hAo.png)
+
 
 - ==cross product== = outer product, gives a vector (==not asked to remember==)
-![[Pasted image 20230207163434.png]]
+![](https://i.imgur.com/sB37EBd.png)
+

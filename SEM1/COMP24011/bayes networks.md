@@ -15,10 +15,12 @@ Recommended reading is Chapter 14.1 - 14.4 [[r+n.pdf]]
 - we take $Y_1,...,Y_m$, where each $Y$ is either $y_i$ or $\neg y_i$
 
 - $\pi$ shows the parents of a given node in a network
-  ![[Pasted image 20221119161033.png]]
+  ![](https://i.imgur.com/aPW9rlX.png)
+
 
 - the joint probability distribution for a group of random variables is given as the **product of each variable, given its parents** (shown below)
-  ![[Pasted image 20221119161236.png]]
+  ![](https://i.imgur.com/8hIN6Ez.png)
+
 
 - Given the example above, this means that
   $$p(X_1,...,X_7)$$

@@ -2,4 +2,4 @@
 
 vector normalisation involves ==dividing all dimensions by magnitude==
 
-![[Pasted image 20230207163043.png]]
+![ | 300](https://i.imgur.com/xaCXcfz.png)
