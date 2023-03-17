@@ -7,7 +7,8 @@
   
 - Events can also be placed into specific [[categories]]
 - A number of predicates can be used to indicate certain things about an event
-![[Pasted image 20221122155818.png]]
+![](https://i.imgur.com/gPjXFcn.png)
+
 
 - Events and actions can be used interchangeably
 

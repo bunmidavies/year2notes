@@ -11,13 +11,15 @@ and if $p \neq q$ then
 
 ## existential quantification
 
-![[Pasted image 20221126124721.png]]
+![](https://i.imgur.com/YDvLKbg.png)
+
 
 - remember that `max_atom` returns the maximum variable in the ordering for the OBDD
 
 ## universal quantification
 ``
-![[Pasted image 20221126125948.png]]
+![](https://i.imgur.com/ByW3AMP.png)
+
 
 - quantification is also known as **quantifier elimination**, as we have the ability to remove quantifiers from a boolean formula and produce an equivalent, quantifier-free formula
 - by using these algorithms on OBDDs we can check the satisfiability/validity of QBFs

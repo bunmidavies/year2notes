@@ -17,5 +17,6 @@
 - $Starts(i,j) \leftrightarrow Begin(i) = Begin(j)$
 - $Finishes(i,j) \leftrightarrow End(i) = End(j)$
 - $Equals(i,j) \leftrightarrow Begin(i) = Begin(j) \land End(i) = End(j)$
-![[Pasted image 20221122160721.png]]
-![[Pasted image 20221122160919.png]]
+![](https://i.imgur.com/ZFpnxGZ.png)
+
+![](https://i.imgur.com/GQgfQ86.png)

@@ -13,6 +13,7 @@
 
 ## worst complexities
 - we assume that the worst case is where the tree looks like a chain, where every element only has 1 child
-![[Pasted image 20221203150546.png]]
+![](https://i.imgur.com/dYCPOtr.png)
+
 
 - the worst case for **all** operations is $O(N)$

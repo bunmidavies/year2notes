@@ -32,12 +32,14 @@ $$p(X_3|\neg x_1) p(\neg x_1)  \sum_{X_6} H_4(X,3,X_6) $$
 $$p(X_3|\neg x_1) p(\neg x_1)  H_6(X_3)$$
 
 - so with this complete, we have the following (taken from the lecture)
-![[Pasted image 20221119201640.png]]
+![](https://i.imgur.com/LgGrGYy.png)
+
 where the values in <span style="color:red">red</span> are stored in our bayes network
 
 $$p(X_3|\neg x_1 \land x_7) = \frac{f(X_3)}{p(\neg x_1 \land x_7)}$$
 - therefore
-![[Pasted image 20221119202828.png]]
+![](https://i.imgur.com/BKRvMzo.png)
+
 
 - from what i understand, this process is necessary because **we don't know $\alpha$ beforehand
 ***

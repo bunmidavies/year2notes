@@ -9,7 +9,8 @@
 - A formula is called *closed* if it has no free variables at all - [[QBF - closed formulas]]
 
 ### Example
-![[Pasted image 20221121033406.png]]
+![](https://i.imgur.com/HsVUO6R.png)
+
 
 - $p$ has an occurence where it is free, **and** where it is bound. Therefore $p$ is free and bound
 - $r$ only has one occurence where it is free, therefore $r$ is free

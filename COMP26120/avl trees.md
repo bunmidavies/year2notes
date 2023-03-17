@@ -10,10 +10,12 @@
 
 ## rotation
 - rotation is a tree manipulation operation, which moves nodes around in a tree while preserving invariants
-![[Pasted image 20221204214746.png]]
+![](https://i.imgur.com/Q3CI80w.png)
+
 
 - sometimes, a single rotation won't be good enough, so double rotations can be used
-![[Pasted image 20221204215024.png]]
+![](https://i.imgur.com/1SglzS8.png)
+
 
 ## complexities
 [[avl tree complexities]]

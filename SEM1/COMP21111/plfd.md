@@ -22,6 +22,7 @@
 - past atomic formulas, plfd is the same as propositional logic
 
 - in order for a formula to be a **tautology (valid)**, it is important that the formula covers the domain of any involved variables:
-![[Pasted image 20221202002112.png]]
+![](https://i.imgur.com/RPKapHk.png)
+
 
 - [[tableaux for plfd]] covers how to determine satisfiability for plfd without converting to logic ([[plfd to prop logic]])

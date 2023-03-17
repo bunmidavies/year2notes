@@ -15,7 +15,8 @@
 - where $p$ is every variable in each formula
 
 ### Example
-![[Pasted image 20221121045256.png]]
+![](https://i.imgur.com/3DhCy2q.png)
+
 - on the first line, you see that $p$ occurs bound and free, and has a quantification within another quantification
 - $p$ in the $\forall$ part is renamed to $p_1$, so now the multiple quantification is gone, but the free and bound occurence of $p$ still remains
 - $p$ in the $\exists$ part is renamed to $p_2$, so now there are no mixed bound/free occurences of a variable, and no multiple quantification

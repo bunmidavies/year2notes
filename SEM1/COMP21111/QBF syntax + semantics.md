@@ -23,7 +23,8 @@
 	- $I(\exists pF) = 1$ if and only if $I^0_p(F) = 1$ or $I^1_p(F) = 1$
 
 - Interpretation trees can typically be used to evaluate QBF formulas under any interpretation, e.g. from video_25
-![[Pasted image 20221121024930.png]]
+![](https://i.imgur.com/M9Nj0KW.png)
+
 
 - Extended subformulas + position and polarity
 	- The formula $F_1$ is the immediate subformula of the formulas $\forall pF_1$ and $\exists pF_1$

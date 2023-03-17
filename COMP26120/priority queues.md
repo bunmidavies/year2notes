@@ -4,6 +4,6 @@
 
 
 ## adding/removing from a binary heap
-![[Pasted image 20221204224006.png]]
+![](https://i.imgur.com/rQbCqrc.png)
 
-![[Pasted image 20221204224121.png]]
+![](https://i.imgur.com/ooiPXQ6.png)

@@ -14,3 +14,5 @@ live lecture 3rd mar: ==syntax analysis== (aka parsing)
 - [[regex for programming languages]]
 - [[chomskys heirarchy of grammars]]
 - [[ambiguity in grammars]]
+
+live lecture 17th march: ==code generation==
