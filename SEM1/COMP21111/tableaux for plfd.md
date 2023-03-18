@@ -13,7 +13,8 @@
 ## plfd tableau rules
 
 [[tableaux rules]]
-![[Pasted image 20221202012232.png]]
+![](https://i.imgur.com/wMdTHT6.png)
+
 
 ## building a tableau
 

@@ -8,4 +8,8 @@
 $p(\psi) = p(\psi|\varphi_1)\cdot p(\varphi_1) + ... + p(\psi|\varphi_n)\cdot p(\psi_n)$ = $\sum^n_{i=1} p (\psi|\varphi_i) \cdot p(\varphi_i)$
 
 - this can be extended into the conditionalized parition rule
+<<<<<<< HEAD
 ![](https://i.imgur.com/eXLPo5X.png)
+=======
+  ![](https://i.imgur.com/jxLyF2N.png)
+>>>>>>> 961a6aa5bb06bd75b76f7f3e8545970243ee685c

@@ -14,12 +14,14 @@ boolean operations become ==easy to implement== with OBDDs - [[boolean operation
 - `obdd` is then the overall algorithm which is used to create an obdd based off some given propositional formula
 
 ## integrate
-![[Pasted image 20221127164418.png]]
+![](https://i.imgur.com/vqEi9oL.png)
+
 - integrate will return the node if it already exists in an obdd, or create it otherwise
 - integrate also checks **if the left and right nodes are the same** - if this is the case, then $n_1$ i.e. the left node can just be returned on its own - this **eliminates redundancies**
 
 ## build obdd
-![[Pasted image 20221127164455.png]]
+![](https://i.imgur.com/PEMyekj.png)
+
 - the obdd procedure combines the algorithm for building decision trees, with the algorithm for eliminating redundancies 
 
 note that the `p = max_variable(F)` in order to ensure the ==correct ordering== is followed
@@ -38,7 +40,8 @@ we want to integrate the following into an existing dag
 $$((q\rightarrow p)\land r \rightarrow (p\leftrightarrow r)\land q)$$
 given the ordering $p > q > r$
 this is the existing dag
-![[Pasted image 20221127165910.png]]
+![](https://i.imgur.com/I5fDOt1.png)
+
 
 - the formula is already simplified, so now we just pick the max variable - $p$
 - we obtain $n_1$ and $n_2$ (by replacing $p$ with $\top$ and $\bot$ respectively)

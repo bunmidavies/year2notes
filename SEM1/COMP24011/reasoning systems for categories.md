@@ -7,7 +7,8 @@
 
 - The graphical way to represent relations between categories
 - Inferences can be made based on category membership
-![[Pasted image 20221122162042.png]]
+![](https://i.imgur.com/LqlLPj3.png)
+
 - Limitations include:
 	- only being able to represent binary relations (n-ary assertions must be broken down)
 

@@ -18,4 +18,4 @@
 
 - *universal literal deletion*
 	- given a non tautological clause $S$ - if there is a universally quantified variable $p$, and all existentially quantified variables in $S$ are quantified before $p$, $p$ can be removed without affecting the truth table of $S$
-![[Pasted image 20221126112234.png]]
+![](https://i.imgur.com/YKQANcH.png)

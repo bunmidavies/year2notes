@@ -1,3 +1,4 @@
 [[COMP21111]]
 
-![[Pasted image 20221123103602.png]]
+![](https://i.imgur.com/huvPH5t.png)
+

@@ -21,7 +21,8 @@ $$[q]_1 p_1 ... [q]_n p_n(C_1\land ... \land C_m)$$
 - DPLL will return whether $Q$ over $S$ returns true or false, by using [[splitting for QBFs]], and [[unit propagation]]
 
 - DPLL algorithm
-![[Pasted image 20221127140028.png]]
+![](https://i.imgur.com/GrvtoFW.png)
+
 
 - with the `case` statement towards the bottom, this is where we branch off
 - the $S \cup \{L\}$ is used to indicate that $L$ is added as a unit clause to $S$

@@ -1,5 +1,6 @@
 [[COMP21111]]
 
-![[Pasted image 20221202012232.png]]
+![](https://i.imgur.com/BBofiNq.png)
+
 
 <span style="color:red">red = rules for</span> [[plfd]]
