@@ -10,6 +10,7 @@
 
 - a computation path is a sequence of nodes that follow eachother, and if finite it must be the **maximal sequence**
 
-![[Pasted image 20221210174625.png]]
+![](https://i.imgur.com/rOFotf7.png)
+
 
 - computation trees can be infinite

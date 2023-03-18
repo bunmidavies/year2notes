@@ -4,8 +4,10 @@ there are two main types of MOS transistor:
 - ==nMOS==
 - ==pMOS==
 
-![[Pasted image 20221224233711.png]]
-![[Pasted image 20221224233347.png]]
+![](https://i.imgur.com/RhtikN3.png)
+
+![](https://i.imgur.com/DFcb8Bp.png)
+
 
 they are different in the way that they are fabricated, and what they do when a voltage is applied to their ==gate input== (below)
 

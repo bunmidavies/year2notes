@@ -2,4 +2,4 @@
 [[data structure complexities]]
 [[skip lists]]
 
-![[Pasted image 20221204225923.png]]
+![](https://i.imgur.com/Sd6m0X6.png)

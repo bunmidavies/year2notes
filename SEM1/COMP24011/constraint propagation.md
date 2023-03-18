@@ -16,4 +16,5 @@ however, the downside of k-consistency is that enforcing it is ==computationally
 
 
 ==assumptions==
-![[Pasted image 20221231150242.png]]
+![](https://i.imgur.com/drENYHf.png)
+

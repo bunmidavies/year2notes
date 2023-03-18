@@ -14,6 +14,7 @@
 - if $F$ and $G$ are formulas, then $F  \mathcal{U}  G$  is a formula and $F\mathcal R G$ are formulas
 
 ## LTL connectives
-![[Pasted image 20221208010707 1.png]]
+![](https://i.imgur.com/mxE4sXk.png)
+
 
 # [[LTL semantics]]

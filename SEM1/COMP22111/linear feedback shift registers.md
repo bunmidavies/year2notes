@@ -9,5 +9,6 @@ many chips may also have a **Built-in Self-Test** ability, by having a multiple-
 
 ### how LFSRs work
 there are different forms of LFSRs, but they generally use XORs while shifting a value repeatedly in order to generate 'random' bits
-![[Pasted image 20221222025334.png]]
+![](https://i.imgur.com/8CVp0K2.png)
+
 with each line, the value is being shifted to the left, and an xor is being performed against the very left bit and the bit 1 over to the right of it

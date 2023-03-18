@@ -5,8 +5,9 @@ following on from [[feature description]]
 - the main strategies include:
 	- *euclidean distance* - a threshold is set arbitrarily for maximum distance
 	- $t1$ is threshold 1, and $t2$ is threshold 2. t1 is the solid circle surrounding 1/2, and t2 is the dashed circle surrounding 1/2
-	  ![[Pasted image 20221211120134.png]]
-	  ![[Pasted image 20221211120440.png]]
+	  ![](https://i.imgur.com/cjynjIO.png)
+	  ![](https://i.imgur.com/XxjKpkN.png)
+
 	- *nearest neighbour* - simply take the nearest neighbour, but sometimes thresholds can still be used
 	- *nearest neighbour distance ratio matching* (NNDR) - $d_1/d_2$, where $d_1$ is the distance between target descriptor and nearest neighbour. $d_2$ is the distance between the target descriptor and the 2nd nearest neighbour
 

@@ -25,5 +25,6 @@ Typically, if the tasks involve a limited number of small tasks repeatedly perfo
 ***
 
 #### power consumption
-![[Pasted image 20221222215018.png]]
+![](https://i.imgur.com/7NFiRzl.png)
+
 for lower wattage, FPGAs are able to perform many more operations per seconds, allowing for both efficiency at low power

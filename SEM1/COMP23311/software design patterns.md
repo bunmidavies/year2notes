@@ -32,7 +32,8 @@ Intent: *"Define a family of algorithms, encapsulate each one, and make them int
 - Refactoring to the strategy pattern involves pulling out the algorithm from some class that contains it, and encapsulating the ==algorithm itself== as an object
 - ==Algorithm = strategy==
 
-![[Pasted image 20230119123315.png]]
+![](https://i.imgur.com/nkJbM9I.png)
+
 
 ### <span style="background-color:#797ca3;padding:3px;border-radius:5px;">Behavioural</span> - State
 
@@ -41,7 +42,8 @@ Intent: *"Allow an object to alter its behaviour when its internal state changes
 - State is similar to strategy, in which you create a ==set of objects== which hold alternate algorithms - for state, a different algorithm will be selected based on the current internal state of a containing object
 - Refactoring to the state pattern involves ==replacing conditionals== within class methods with smaller classes sharing simpler versions of the methods
 
-![[Pasted image 20230107112855.png]]
+![](https://i.imgur.com/HoR0gBu.png)
+
 
 ### <span style="background-color:#c78da5;padding:3px;border-radius:5px;">Structural</span> - Composite
 
@@ -56,8 +58,8 @@ Intent: *"Convert the interface of a class into another interface clients expect
 
 - Implementing an adapter patterns involves creating a ==wrapper class==, which can transform an incoming request for a piece of functionality into a format accepted by the code that can provide that functionality
 - An adpater can be useful when working with ==legacy code== that can't be changed at the time 
+![](https://i.imgur.com/3SRwc7z.png)
 
-![[Pasted image 20230107115113.png]]
 In this example the interfaces between ==target== and ==adaptee== are incompatible, and adaptee has a function which the target wants to use. The adapter allows adaptee's functionality to be implemented, and returns the output wanted by target in a compatible format
 
 ### <span style="background-color:#bfbc67;padding:3px;border-radius:5px;">Creational</span> - Factory Method

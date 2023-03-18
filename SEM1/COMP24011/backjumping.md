@@ -9,5 +9,6 @@ we want to jump back to the ==assignment which was involved in the violated cons
 ==Gasching backjumping== is the method covered in the lecture
 It essentially jumps back to the first assignment which it believes will make a change in the outcome of the algorithm, i.e. will not jump back to try another value which violates the exact same constraint
 
-![[Pasted image 20221231161711.png]]
-![[Pasted image 20221231162252.png]]
+![](https://i.imgur.com/i9F6i6B.png)
+
+![](https://i.imgur.com/9Wm0hs3.png)

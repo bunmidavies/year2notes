@@ -5,7 +5,8 @@ syntactic parsing is used in [[grammatical models]] with CFGs
 a string can be parsed ==top-down== or ==bottom-up==
 
 example:
-![[Pasted image 20221228190728.png]]
+![](https://i.imgur.com/Ct0Z9Rm.png)
+
 
 uncovering the phrase structure is one thing, but uncovering ==intended meaning== is also a problem in itself
 

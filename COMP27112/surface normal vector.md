@@ -13,8 +13,4 @@
 3. their cross product gives the surface normal $N$
 $$N = E_2 \times -E_1$$
 4. $N$ is then normalized in order to make its length 1
-<<<<<<< HEAD
-![](https://i.imgur.com/7EfOLPS.png)
-=======
 ![](https://i.imgur.com/c3X6UyS.png)
->>>>>>> 961a6aa5bb06bd75b76f7f3e8545970243ee685c

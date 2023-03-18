@@ -27,11 +27,13 @@
 
 - the current camera pose is just the concatenation of all transformations
 - $C_n = C_{n-1}\cdot T_n$
-![[Pasted image 20221211124746.png]]
+![](https://i.imgur.com/o0SUfQD.png)
+
 
 - the main task of visual odometry is to compute the transformation at every $k$ based on images $I_k$ and $I_{k-1}$
-![[Pasted image 20221211125007.png]]
-![[Pasted image 20221211125102.png]]
+![](https://i.imgur.com/gIA9MjD.png)
+![](https://i.imgur.com/K8BqrV3.png)
+
 
 - VO recovers this path incrementally, with each pose
 

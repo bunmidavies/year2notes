@@ -22,7 +22,8 @@ where `revise(i,j)` is
 $D_i := D_i \cap \pi_1(R_{i,j};D_j)$
 
 ### ac-3 (more efficient than ac-1)
-![[Pasted image 20221231151915.png]]
+![](https://i.imgur.com/mJREs9l.png)
+
 
 ==directional arc-consistency== ensures arc consistency for all $i \lt j$, rather than all $i$ and $j$
 

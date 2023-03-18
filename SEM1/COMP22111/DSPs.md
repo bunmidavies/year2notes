@@ -2,7 +2,8 @@
 
 DSPs (digital signal processors) take real world signals (e.g. voice, video, temperature) that have already been digitised, and perform mathematical operations on them
 
-![[Pasted image 20221222151102.png]]
+![](https://i.imgur.com/g6ePwzM.png)
+
 
 in this example, the DSP is performing MP3 encoding, and saves the file to memory
 

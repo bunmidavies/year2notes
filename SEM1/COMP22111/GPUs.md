@@ -16,7 +16,8 @@ A GPU essentially has 2000-2500 ALUs in a single processor, allowing you to exec
 GPUs have several hundred pipelines, or thousands of threads, in comparison to CPUs 10-20 pipelines / threads
 
 Example GPU architecture (NVIDIA)
-![[Pasted image 20221222201326.png]]
+![](https://i.imgur.com/HzXc8NF.png)
+
 - The individual blocks are known as 'stream multiprocessors'
 - Register sets are shared by multiple threads
 - There is a high memory bandwidth, due to parallelism

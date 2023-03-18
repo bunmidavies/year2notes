@@ -4,7 +4,8 @@ probabilistic models are another method of [[information extraction]], used in [
 
 the most common example of a probabilistic model is the ==Hidden markov model (HMM)==
 
-![[Pasted image 20221228175950.png]]
+![](https://i.imgur.com/8Tmn3b2.png)
+
 
 the HMM models a progression through a sequence of ==hidden states== with an ==observation== at each step
 

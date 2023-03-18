@@ -36,7 +36,8 @@ we can do this using an array of bits ($A$), where $A$.length=$k$
 the lowest order bit i.e. 0, is stored in $A[0]$
 
 the `INCREMENT` operation itself is defined as follows:
-![[Pasted image 20221228014330.png]]
+![](https://i.imgur.com/SbRdMy0.png)
+
 
 so the cost of each `INCREMENT` is lienar in the number of bits flipped in the first `while` loop
 

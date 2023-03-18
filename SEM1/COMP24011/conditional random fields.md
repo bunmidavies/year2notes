@@ -26,4 +26,4 @@ $$p_\lambda(y|x)=\frac{1}{Z_x}\cdot exp(\sum_{i=1}^n\sum_{j=1}^{m}\lambda_jf_j(y
 a ==feature function== characterises input - different functions exist for different features e.g. is the word all capitalised? all digits? 
 feature functions are useful for ==named entity recognition==
 
-![[Pasted image 20221228182237.png]]
+![](https://i.imgur.com/N0vvPw0.png)

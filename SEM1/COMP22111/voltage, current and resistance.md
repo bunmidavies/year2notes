@@ -15,5 +15,6 @@ $$V = IR$$
 
 ==impedance== is a measure of how the circuit restricts the flow of current. It is different to resistance because it takes into account the effects of capacitance and circuit inductance. impendance is also measured in Ohms
 
-![[Pasted image 20221224153115.png]]
+![](https://i.imgur.com/ULK7Zly.png)
+
 

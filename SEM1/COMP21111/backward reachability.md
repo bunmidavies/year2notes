@@ -4,7 +4,8 @@ the main disadvantage of forward reachability algorithms (i.e. [[bounded model c
 
 ==backward reachability algorithms apply the transition relation backwards==
 
-![[Pasted image 20230106193539.png]]
+![](https://i.imgur.com/uxYogGV.png)
+
 
 for example, if you were to use a ==forward reachability== algorithm on this graph, you would start from $s_0$, then work your way around the whole graph to find that you can't reach the bad state. Meanwhile, if you started from the ==bad state==, then you would notice that the initial state is not reachable ==much sooner==
 

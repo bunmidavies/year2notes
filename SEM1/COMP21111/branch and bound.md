@@ -16,4 +16,4 @@ If $K(v)$ is ==less than the current best==, we check if $v$ is a goal node. If 
 If $K(v)$ is ==less than the current best but not a goal node==, we still have to explore more. This means we add all of $v$'s children nodes to the front of our queue, and continue with the algorithm
 
 ==Slide from the lecture:==
-![[Pasted image 20230106135538.png]]
+![Uploading file...kmi7l]()

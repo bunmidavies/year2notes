@@ -4,7 +4,8 @@
 
 the algorithm builds on the idea of reachability within $n$ states, but relaxes it to $\leq n$ states
 
-![[Pasted image 20230106191721.png]]
+![](https://i.imgur.com/K5Q2C8l.png)
+
 
 $S_n$ is used to denote all states reachable in $\leq n$ steps
 

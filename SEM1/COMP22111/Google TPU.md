@@ -8,7 +8,8 @@ Inference = classifying the data
 Training = building the neural network so that it can be used for inference
 
 ==a **tensor** is a generalised matrix, that can map vectors, scalars, and other similar objects==
-![[Pasted image 20221224131004.png]]
+![](https://i.imgur.com/lVFXocR.png)
+
 
 *Within neural networks, when given an image (i.e. a grid of pixels), you convert it to a vector - the ==neuron== that recognises the provided image takes the vector values and multiplies it by the parameter values, and sums all the values in the resulting vector. The neuron with the highest result is the ==best match== between the input data and the corresponding parameter*
 
@@ -49,7 +50,8 @@ the TPU loads parameters from memory into the matrix, and multiplication results
 
 the TPU also has a ==unified buffer (UB)== and ==activation unit (AU)==
 
-![[Pasted image 20221224133006.png]]
+![](https://i.imgur.com/5dmNkD7.png)
+
 
 note that the ==control unit is very minimal== - the TPU chip is half the size of the other chips, reducing chip cost by a factor of 8
 

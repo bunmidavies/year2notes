@@ -1,3 +1,4 @@
 [[misc]]
 
-![[Pasted image 20221231015324.png]]
+![](https://i.imgur.com/g8QM4Pw.png)
+

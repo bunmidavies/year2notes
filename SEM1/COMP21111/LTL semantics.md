@@ -1,7 +1,7 @@
 [[COMP21111]]
 
+![](https://i.imgur.com/W2YuFlR.png)
 
-![[Pasted image 20221210175351.png]]
 
 unlike propositional formulas, LTL formulas express properties of **paths** of a [[computation tree]]
 let $\pi = s_0, s_1, s_2 ...$

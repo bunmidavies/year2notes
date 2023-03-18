@@ -5,7 +5,8 @@
 - a skip list is a list that has nodes of variable size (having a height between 1 and O(logn))
 - it is a generalisation of a sorted linked list, making it easy to implement
 - known as a ==randomised== data structure
-![[Pasted image 20221204224532.png]]
+![](https://i.imgur.com/fmVXYsG.png)
+
 
 -inf and +inf are known as **sentinel nodes** - the sentinel nodes always mark the ==start== and the ==end== of the list
 
