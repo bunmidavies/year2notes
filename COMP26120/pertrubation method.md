@@ -6,4 +6,4 @@ Both the first and last terms should be found from $S_{n+1}$
 
 the pertrubation method works effectively for sums ==containing exponentials==
 
-![[Pasted image 20230108180311.png]]
+![](https://i.imgur.com/BS18p0K.png)

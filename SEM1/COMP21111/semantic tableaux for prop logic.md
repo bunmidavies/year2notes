@@ -6,7 +6,8 @@ So for every formula and interpretation, exactly one of the signed formulas $A =
 
 AND-OR trees can be used to carry out case analysis on any prop. formula
 
-![[Pasted image 20230122063332.png]]
+![](https://i.imgur.com/ctOWVd8.png)
+
 
 Branches are denoted with the bar | (signifying OR)
 

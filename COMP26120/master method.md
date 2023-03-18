@@ -13,7 +13,8 @@ Where $a \geq 1, b > 1$ and $f$ is ==asymptotically positive==
 we say that subproblems of size $n/b$ are each ==solved== in $T(n/b)$, and $f(n)$ is the cost to ==divide the problem and combine the results==
 
 the rules are as follows:
-![[Pasted image 20230108205502.png]]
+![](https://i.imgur.com/EfcjHq9.png)
+
 refer to [[asymptotic notation]] to understand the 3rd rule of the master method
 
 ### Example

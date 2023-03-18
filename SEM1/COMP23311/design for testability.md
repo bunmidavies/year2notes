@@ -21,6 +21,7 @@ There are 4 types of test double:
 - ==Dummies== - the simplest kind of test double. They're used when an object needs to be passed around in some method, but never actually used. The dummy basically just exists to ==fill parameter lists==
 - ==Stubs== - similar to dummies, but we are able to hard code simple return values into the object's methods, removing randomness and unpredictability from it
   stubs in stendhal typically use ==anonymous subclasses== to define the behaviour they want for certain objects
-  ![[Pasted image 20230119135731.png]]
+  ![Uploading file...sh8wv]()
+
 - ==Fakes== - doubles with working implementations, but some shortcuts are taken in comparison to the production object (e.g. a database object which actually just uses an in memory db rather than connecting to some real db)
 - ==Mock objects== - test doubles created ==on the fly== with behaviour that matches the production object. Certain values can be controlled, and mocks can verify that certain behaviours occur

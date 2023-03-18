@@ -1,7 +1,8 @@
 [[COMP21111]]
 
 the goal is to create an [[OBDD]] which represents the disjunction of some other OBDDs, which means that the OBDD we create represents the disjunction of the formulas the OBDDs represent:
-![[Pasted image 20230109150000.png]]
+![](https://i.imgur.com/ceqP9z7.png)
+
 
 We do this by using a fundamental property of ==if-then-else==
 

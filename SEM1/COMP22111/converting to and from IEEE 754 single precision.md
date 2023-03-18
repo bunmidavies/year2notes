@@ -65,7 +65,8 @@ however, single precision requires ==32 bits==, and at this point we only have 2
 therefore, our ==final value== is:
 $01000010001101011100110011001100$
 
-![[Pasted image 20230110001846.png]]
+![](https://i.imgur.com/cJIcrVe.png)
+
 
 as can be seen, we gain the closest possible approximation given 32 bits
 ***
@@ -101,7 +102,8 @@ since we know we always remove the first 1 before the decimal point when represe
 now the final part is to put the correct sign and add the exponent:
 
 $$-1.06640625 * 2^{-110}$$
-![[Pasted image 20230110094617.png]]
+![](https://i.imgur.com/digTsXR.png)
+
 
 due to floating point accuracy this is as accurate as we can get to the value we want:
-![[Pasted image 20230110094821.png]]
+![](https://i.imgur.com/DjtA7sb.png)

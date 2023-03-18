@@ -126,38 +126,48 @@ example:
 ### Optimisations for DPLL for QBFs
 
 #### pure literal rule
-![[Pasted image 20230122192216.png]]
+![](https://i.imgur.com/0eJpUML.png)
+
 
 #### universal literal deletion
-![[Pasted image 20230122193835.png]]
+![](https://i.imgur.com/73qWscC.png)
+
 
 ***
 
 ### converting QBFs to OBDDs
 
-![[Pasted image 20230122202230.png]]
+![](https://i.imgur.com/RV89MWh.png)
 
-![[Pasted image 20230122202304.png]]
+
+![](https://i.imgur.com/sC9Qcr3.png)
+
 
 ### converting PLFD to prop. logic
 
-![[Pasted image 20230122203825.png]]
+![](https://i.imgur.com/ef4D8YQ.png)
+
 
 ### PLFD tableau rules
 
-![[Pasted image 20230122204243.png]]
+![](https://i.imgur.com/hZved0a.png)
+
 
 
 ***
 `week 11`
 
-![[Pasted image 20230123160303.png]]
+![](https://i.imgur.com/k4PVu48.png)
+
 - F returns whether the given state is a final state or not
 - I denotes the initial states 
 - R is the reachability condition
-![[Pasted image 20230123160715.png]]
+![](https://i.imgur.com/1wPIDCv.png)
 
-![[Pasted image 20230123170744.png]]
-![[Pasted image 20230123170800.png]]
 
-![[Pasted image 20230123194145.png]]
+![](https://i.imgur.com/sa9Yd8h.png)
+
+![](https://i.imgur.com/kDD7kuX.png)
+
+
+![](https://i.imgur.com/kqpB0By.png)

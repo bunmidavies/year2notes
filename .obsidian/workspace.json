@@ -8,107 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "10cbbd4990060f55",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "61106641d427900c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dontadd/factory records book.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ade725ab4e3ba5fd",
+            "id": "adcbf4adaf7a169b",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
-            }
-          },
-          {
-            "id": "be24f4241ea1d232",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "af059e796db00b1d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f629fc926df5619d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "480b81fd73fbeafb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f23923e387df15b6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4236c69534ab4308",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4fc95d115d4cafb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP24112/discriminant function.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93d48f8033264363",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP24112/classification.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,14 +81,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dontadd/factory records book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -191,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dontadd/factory records book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dontadd/factory records book.md"
-              }
+              "state": {}
             }
           },
           {
@@ -238,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
-    "collapsed": true
+    "width": 417.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,15 +157,51 @@
   },
   "active": "2696624323034777",
   "lastOpenFiles": [
-    "dontadd/good grime garage uk shit.md",
-    "dontadd/factory records book.md",
-    "comp26120lab5report.md",
-    "Pasted image 20230213135858.png",
-    "Pasted image 20230209113130.png",
-    "COMP24112/probabilistic inference.md",
-    "COMP23412/COMP23412.md",
-    "COMP23412/privacy in web applications.md",
-    "COMP23412/security in web applications.md",
-    "COMP23412/data relationships in Spring.md"
+    "Pasted image 20230318203729.png",
+    "images/Pasted image 20230124190934.png",
+    "images/Pasted image 20230124184015.png",
+    "COMP26120/asymptotic notation.md",
+    "Pasted image 20230318203916.png",
+    "images/Pasted image 20230123194145.png",
+    "images/Pasted image 20230123170800.png",
+    "images/Pasted image 20230123170744.png",
+    "images/Pasted image 20230123160715.png",
+    "images/Pasted image 20230123160303.png",
+    "images/Pasted image 20230122204243.png",
+    "images/Pasted image 20230122203825.png",
+    "SEM1/COMP21111/COMP21111Algorithms.md",
+    "SEM1/COMP21111/semantic tableaux for prop logic.md",
+    "SEM1/COMP23311/design for testability.md",
+    "SEM1/COMP23311/software design patterns.md",
+    "SEM1/COMP23311/COMP23311.md",
+    "SEM1/COMP22111/software simulation vs hardware emulation 1.md",
+    "SEM1/COMP22111/COMP22111 20-21 exam walkthrough.md",
+    "SEM1/COMP22111/converting to and from IEEE 754 single precision.md",
+    "SEM1/COMP22111/STUMP datapath + instruction types + paths.md",
+    "SEM1/COMP21111/boolean operations with OBDDs.md",
+    "COMP26120/master method.md",
+    "COMP26120/iteration method.md",
+    "COMP26120/pertrubation method.md",
+    "SEM1/COMP23311/software architecture patterns.md",
+    "SEM1/COMP21111/qbf1.mp4",
+    "SEM1/COMP21111/backward reachability.md",
+    "SEM1/COMP21111/complete forward reachability.md",
+    "SEM1/COMP21111/branch and bound.md",
+    "SEM1/COMP24011/degrees of freedom.md",
+    "SEM1/COMP22111/tasks vs functions.md",
+    "SEM1/COMP22111/LUMP.md",
+    "SEM1/COMP22111/addressing modes.md",
+    "SEM1/COMP24011/backjumping.md",
+    "SEM1/COMP24011/tree decomposition.md",
+    "SEM1/COMP24011/arc-consistency.md",
+    "COMP24112/jupyter/24112LAB.ipynb",
+    "COMP24112/COMP24112Maths.pdf",
+    "COMP24112/jupyter/24112-Lab1-S-Practice1 (1).ipynb",
+    "COMP27112/COMP27112lab2.zip",
+    "COMP27112/COMP27112.zip",
+    "COMP27112/submission.mp4",
+    "COMP24112/jupyter/ReutersNews_4Classes_sparse.npy",
+    "COMP24112/jupyter/24112-Lab1-S-Practice1.ipynb",
+    "COMP27112/comp27112lab1.zip"
   ]
 }

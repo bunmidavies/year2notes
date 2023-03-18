@@ -50,7 +50,8 @@ Also known as a ==messaging pattern==, publishers categorise published messages 
 
 Subscribers express interest in 1+ classes of messages, and only receive messages that are of interest, without knowledge of the publishers
 
-![[Pasted image 20230107131155.png]]
+![](https://i.imgur.com/5K6skA4.png)
+
 
 ==Typical applications== include:
 - asynchronous messaging within ==message-oriented middleware== systems
@@ -61,7 +62,8 @@ Example: [Google Cloud Pub/Sub Messaging Service](https://cloud.google.com/pubsu
 
 The MVC pattern clearly separates ==business logic==, ==UI logic== and ==input logic==
 
-![[Pasted image 20230107132135.png]]
+![](https://i.imgur.com/cP4xbJf.png)
+
 
 - ==Model== = the backend containing core functionality, business data and state of the application
 - ==View== = the frontend / UI, which displays app data and supports user interaction
@@ -71,7 +73,8 @@ Note that an application can have ==multiple views and controllers==
 
 A common ==variant of MVC== is ==Spring MVC - A Java framework for web apps==
 It has an MVC architecture but also implements all core features of a core spring framework
-![[Pasted image 20230107132127.png]]
+![](https://i.imgur.com/OxxRLxU.png)
+
 
 ==Typical applications==:
 - Web apps

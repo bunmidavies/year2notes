@@ -8,7 +8,8 @@ there are 3 main steps in the iteration method:
 ### Example 1
 we want to ==solve== i.e. find the complexity of the following recurrence:
 $s(n)$
-![[Pasted image 20230108192436.png]]
+![](https://i.imgur.com/C9qtLIF.png)
+
 
 we see that $s(n) = c + s(n-1)$ (given $n > 0$), so we know
 $s(n) = c + c + s(n-2)$
@@ -25,7 +26,8 @@ this means $s(n) = O(n)$
 
 ### Example 2
 we want the complexity of the following recurrence:
-![[Pasted image 20230108192422.png]]
+![](https://i.imgur.com/3HxR3OT.png)
+
 
 we try to generalize $s(n)$ again where $n > k$
 $s(n) = n + s(n-1)$
@@ -48,13 +50,15 @@ $$\sum_{i=1}^{n} i + 0 = n \cdot \frac{n+1}{2}$$
 finally, $n\frac{n+1}{2} = O(n^2)$
 ### Example 3
 we want to find the complexity of the following recurrence:
-![[Pasted image 20230108192403.png]]
+![](https://i.imgur.com/kd6YA2d.png)
+
 
 as done before, we can ==generalize== the case where $n > 1$
 note that we are able to write $2T(n/2) + c$ as $2(2T(n/2/2)+c) + c$ because:
 
 if $T(n) = 2T(n/2) + c$ when $n>1$, then to get $T(n/2)$ we should use the original equation, with $n/2$ in place of $n$
-![[Pasted image 20230108193301.png]]
+![](https://i.imgur.com/DJfDQOG.png)
+
 
 So for $n > 2^k$ we have $T(n) = 2^kT(n/2^k) + (2^k - 1)c$
 
@@ -67,15 +71,18 @@ $$=nc + (n-1)c = (2n - 1)c$$
 therefore, we can say $T(n) = O(n)$
 ### Example 4
 we want to know the recurrence equation and time complexity of the following:
-![[Pasted image 20230108194929.png]]
+![](https://i.imgur.com/F1aCrwO.png)
+
 
 (page for finding complexity goes here)
 
 we now have the recurrence equation, so we want to know the complexity:
-![[Pasted image 20230108195041.png]]
+![](https://i.imgur.com/qis5GuY.png)
+
 
 we generalize as usual - while also factorising
-![[Pasted image 20230108201703.png]]
+![](https://i.imgur.com/ZmNhqQl.png)
+
 
 so we now have $T(n) = a^kT(n/b^k) + cn(a^{k-1}/b^{k-1} + ... + a^2/b^2 + a/b + 1)$
 
@@ -98,7 +105,8 @@ $\Theta(nlog_bn)$
 
 2. a < b
 as we noted in [[complexity of recursive programs]], we can define a ==geometric== series:
-![[Pasted image 20230108202728.png]]
+![](https://i.imgur.com/EARC8zE.png)
+
 given $T(n) = cn(a^k/b^k + a^{k-1}/b^{k-1} + ... + a^2/b^2 + a/b + 1)$, we can write this as:
 $$\frac{(a/b)^{k+1} - 1}{(a/b) - 1}$$ we can then multiply both sides by -1
 $$\frac{1 - (a/b)^{k+1}}{1 - (a/b)}$$
@@ -122,4 +130,4 @@ this uses the logarithmic law that $a^{log_bn} = n^{logba}$
 $$T(n) = \Theta(n^{log_ba})$$
 
 ==We now have our final complexities==
-![[Pasted image 20230108204424.png]]
+![](https://i.imgur.com/Wy6qKnk.png)

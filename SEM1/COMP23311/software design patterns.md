@@ -76,4 +76,4 @@ Intent: *"Ensure a class only has one instance, and provide a global point of ac
 - Implementing the singleton pattern means creating a class whose constructor ==can't be called in the usual way== - all calls to create a new object return to the same instance
 - Refactoring away from a singleton pattern can be as valid as refactoring to one
 - Example: there might only be one accounting system for a company - trying to instantiate a new one should return the already existing system
-![[Pasted image 20230119131100.png]]
+![](https://i.imgur.com/4cGPJ02.png)

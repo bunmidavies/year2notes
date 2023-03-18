@@ -9,7 +9,8 @@ There exists positive constants $c_1, c_2$ and $n_0$ such that:
 $$0 \leq c_1g(n) \leq f(n) \leq c_2g(n)$$
 for all $n \geq n_0$
 
-![[Pasted image 20230124184015.png]]
+![](https://i.imgur.com/49Tcekz.png)
+
 
 and in terms of big-O and omega: 
 ($f(n) = \Theta(g(n))$ if and only if $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$)

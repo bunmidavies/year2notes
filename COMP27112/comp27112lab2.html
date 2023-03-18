@@ -59,28 +59,37 @@
                 )
                 moonMesh = new THREE.Mesh(moonGeometry, moonMaterial);
 
-                const light = new THREE.PointLight(0xff0000, 1, 100);
+                const light = new THREE.PointLight(0xffffff, 1, 4000);
                 light.position.set(0,0,0);
                 scene.add(light);
 
                 const ambientLight = new THREE.AmbientLight(0x404040);
+                ambientLight.position.set(0,0,0);
                 scene.add(ambientLight);
                 
                 var earthSystem;
                 earthSystem = new THREE.Group();
                 earthSystem.add(earthMesh);
                 earthSystem.add(moonMesh);
-                moonMesh.position.set(0,0,0);
+                moonMesh.position.set(40,0,0);
                 scene.add(earthSystem);
 
                 var earthCurve;
-                earthCurve = new THREE.EllipseCurve(0,0,550,200,0,2*Math.PI,true,Math.PI);
+                earthCurve = new THREE.EllipseCurve(0,0,550,300,0,2*Math.PI,true,Math.PI);
+
+                var points = earthCurve.getPoints(360);
+                var pathGeometry = new THREE.BufferGeometry().setFromPoints(points);
+                var pathMaterial = new THREE.LineBasicMaterial({
+                    color: 0x5fa371
+                });
+                var orbitPath = new THREE.Line(pathGeometry, pathMaterial);
+                orbitPath.rotation.x = Math.PI / 2;
+                scene.add(orbitPath);
                 //earthCurve.rotation.set(new THREE.Vector3( 0, 0, Math.PI / 2));
 
                 // RENDERER + ANIMATE
                 renderer = new THREE.WebGLRenderer();
                 renderer.setClearColor(0x000000, 1.0);
-                //renderer.setSize(50,50);
                 renderer.setSize( window.innerWidth, window.innerHeight);
                 document.body.appendChild( renderer.domElement );
 
@@ -89,6 +98,13 @@
                 controls.autoRotate = true;
 
                 var time, point;
+
+                var sunRotationSpeed = 0.001;
+                // the sun and moon perform 1 full rotation every 27 days
+                // and since the earth performs 1 full rotation per day, it must rotate 27x faster
+                var earthRotationSpeed = sunRotationSpeed * 27; 
+                var moonRotationSpeed = sunRotationSpeed;
+                var moonSpeed = 20
 
                 animate();
                 function animate()
@@ -101,8 +117,12 @@
                     earthSystem.position.x = point.x;
                     earthSystem.position.z = point.y;
                     
-                    moonMesh.position.x = 50 * Math.cos(time * 100);
-                    moonMesh.position.z = 50 * Math.sin(time * 100);
+                    earthMesh.rotation.y += earthRotationSpeed;
+                    moonMesh.rotation.y += moonRotationSpeed;
+                    sunMesh.rotation.y += sunRotationSpeed;
+
+                    moonMesh.position.x = 50 * Math.cos(time * moonSpeed);
+                    moonMesh.position.z = 50 * Math.sin(time * moonSpeed);
 
                     renderer.render(scene, camera);
                     requestAnimationFrame(animate);
