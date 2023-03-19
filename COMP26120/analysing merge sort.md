@@ -1,11 +1,13 @@
 algorithm:
-![[Pasted image 20230126180648.png]]
+![](https://i.imgur.com/XwOr4WD.png)
+
 
 - in order to figure out how much the entire algorithm costs, we need to know what the merge algorithm is doing separately
 
 ## analysing runtime of merge subalgorithm
 
-![[Pasted image 20230126180941.png]]
+![](https://i.imgur.com/sVJX3VN.png)
+
 
 - we then break down the runtimes of the lines separately:
 ```Java
@@ -45,6 +47,7 @@ Therefore, $\Theta(n)$ (this is a tight bound because there is ==no breaking out
 from this, we can deduce that this merging act is going to be linear
 
 ## analysing overall runtime of MergeSort
-![[Pasted image 20230126182319.png]]
+![](https://i.imgur.com/rFgZnX9.png)
+
 
 MergeSort is annotated as $T(n)$ due to the $n$ subproblems it gets divided into

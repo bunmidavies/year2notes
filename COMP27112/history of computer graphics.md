@@ -7,7 +7,8 @@ The main problem with the CRT display was to do with ==persistence== - drawing s
 The next major development was in 1964, when the mouse was invented by Douglas Engelbart - mice didn't become widely used until the 70s/80s though
 
 Raster graphics displays were the next big advancement - this is where a 2d array of pixels are used. This means in order to display images with raster graphics, these images needed to be sampled (and the more samples, the better the image / the better the fidelity). 
-![[Pasted image 20230131211917.png]]
+![](https://i.imgur.com/piae76k.png)
+
 
 Note that raster graphics are ==always an approximation== of the real thing, and this leads onto the more general point
 

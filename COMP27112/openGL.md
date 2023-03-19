@@ -22,7 +22,8 @@ DirectX, owned by Microsoft, is a similar system which achieves the same thing. 
 
 openGL is a library, so the openGL API sits between the application program and the hardware / input devices. Therefore the ==hardware is abstracted== when using the openGL API
 
-![[Pasted image 20230131220201.png]]
+![](https://i.imgur.com/OAmE1OC.png)
+
 
 Conceptually, all graphics systems will work the same - graphics software will typically run on a GPU. The software will output a set of pixels, which is written into ==framebuffer memory==, which maps to a screen memory
 

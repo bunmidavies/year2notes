@@ -46,7 +46,8 @@ $$2n^2 + 3n + 1 = 2n^2 + \Theta(n)$$
 $$f(n)\in \Theta(n)$$
 - in this example we can let $3n + 1 = f(n)$, because $3n + 1 \in \Theta(n)$
 - ==The number of anonymous functions in an expression is equal to the number of times the asymptotic notation appears==
-![[Pasted image 20230124190934.png]]
+![](https://i.imgur.com/61fuvGz.png)
+
 
 ### $o$-notation (little o) and $\omega$-notation (little omega)
 
@@ -56,11 +57,13 @@ $$2n^2 = O(n^2)$$
 $$2n = O(n^2)$$
 - is ==not== a tight upper bound
 - therefore the definition of $o(g(n))$ is:
-![[Pasted image 20230124191706.png]]
+![](https://i.imgur.com/R4RQ2SO.png)
+
 - the difference between little o and big O is that $f(n) \lt cg(n)$  holds for ==any constant c > 0== when talking about little o, while $f(n) \leq cg(n)$ holds for ==some constants c > 0== when talking about big O
 
 - this means that as n gets large, $f(n)$ becomes insignificant relative to $g(n)$
-![[Pasted image 20230124191948.png]]
+![](https://i.imgur.com/eNZfvC7.png)
+
 
 
 - $\omega$-notation is similar to o-notation, but for $\Omega$. It's like a *lower than low* bound for a function, and by definition
@@ -68,7 +71,8 @@ $$f(n) \in \omega(g(n))\textrm{ if and only if } g(n) \in o(f(n))$$
 
 
 ### semi-useful comparison
-![[Pasted image 20230124192345.png]]
+![](https://i.imgur.com/m6OcYjZ.png)
 
-![[Pasted image 20230124192408.png]]
+![](https://i.imgur.com/CeD38kH.png)
+
 

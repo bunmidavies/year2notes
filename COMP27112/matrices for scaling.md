@@ -1,3 +1,3 @@
 [[COMP27112]] - [[geometrical transformations]]
 
-![[Pasted image 20230207152852.png]]
+![](https://i.imgur.com/JqkND6h.png)

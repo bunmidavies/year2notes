@@ -8,4 +8,4 @@ $$(xcos\theta - ysin\theta,xsin\theta + ycos\theta, z)$$
 - ==3D rotations are typically relative to a certain axis, i.e. about the Z axis==
 
 - but 3D rotations can also be about an arbitrary axis vector
-![[Pasted image 20230207152613.png]]
+![](https://i.imgur.com/AQt93OC.png)

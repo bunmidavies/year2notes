@@ -14,5 +14,5 @@ There is no point of having these without the other, since you'll run into bottl
 
 This means memories have become up to 10x faster, while processors have become over 1000x faster - the disparity in these speeds is the ==memory wall== 
 
-![[Pasted image 20230201114053.png]]
+![](https://i.imgur.com/P6gOEk0.png)
 *memory is increasing, but not at the same pace as processors*

@@ -13,10 +13,12 @@ F = $\emptyset$ holds initially, and in the first iteration $s$ is relaxed and $
 
 now v can be relaxed, with the minimal $D(v)$
 in the diagram below we can see that $s$ and $u$ are already ==finished==
-![[Pasted image 20230206134353.png]]
+![](https://i.imgur.com/uBuQuXc.png)
+
 
 we show that $v$ is the correct node to relax i.e. D(v) is precise by showing another path cannot exist
-![[Pasted image 20230206134832.png]]
+![](https://i.imgur.com/SeWPSUT.png)
+
 this shows that introducing a new $v'$, that $D(v) \geq D(v') \geq D(v)$, which can't possibly hold - therefore, this proves correctness (?)
 
 ==using the correctness of dijkstra's, it can be extended to A*==

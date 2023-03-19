@@ -4,4 +4,4 @@ In the programmable graphics pipeline, there are still fixed processes that are 
 
 - note that extra processes like 'geometry' and [[tessellation]] also exist
 
-![[Pasted image 20230131221229.png]]
+![](https://i.imgur.com/EDdMiif.png)
