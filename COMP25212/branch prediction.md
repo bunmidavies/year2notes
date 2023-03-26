@@ -10,8 +10,10 @@
 ### Branch Target Buffer (BTB)
 - as a branch is fetched, the BTB can be checked - if there is a valid entry in the BTB, the next instruction can be fetched from the target address stored by the BTB, rather than fetching the PC incremented instruction
 ![ | 250](https://i.imgur.com/xhO9W4a.png)
-- with unconditional branches the BTB will always be storing the correct address to be fetched
-- with conditional branches, whether the BTB is right depends on the probability of reaching the target
+
+- there are 2 main cases which occur within the BTB, given the type of branch:
+	- ==unconditional branch== - the BTB will always be storing the correct address to be fetched
+	- ==conditional branch== - whether the BTB stores the correct address depends on the probability of reaching the target
 - ==BTB is simple to understand, but expensive to implement== - only the most recent branch is ever used for prediction
 
 ### benefits of branch prediction
