@@ -1,6 +1,7 @@
 [[COMP26020]]
 
-- lexical analysis is ==the first phase of compilation==. Characters are read, and sequences of tokens are produced - the idea is to recognise a programming languages ==parts of speech==
+- lexical analysis is ==the first phase of compilation==
+- ==a stream of characters is turned into a stream of tokens==
 - *in a natural language, mapping words to a part of speech is idiosyncratic, while in formal languages, mapping words to a part of speech is syntactic*
 ![](https://i.imgur.com/hYsN8DA.png)
 - lexical analysis is useful to understand specification and implementation of languages, and to avoid writing lexical analysers by hand - we want to be able to specify ==lexical patterns== which can then be used to derive tokens, where different parts of this pattern can vary in complexity
@@ -20,3 +21,11 @@
 
 ### example grammar
 ![](https://i.imgur.com/T7R23J9.png)
+
+### practical considerations
+- note that if a programming language is designed poorly, it can cause problems with lexical analysis
+- for instance, ==template syntax in C++== allows you to write something like:
+```c++
+aaaa<mytype<int>>
+```
+- but since `>>` is an operator in c++, confusion be caused, and this is something that the lexical analyser cannot handle - this can typically be sorted by the parser, in [[syntax analysis]] (by matching opening and closing brackets)
