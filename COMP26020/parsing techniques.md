@@ -1,5 +1,9 @@
 [[COMP26020]]
 
+summary of parsing techniques, with more info in:
+- [[top-down parsing]]
+- [[bottom-up parsing]]
+
 ## top-down parsers
 - top-down parsing typically refers to how human beings attempt to find derivations
 - start at the top node of the parse tree, and grow towards the leaves, by trying to match the input in a ==depth-first== manner
