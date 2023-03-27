@@ -32,4 +32,4 @@
 
 ### parsing
 - the process of discovering a derivation for some sentence can be called ==parsing==
-- there are two main [[parsing techniques]] - ==bottom-up== and ==top-down== parsing
+- there are two main [[parsing summary]] - ==bottom-up== and ==top-down== parsing
