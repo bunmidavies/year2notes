@@ -2,7 +2,7 @@
 
 - patterns form a regular language. A ==regular expression== is a way of specifying a regular language - its a formula that describes a possibly infinite set of strings
 - regular expressions allow [[lexical analysis]] to be ==automated== - we can encode a RE into a DFA, which can be represented with a ==transition table==, and build a lexical analyser which simply looks to the table to tokenize any input of a given language
-- ==every regular expression can be converted to a Deterministic Finite Automaton (DFA)== - [[automatic lexical analyser construction]]
+- ==every regular expression can be converted to a Deterministic Finite Automaton (DFA)== - [[building scanners]]
 
 ### basic regex
 - $\varepsilon$ is a RE denoting the empty set, $\{\varepsilon\}$
