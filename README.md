@@ -1,4 +1,4 @@
-theme = sanctum
+theme = sanctum, highlighting = viridian
 
 semester 1 modules (10 credits)
 - [[COMP24011]]
@@ -12,6 +12,6 @@ semester 2 modules (10 credits)
 - [[COMP23412]]
 - [[COMP24112]]
 
-semester 1 and 2 modules (20 credits)
+semester 1 + 2 modules (20 credits)
 - [[COMP26120]]
 - [[COMP26020]]
