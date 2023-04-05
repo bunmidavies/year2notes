@@ -6,7 +6,7 @@ a ==spanning tree== is simply a tree which is acyclic and connects all nodes in 
 - say we have a connected and undirected graph $G = (V,E)$:
 	- $V$ is the set of nodes to connect
 	- $E$ is the set of possible interconnections
-	- $E = \{(u,v)|w(u,v)\neq \infty\}$ where ==For all edges== $(u,v) \in E, w(u,v) =$ cost of connecting $u$ and $v$
+	- $E = \{(u,v)|w(u,v)\neq \infty\}$ where ==For all edges== ($(u,v) \in E$), $w(u,v) =$ cost of connecting $u$ and $v$
 
 - The minimum spanning subtree of $G$ is an ==acyclic subset of edges== $T \subseteq E$ that ==connects all nodes== with the weight ==minimised==:
 	- $W(T) = \sum_{(u,v)\in T)}w(u,v)$
