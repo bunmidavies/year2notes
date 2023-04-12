@@ -1,6 +1,7 @@
 [[COMP24112]]
 
-- gradient descent is an iterative approach to minimising the loss function within a model:
+### definition + steps
+- gradient descent is an iterative approach to minimising the [[loss function]] within a model:
 	1. start with a random guess (the ==initial state==) $\Theta$, and apply a change to the guess
 	2. this changed $\Theta$ aims at leading to a reduced value of the loss function
 ![ | 550 ](https://i.imgur.com/OP69rft.png)
@@ -16,6 +17,5 @@
 ![](https://i.imgur.com/jhvDKif.png)
 
 ### gradient descent for least squares
-
 - we take the loss function that we obtained within [[linear least squares]], and then derive the gradient, and plug it into the updating function as shown above
 ![](https://i.imgur.com/kh6upkk.png)

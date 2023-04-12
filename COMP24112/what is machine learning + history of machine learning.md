@@ -1,5 +1,6 @@
 [[COMP24112]]
 
+### ~ definition of machine learning
 Tom M. Mitchell:
 *"A machine learns with respect to a particular task T, performance metric P, and type of experience E, if the system reliably imrpoves its performance P at task T, following experience E."*
 
@@ -19,7 +20,7 @@ For this reason, machine learning plays a significant role in ==Artificial Intel
 
 Machine Learning also plays a key point in data science - with huge amounts of data, machine learning algorithms can become better at creating predictions and analysing data than humans ever can be
 
-### key historical events in machine learning
+### ~ key historical events in machine learning
 [wikipedia - timeline of machine learning](https://en.wikipedia.org/wiki/Timeline_of_machine_learning)
 
 - 1940s: human reasoning / logic first studied as a formal subject within maths (the general ==start of ML==)
