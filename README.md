@@ -1,10 +1,6 @@
 theme = sanctum, highlighting = viridian
 
-semester 1 modules (10 credits)
-- [[COMP24011]]
-- [[COMP21111]]
-- [[COMP22111]]
-- [[COMP23311]]
+[[archived]]
 
 semester 2 modules (10 credits)
 - [[COMP25212]]
@@ -15,7 +11,6 @@ semester 2 modules (10 credits)
 semester 1 + 2 modules (20 credits)
 - [[COMP26120]]
 - [[COMP26020]]
-
 
 | exam             | date         | time   | duration |
 | ---------------- | ------------ | ------ | -------- |

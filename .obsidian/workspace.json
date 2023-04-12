@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ee425ec2c94dd1ce",
+        "id": "8b34ca9caf14a0d2",
         "type": "tabs",
         "children": [
           {
-            "id": "adcbf4adaf7a169b",
+            "id": "99a352c5d4e2f090",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "performance metric",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -81,13 +85,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -141,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 417.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,53 +164,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2696624323034777",
+  "active": "99a352c5d4e2f090",
   "lastOpenFiles": [
-    "Pasted image 20230318203729.png",
-    "images/Pasted image 20230124190934.png",
-    "images/Pasted image 20230124184015.png",
-    "COMP26120/asymptotic notation.md",
-    "Pasted image 20230318203916.png",
-    "images/Pasted image 20230123194145.png",
-    "images/Pasted image 20230123170800.png",
-    "images/Pasted image 20230123170744.png",
-    "images/Pasted image 20230123160715.png",
-    "images/Pasted image 20230123160303.png",
-    "images/Pasted image 20230122204243.png",
-    "images/Pasted image 20230122203825.png",
-    "SEM1/COMP21111/COMP21111Algorithms.md",
-    "SEM1/COMP21111/semantic tableaux for prop logic.md",
-    "SEM1/COMP23311/design for testability.md",
-    "SEM1/COMP23311/software design patterns.md",
-    "SEM1/COMP23311/COMP23311.md",
-    "SEM1/COMP22111/software simulation vs hardware emulation 1.md",
-    "SEM1/COMP22111/COMP22111 20-21 exam walkthrough.md",
-    "SEM1/COMP22111/converting to and from IEEE 754 single precision.md",
-    "SEM1/COMP22111/STUMP datapath + instruction types + paths.md",
-    "SEM1/COMP21111/boolean operations with OBDDs.md",
-    "COMP26120/master method.md",
-    "COMP26120/iteration method.md",
-    "COMP26120/pertrubation method.md",
-    "SEM1/COMP23311/software architecture patterns.md",
-    "SEM1/COMP21111/qbf1.mp4",
-    "SEM1/COMP21111/backward reachability.md",
-    "SEM1/COMP21111/complete forward reachability.md",
-    "SEM1/COMP21111/branch and bound.md",
-    "SEM1/COMP24011/degrees of freedom.md",
-    "SEM1/COMP22111/tasks vs functions.md",
-    "SEM1/COMP22111/LUMP.md",
-    "SEM1/COMP22111/addressing modes.md",
-    "SEM1/COMP24011/backjumping.md",
-    "SEM1/COMP24011/tree decomposition.md",
-    "SEM1/COMP24011/arc-consistency.md",
-    "COMP24112/jupyter/24112LAB.ipynb",
-    "COMP24112/COMP24112Maths.pdf",
-    "COMP24112/jupyter/24112-Lab1-S-Practice1 (1).ipynb",
-    "COMP27112/COMP27112lab2.zip",
-    "COMP27112/COMP27112.zip",
-    "COMP27112/submission.mp4",
-    "COMP24112/jupyter/ReutersNews_4Classes_sparse.npy",
-    "COMP24112/jupyter/24112-Lab1-S-Practice1.ipynb",
-    "COMP27112/comp27112lab1.zip"
+    "archive/archived.md",
+    "README.md",
+    "archive",
+    "COMP24112/COMP24112.md",
+    "COMP24112/data splitting methods.md",
+    "COMP24112/sample error vs true error.md",
+    "COMP24112/true error.md",
+    "COMP24112/limited data issues.md",
+    "COMP24112/regression performance measures.md",
+    "COMP24112/machine learning pipeline.md",
+    "COMP24112/live lectures/ML 31st jan.md",
+    "COMP24112/machine learning experiment.md",
+    "COMP24112/hyper-parameter selection.md",
+    "COMP24112/classification performance measures.md",
+    "COMP24112/neighbour searching algorithms.md",
+    "COMP24112/effect of neighbour number for k-NN.md",
+    "COMP24112/effect of training samples for k-NN.md",
+    "COMP24112/ML chapter summaries.md",
+    "COMP24112/distance measuring for k-NN.md",
+    "COMP24112/instance based learning.md",
+    "COMP24112/what is machine learning + history of machine learning.md",
+    "COMP24112/typical machine learning tasks.md",
+    "COMP24112/ml pipeline example - wine classification.md",
+    "COMP24112/loss function.md",
+    "COMP24112/gradient descent.md",
+    "COMP24112/jupyter/__pycache__/lab3lib.cpython-310.pyc",
+    "COMP24112/jupyter/__pycache__",
+    "COMP24112/jupyter/ORLfacedata.mat",
+    "COMP24112/jupyter/lab3lib.py",
+    "COMP24112/jupyter/24112-Lab2-S-Practice2.ipynb",
+    "COMP26020/C.md",
+    "COMP26120/intro to algorithms 4th edition.pdf",
+    "web/status.html",
+    "web/index.html",
+    "web",
+    "Pasted image 20230328161127.png",
+    "Pasted image 20230328161057.png",
+    "Pasted image 20230328160858.png",
+    "Pasted image 20230328160522.png",
+    "Pasted image 20230328155836.png",
+    "Pasted image 20230328144523.png",
+    "Pasted image 20230328144338.png",
+    "Pasted image 20230328144109.png",
+    "Pasted image 20230328143203.png",
+    "Pasted image 20230328142928.png"
   ]
 }
