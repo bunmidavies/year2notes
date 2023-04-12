@@ -3,13 +3,8 @@
   <head>
     <title>web</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <style>
-      body {background-color: white;}
-      h3 {font-family: Arial;}
-    </style>
   </head>
-  <body>
-    <h1>web</h1>
+
     <script>
       var getJSON = function(url, callback) {
       var xhr = new XMLHttpRequest();
@@ -34,10 +29,10 @@ function(err, data) {
     const weekday = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
     const month = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
     const date = new Date(data.commit.committer.date);
-    document.write("<h3 style='font-family:Arial;'>most recent commit: " + weekday[date.getDay()] + " " + date.getDate() + " " + month[date.getMonth()] + " - " + date.getHours() + ":" + date.getMinutes() + "</h3><p style='font-family:Arial;'>pull if necessary</p>");
+    document.write("<body style='background-color:white;'><h3 style='font-family:Arial;'>most recent commit: " + weekday[date.getDay()] + " " + date.getDate() + " " + month[date.getMonth()] + " - " + date.getHours() + ":" + date.getMinutes() + "</h3><p style='font-family:Arial;'>pull if necessary</p></body>");
   }
 });
 
     </script>
-  </body>
+
 </html>
