@@ -1,4 +1,4 @@
-[[COMP26020]]
+[[COMP26020]] - [[C++]]
 
 - dynamic creation in traditional c++ required the `new` keyword in order to manually allocate memory
 

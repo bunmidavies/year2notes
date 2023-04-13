@@ -1,4 +1,4 @@
-[[COMP26020]]
+[[COMP26020]] - [[C++]]
 
 - **All containers are templated**, i.e. the data type for any given container is a template parameter
 - This means a common limitation to C++ containers is being restricted to only storing one type within any container
@@ -16,7 +16,7 @@ Non containers:
 Containers in C++ have a *common interface* - a list of functions which work across all containers regardless
 
 ***
-### <span style="font-family:roman">((exam specific containers))</span>
+### exam specific containers
 
 - vector
 - array

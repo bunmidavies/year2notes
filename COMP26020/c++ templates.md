@@ -1,8 +1,9 @@
-[[COMP26020]]
+[[COMP26020]] - [[C++]]
 
+### definition + use
 A template is the generic programming mechanism in C++
 
-Templates are only instantiated for specific types at compile-time
+- templates are only instantiated for specific types at compile-time
 
 ```C++
 template<typename T> T max(T& a, T& b)
@@ -22,4 +23,4 @@ max<int>(x, y);
 - **for both functions and classes, simply prepend `template<typename T>` before the definition, and this enables templates**
 - [[Python vs C++ Templates]]
 
-- Templates in C++ are very powerful - they are in fact **turing complete**
+- Templates in C++ are very powerful - they are in fact ==turing complete==

@@ -1,4 +1,4 @@
-[[COMP26020]]
+[[COMP26020]] - [[C++]]
 
 - the key thing to understand about manual memory allocation, is that it implies we also have to manually deallocate memory
 - the most obvious drawback of this is that memory leaks now become a possibility

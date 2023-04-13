@@ -13,7 +13,7 @@
 
 - `[]` = capture nothing
 - `[var]` = capture var by value
-- `[&var]` = capture var by reference ([[References, overloading and exceptions in C++]])
+- `[&var]` = capture var by reference ([[references in C++]])
 - `[=]` = capture **everything used in the lambda** by value where possible ?
 - `[&]` = same as above, but capture by reference instead
 - `[&,var]` = capture everything by reference, **apart from var**
