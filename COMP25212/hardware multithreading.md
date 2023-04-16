@@ -8,7 +8,7 @@
 	- replicating PCs
 	- replicating TLBs
 - this is the main reason thread switching becomes quicker in comparison to the OS having to swap in and out of singular processes in [[software multithreading]] - there is extra hardware to support the swapping
-- in terms of memory, [[virtual memory]] can be used to share memory among separate threads (synchronisation issues must be kept in mind), as well as cache (cache thrashing is a big issue to avoid)
+- in terms of memory, [[virtual memory + page tables]] can be used to share memory among separate threads (synchronisation issues must be kept in mind), as well as cache (cache thrashing is a big issue to avoid)
 
 ![ | 450](https://i.imgur.com/j0fjw1g.png)
 

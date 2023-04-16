@@ -2,12 +2,15 @@
 
 ### ~ characteristics
 SRAM = static, volatile ram
-- SRAM is good for ==random access==, and fairly ==fuss free==
+- SRAM is good for ==genuine random access==, and fairly ==fuss free==
 - quite compact
 - low power (especially when not in use)
 - volatile - retains data (only) whilst powered
+- manufacturable on logic chips, meaning it can be made alongside processor chips
+- multi-port SRAM is also possible, but not worth it - FPGAs already provide the same thing
 
-SRAM has multiple applications:
+### ~ applications
+SRAM has multiple applications, and is used extensively today:
 - working RAM in small processor systems (microcontrollers)
 - cache memories in big processor systems
 - buffer memories in interfaces (e.g. USB, ethernet)
