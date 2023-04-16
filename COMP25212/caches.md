@@ -1,28 +1,33 @@
 [[COMP25212]]
 
+### ~ principle of caches
 - the principle of a cache is to ==speed up a spatially small subset of accesses==
-
-within a cache there are two main possibilities when trying to access something: a hit or a miss:
+- caches exploit [[locality]] in order to be useful
+- caches can be described with different types of [[associativity]]
+- within a cache there are two main possibilities when trying to access something: a hit or a miss:
 $$T_{ave} = T_{hit} + P_{miss} \times T_{miss}$$
-typically, $T_{hit}$ is expressed as 1 because the difference between 90% and 100% is minimal (?)
+- example:
+	- $T_{hit}$ = 1ns (time for access with cache hit)
+	- $T_{miss} = 10ns$ (time for access with cache miss)
+	- $P_{miss}$ = 10% (probability of accesses resulting in cache miss)
+- therefore, 1 + (0.1 * 10) = 2ns average access time
 
-A cache can be subdivided into two main components:
-- ==data field== - hods a copy of a subset of the larger storage space
-- ==tag== - a list of addresses which are currently stored
+### ~ components of a memory cache
+- a cache can typically be subdivided into two main components:
+	- ==tags== - a list of addresses which are currently being stored
+	- ==data field== - holds the corresponding data being held in the tagged locations
 
-there are 4 main steps when operating a cache:
+### ~ typical operation of a cache
+there are 4 main steps when operating a cache - i.e. accessing a specific memory address:
 1. address is checked in tags
-2. if address is recognised - hit - send data to output
-3. otherwise - miss - address is sent onto memory
-4. read memory and output if needed
+2. ==hit==: address is recognised - send data field to output
+3. ==miss==: address is sent to memory
+4. read memory and output (if a miss occured)
+![ | 300](https://i.imgur.com/HR8bT0n.png)
 
-- SRAM is good for random access and generally fuss-free
-- SDRAM is good for big memories with burst access (but less fuss-free)
-
-Caches exploit [[locality]] in order to be useful
-Caches can be described with different types of [[associativity]]
-
+### ~ cache misses
 there are 3 main types of cache misses:
 - ==compulsory== misses: data was not previously used
-- ==capacity== misses: cache is full so more space would bex needed
-- ==conflict== misses: cache architecture limits tag flexibility (?)
+- ==capacity== misses: cache is full so more space would be needed
+- ==conflict== misses: cache architecture limits tag flexibility - for instance, 2 memory addresses mapping to the same tag in a [[direct mapped cache]]
+- for reasons above, ==conflict misses cant occur in fully assoc caches==, and are most frequent in small direct mapped caches

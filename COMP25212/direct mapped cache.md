@@ -1,11 +1,13 @@
 [[COMP25212]]
-#review
 
-![](https://i.imgur.com/z9PlkVx.png)
+- in this example, note that we have cache ==lines==, hence the mux underneath the data RAM, the coloured example below doesn't have this
+![ | 350](https://i.imgur.com/z9PlkVx.png)
+![ | 350](https://i.imgur.com/L2rUUDe.png)
 
 
 ### direct mapped vs full associativity
-==direct mapped cache== is basically the opposite of full associativity, and simplifies the implementation of a cache, by providing the notion that any particular item has a predetermined place it might be cached in. This is determined by its ==lower address bits==
+==direct mapped cache== is basically the opposite of full associativity, and simplifies the implementation of a cache, by providing the notion that any particular item has a predetermined place it might be cached in. this is determined by its ==lower address bits==
+- note that the bottom bits are usually used because its likely that top bits in memory addresses are similar to each other if not the same
 
 ### tag and index
 - as with fully associative cache, the address is truncated depending on cache line size
@@ -18,5 +20,9 @@
 ### pros and cons
 - direct mapping is really just a hash table implemented in hardware - it is cheaper to implement than [[fully associative cache]] - however, there is an increased chance in having a lower hit rate, due to its inflexible replacement strategy
 - smaller caches with direct mapping will typically have a lot more collisions than larger caches (collisions go down as cache size increases)
-
+- you're quite limited as to where a number of memory addresses may be stored in a small direct mapped cache
 ![](https://i.imgur.com/dtIrkhF.png)
+
+### speculative reading
+- since there is only one location a memory address can lie within a cache, this can often allow for a processor to essentially ==gamble==, and fetch data from the corresponding cache tag
+- this can be done in parallel, since no comparisons like in a [[fully associative cache]] need to take place, making direct mapped caches ==faster==

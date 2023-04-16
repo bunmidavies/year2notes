@@ -1,7 +1,7 @@
 [[COMP25212]]
 
 - SDRAM is the ==modern way to interface DRAM== - it is a form of DRAM which uses a clocked wrapper in order to making timing/interfacing easier
-- hence the S in SDRAM standing for ==synchronous== - SDRAM provides high bandwidth burst access, but can still have long latency and scheduling issues
+- hence the S in SDRAM standing for ==synchronous== - SDRAM provides high bandwidth burst access, but can still have long latency and scheduling issues, making it typically ==complicated to work with==
 - like DRAM, SDRAM can also have multiple banks - which mainly operate independently. A device will typically have (maybe) 8 banks
 - low order address bits can be used for the bank in order for the banks to interleave
 

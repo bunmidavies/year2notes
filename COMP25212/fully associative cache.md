@@ -1,15 +1,15 @@
 [[COMP25212]]
 
-![](https://i.imgur.com/OVfYfYp.png)
+- in a fully associative cache, a memory address is searched for throughout the entire tag store
+- this is expensive, and a special [[CAM (associative memory)]] block is used for this as shown below
+- if the corresponding memory address is found, it can be read from the data RAM
+![ | 350](https://i.imgur.com/OVfYfYp.png)
 
 ### addressing style
 - in the fully associative model for a cache, the ==tag field== is a full byte address, truncated to a multiple of a power of 2 depending on cache line size (remember that a line's data  can be made up of multiple words of data - [[cache lines]])
 - for instance:
 	- line size of 4 bytes = discard bottom 2 bits
 	- line size of 8 bytes = discard bottom 3 bits
-
-### 'fully associative' meaning
-==any data can occupy any line of the cache==
 
 ### reading data
 - to find whether an item is in this cache, the presented address (suitably truncated) is compared with the tag field of each valid line
