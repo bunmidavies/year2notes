@@ -1,6 +1,13 @@
 [[COMP25212]]
 
-- each entry in a cache, comprising data and addressing information is a ==cache line==
+### ~ definition
+- cache lines exploit ==spatial== [[locality]] - several consecutive words from memory are stored within the data field for a given tag in cache
+- some extra data needs to be stored for each line, but in reality organising data in lines will save a lot of tag storage
+- the typical line size within a cache may be 4 or 8 words
+- ==as the line size increases, tag size decreases==
+![ | 500](https://i.imgur.com/lOQnWkK.png)
+
+
 - each cache line typically has 3 fields:
 	1. Address information - usually called a ==tag==
 	2. Data - depending on ==cache line size==, this could contain several words of data (obviously including the data word required)
