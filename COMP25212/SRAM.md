@@ -15,6 +15,7 @@ SRAM has multiple applications, and is used extensively today:
 - cache memories in big processor systems
 - buffer memories in interfaces (e.g. USB, ethernet)
 - temporary storage in hardware FSMs
+its pretty expensive which is why you wouldnt often find it as the main RAM component
 
 ==SRAM is a standard architectural component== - in COMP25212 we mainly only really care about the external properties of the memory - there are certain design decisions taken within the logic gate implementation of SRAM in order to save space
 
