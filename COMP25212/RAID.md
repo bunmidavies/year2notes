@@ -16,7 +16,8 @@ These issues are basically addressed by using several mechanically independent d
 - Increases reliability by using 'mirroring': keeping multiple copies of the same data on different disks, meaning that any working disk can service reads, and cheaper individual disk units can still provide a service despite a fault occuring
 
 ### Other types of RAID
-- Raid 2,3,4... etc.
+- RAID 2,3,4... etc.
+- RAID can also be nested, for instance RAID01 being a RAID1 array of RAID0 systems, or RAID10 being a RAID0 array of RAID1 systems
 
 ### Disk interconnection
 - Disks are typically. connected via ==SATA== (Serial AT* Attachment)
