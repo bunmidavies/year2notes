@@ -1,24 +1,27 @@
 [[COMP25212]]
 
-RAID originally meant:
-- ==Redundant Array of Inexpensive Disks== (or sometimes ==independent disks==)
-
-The issues addressed by RAID are:
-- Reliability
-- Bandwidth
+### ~ definition
+- RAID originally meant:
+	- ==Redundant Array of Inexpensive Disks== (or sometimes ==independent disks==)
+- the aim of RAID was to improve ==reliability== within some secondary storage system, by using redundancy for ==fault tolerance==, using cheaper parts 
+- for instance, how a plane may have multiple engines (for multiple reasons, safety being one of them)
 
 These issues are basically addressed by using several mechanically independent disk drives, ==virtualised== to look like a single device
 
 ### RAID 0
-- Increases bandwidth by interleaving data - failure becomes more likely since any one of the drives can fail, but bandwidth is improved since parallel access can take place
+- increases bandwidth by interleaving data - ==striping==
+- parallel access can potentially be implemented
+- ==not redundant== - since each disk doesnt hold all the data, any disk breaking is critical
 
 ### RAID 1
-- Increases reliability by using 'mirroring': keeping multiple copies of the same data on different disks, meaning that any working disk can service reads, and cheaper individual disk units can still provide a service despite a fault occuring
+- increases reliability by ==mirroring==
+- multiple disks hold the same data, and any working disk can service reads
+- for single requests, performance is not affected, and a higher bandwidth can be provided for simultaneous reads
 
-### Other types of RAID
+### other types of RAID / nested RAID
 - RAID 2,3,4... etc.
 - RAID can also be nested, for instance RAID01 being a RAID1 array of RAID0 systems, or RAID10 being a RAID0 array of RAID1 systems
 
-### Disk interconnection
-- Disks are typically. connected via ==SATA== (Serial AT* Attachment)
-- Bus interface, meaning data is carried serially - the bandwidth of SATA is up to 6GB/s (translating to 600MB/s, since each byte takes 10 bit periods)
+### disk interconnection
+- disks are typically. connected via ==SATA== (Serial Advanced Technology Attachment)
+- SATA is a bus interface, which carries data serially - it currently has up to 6 Gb/s bandwidth (about 600MB/s - for reference disk platters have about 100MB/s)
