@@ -7,7 +7,9 @@
 [[c++ overloading]]
 
 ### c++ stl
--  [[c++ standard library]] 
+-  [[c++ standard library]] :
+	- [[c++ containers]]
+	- [[c++ iterators]]
 
 ### generic c++
 - [[generic programming in c++]] 
