@@ -9,3 +9,18 @@
 {
 	//font-family:'Times New Roman';
 }
+
+*
+{
+  "mado-miniflow@@theme-color": "theme-greenery",
+  "mado-miniflow@@accent@@dark": "#BEA1A1",
+  "mado-miniflow@@accent@@light": "#88CB93",
+  "mado-miniflow@@toggle-wave-background": true,
+  "mado-miniflow@@toggle-tab-design": true,
+  "mado-miniflow@@toggle-note-radius": true,
+  "mado-miniflow@@sidebar-size-left": 670,
+  "mado-miniflow@@color-highlight@@dark": "#FFFFFF",
+  "mado-miniflow@@color-highlight@@light": "#44C755",
+  "mado-miniflow@@text-highlight-bg@@dark": "#FFFFFF",
+  "mado-miniflow@@color-strikethrough@@dark": "#9581EC"
+}

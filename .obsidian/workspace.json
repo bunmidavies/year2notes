@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "99a352c5d4e2f090",
+            "id": "309c775a675aaf73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP27112/canny edge detector.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99cfd634299a3821",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "performance metric",
+                "query": "scan conversion",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +78,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "816477a836b3aa08",
@@ -164,39 +179,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99a352c5d4e2f090",
+  "active": "99cfd634299a3821",
   "lastOpenFiles": [
-    "archive/archived.md",
+    "COMP27112/canny edge detector.md",
+    "COMP27112/noise + smoothing.md",
+    "COMP27112/viewing pipeline.md",
+    "COMP27112/shaders.md",
+    "COMP27112/COMP27112.md",
+    "COMP27112/edge detection.md",
     "README.md",
-    "archive",
+    "COMP25212/COMP25212.md",
+    "COMP23412/COMP23412.md",
+    "COMP25212/set associative cache.md",
+    "COMP26120/COMP26120.md",
+    "COMP26020/File IO + Error Management in C.md",
+    "COMP26020/C.md",
+    "COMP25212/memory coherence.md",
+    "COMP25212/moores law.md",
+    "COMP25212/control hazards.md",
+    "COMP25212/SRAM.md",
+    "COMP25212/table walking.md",
+    "COMP25212/cache prefetching.md",
+    "COMP25212/memory consistency.md",
+    "COMP25212/amdahls second law + memory wall.md",
+    "COMP25212/caches.md",
     "COMP24112/COMP24112.md",
-    "COMP24112/data splitting methods.md",
-    "COMP24112/sample error vs true error.md",
-    "COMP24112/true error.md",
-    "COMP24112/limited data issues.md",
-    "COMP24112/regression performance measures.md",
-    "COMP24112/machine learning pipeline.md",
-    "COMP24112/live lectures/ML 31st jan.md",
-    "COMP24112/machine learning experiment.md",
-    "COMP24112/hyper-parameter selection.md",
-    "COMP24112/classification performance measures.md",
-    "COMP24112/neighbour searching algorithms.md",
-    "COMP24112/effect of neighbour number for k-NN.md",
-    "COMP24112/effect of training samples for k-NN.md",
-    "COMP24112/ML chapter summaries.md",
-    "COMP24112/distance measuring for k-NN.md",
-    "COMP24112/instance based learning.md",
-    "COMP24112/what is machine learning + history of machine learning.md",
-    "COMP24112/typical machine learning tasks.md",
-    "COMP24112/ml pipeline example - wine classification.md",
-    "COMP24112/loss function.md",
-    "COMP24112/gradient descent.md",
+    "COMP24112/k nearest neighbour (k-NN).md",
+    "archive/sem1/COMP22111/COMP22111.md",
+    "archive/sem1/COMP22111/coprocessors.md",
+    "archive",
     "COMP24112/jupyter/__pycache__/lab3lib.cpython-310.pyc",
     "COMP24112/jupyter/__pycache__",
     "COMP24112/jupyter/ORLfacedata.mat",
     "COMP24112/jupyter/lab3lib.py",
     "COMP24112/jupyter/24112-Lab2-S-Practice2.ipynb",
-    "COMP26020/C.md",
     "COMP26120/intro to algorithms 4th edition.pdf",
     "web/status.html",
     "web/index.html",

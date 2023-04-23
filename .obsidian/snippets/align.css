@@ -10,3 +10,33 @@ img {
  .markdown-source-view.mod-cm6 .cm-content > * {
         margin: auto auto !important;
 }
+
+hr {
+  margin-block-start: 4em;
+  margin-block-end: 4em;
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--background-primary), var(--text-accent), var(--background-primary));
+}
+
+hr::after {
+  content: '§';
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(60deg);
+  transform-origin: 50% 50%;
+  padding: 0.5rem;
+  color: var(--text-sub-accent);
+  background-color: var(--background-primary);
+}
+
+.view-header:not(:hover) .view-actions {
+  opacity: 0.1;
+  transition: opacity .25s ease-in-out;
+}
+
+.status-bar {
+  border-left: 0.25px solid var(--text-normal);
+  border-top: 0.25px solid var(--text-normal);
+}

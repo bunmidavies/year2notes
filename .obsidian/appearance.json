@@ -1,13 +1,12 @@
 {
-  "cssTheme": "Sanctum",
-  "accentColor": "#ee9ef0",
+  "cssTheme": "",
+  "accentColor": "#ffffff",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "important",
     "align"
   ],
   "baseFontSize": 13,
-  "translucency": true,
+  "translucency": false,
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Inter"
 }
