@@ -1,10 +1,14 @@
 [[COMP24112]]
 
-linear models are the simplest type of ==parametric model== to exist within the field of machine learning ([[parametric + non-parametric models]])
+### ~ definition
+- a linear model is the simplest type of ==parametric model== to exist in ML ([[parametric + non-parametric models]])
+- linear models make use of a ==linear function== to construct a predicted output
+- a linear function can either return a ==single output== or ==multiple outputs== ([[single-output functions + multi-output functions]])
+- this linear function is essentially just a ==weighted sum==, where:
+	- parameters = weights / coefficients
+	- inputs get multiplied by weights
 
-linear models make use of a ==linear function== to construct a predicted output. This linear function can either return a ==single output== or ==multiple outputs== ([[single-output functions + multi-output functions]])
-
-### linear model with single output
+### ~ single output
 
 a number of weights/coefficients are combined with the input variables, alongside a ==bias parameter==
 
@@ -18,7 +22,7 @@ $$\tilde{x} = [1,x_1,...,x_d]$$
 - therefore $\hat{Y} = \hat{X}w$
 
 
-### linear model with multiple outputs
+### ~ multiple outputs
 
 for a linear function with multiple outputs, we create different linear functions for every single output value, meaning our weights vector which was used for single output functions, becomes a matrix for multi-output functions
 ![](https://i.imgur.com/HXQkjYr.png)

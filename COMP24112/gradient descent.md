@@ -17,5 +17,5 @@
 ![](https://i.imgur.com/jhvDKif.png)
 
 ### gradient descent for least squares
-- we take the loss function that we obtained within [[linear least squares]], and then derive the gradient, and plug it into the updating function as shown above
+- we take the loss function that we obtained within [[linear least squares]], and then derive the gradient, and plug it into the updating function as shown above 
 ![](https://i.imgur.com/kh6upkk.png)
