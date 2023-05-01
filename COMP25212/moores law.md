@@ -1,7 +1,7 @@
 [[COMP25212]]
 
 ### ~ definition
-- ==the number of transistors on an IC doubles every 2 years=
+- ==the number of transistors on an IC doubles every 2 years
 
 smaller transistors = more transistors + faster transistors
 although smaller transistors result in lower energy use per component, more components still results in power management being the limiting factor in many systems
