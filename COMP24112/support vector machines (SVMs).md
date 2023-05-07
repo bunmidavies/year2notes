@@ -6,7 +6,7 @@
 - the main aim of an SVM is to find the ==optimal hyperplane== to separate ideally two classes of data points, with the widest margin - this technically involves 2 hyperplanes
 - [[hyperplanes in linear functions]] covers what a hyperplane is, as well as the separation margin
 
-### finding the optimal hyperplane
+### hard-margin SVM
 - ==hard-margin SVM== finds an optimal hyperplane which fully separates two classes of data points, and has the widest margin
 - it does so by solving a ==constrained optimisation problem==:
 	- finding the minimum value from $\frac{1}{2} w^Tw$
