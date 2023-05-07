@@ -39,7 +39,7 @@ $$\hat{y} = W^T\tilde{x}$$
 
 ### linear model for classification ==with probabilistic inference==
 
-logistic regression involves using a linear model for classification combined with ==probabilistic inference==
+[[logistic regression]] involves using a linear model for classification combined with ==probabilistic inference==
 
 it is possible to compute the ==class posterior== from a linear model, by using the logistic sigmoid or softmax function (depending on whether we are doing binary classification or multi-class classifcation)
 - basically, for a single-output linear model, the logistic sigmoid function converts this real valued number into a probability

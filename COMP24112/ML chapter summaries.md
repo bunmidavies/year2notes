@@ -30,3 +30,7 @@
 
 - there are different approaches for minimising a loss function - some involve you solving linear systems (i.e. zero gradient), while others are iterative (e.g. gradient descent)
 - the aim of linear least squares method and regularised linear least squares method is to minimise the loss function for a given model - the minimisation of the loss function takes place within the training phase in the machine learning pipeline
+
+...
+
+`chapter 8`
