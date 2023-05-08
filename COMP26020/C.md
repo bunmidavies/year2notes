@@ -12,6 +12,7 @@
 - [[enumeration in C]]
 
 ### week 2
-
-
-[[File IO + Error Management in C]]
+- [[memory layout + allocation in C]]
+- C standard library functions
+- C math functions
+- [[File IO + Error Management in C]]
