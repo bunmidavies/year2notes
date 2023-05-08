@@ -19,6 +19,7 @@ $$(\frac{N-F}{S}+1)\times(\frac{N-F}{S}+1)$$
 - $N$ = input layer size
 - $F$ = convolutional filter size
 - $S$ = stride size
+- the format is always ==width x height x depth== (so the first two equations above are width and height)
 
 - this formula is slightly changed when dealing with 3D neurons and convolutional filter, but one activation map is still returned
 ![](https://i.imgur.com/T0IsLgB.png)

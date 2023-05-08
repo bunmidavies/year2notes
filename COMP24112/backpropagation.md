@@ -14,5 +14,6 @@
 ![](https://i.imgur.com/asPXla7.png)
 
 ### backpropagation explained
-- $O(z,W_p)$ is the loss function, taking the new features and the weights from the last prediction layer
+- $O(z,W_p)$ is the loss function, taking the new features and the ==weights from the prediction layer== (the last layer, beyond the hidden layers)
+- $p$ stands for prediction
 ![](https://i.imgur.com/kiyo0a4.png)

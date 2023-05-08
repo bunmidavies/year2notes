@@ -9,10 +9,9 @@
 - artificial neural network = collection of ==artifical neurons==, connected together
 - each artificial neuron simulates a real neuron - ==multiple inputs -> 1 output==
 - the multiple inputs are received from other neurons - connection strengths determine how the signals are accumulated, and the neuron fires a signal if enough signals accumulate
-- singular neurons are similar to multi-input single output [[linear models]], with an activation function added on top
+- singular neurons are similar to multi-input single output [[linear models]], with an ==activation function== added on top
 ![](https://i.imgur.com/SDztApk.png)
-
-- the linear model weights $w$ controls the strength of the incoming signals, and the resultant sum is used as an input for the ==activation function==
+- the linear model weights $w$ control the strength of the incoming signals, and the resultant sum is used as an input for the ==activation function==
 
 ### activation functions
 - the activation function is applied to the weighted sum returned by the ==adder== in the neuron
