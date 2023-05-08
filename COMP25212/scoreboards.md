@@ -6,12 +6,9 @@
 ### information within the scoreboard
 - ==instruction status== - the stage which an instruction is currently in is stored by the scoreboard
 - ==functional unit status== - the state of all functional units are stored by the scoreboard - there are 9 main fields for each FU:
-	1. Busy
-	2. Op - operation to perform
-	3. Fi - dest. register
-	4. Fj, Fk - source register numbers
-	5. Qi, Qk - functional units producing source registers Fj, Fk
-	6. Rj, Rk - flags to indicate when Fj and Fk have been read successfully
+![](https://i.imgur.com/Ry1Fl1q.png)
+
+
 - ==register result status== - the current functional unit which a register lies within
 
 ![ | 450](https://i.imgur.com/kERKgzW.png)
