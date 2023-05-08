@@ -25,3 +25,4 @@
 - declarative programming languages can have the notion of ==pure functions== - functions with no side effects
 - loops are also implemented with ==recursion==
 
+![](https://i.imgur.com/XY75Jpe.png)
