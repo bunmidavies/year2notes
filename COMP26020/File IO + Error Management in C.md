@@ -1,6 +1,6 @@
 [[COMP26020]]
 
-### <span style="font-family:t">opening the file</span>
+### opening files
 `open` creates a reference to a file - **a file descriptor**. 
 ```C
 int open(const char *pathname, int flags, mode_t mode)
@@ -17,7 +17,7 @@ example
 int file_descriptor = open("/home/bunmi/test", O_RDWR | O_CREAT, S_IRWXU);
 ```
 
-### <span style="font-family:t">reading the file</span>
+### reading files
 `read` attempts to read bytes from a file, given a **file descriptor**
 ```C
 ssize_t read(int fd, void *buf, size_t count);
@@ -34,7 +34,7 @@ if (bytes_read == -1) //error
 else if (bytes_read != 10) //whatever
 ```
 
-### <span style="font-family:t">writing to files</span>
+### writing to files
 `write` attempts to write bytes to a file from a given buffer, to the given **file descriptor**
 
 example
@@ -49,7 +49,7 @@ once you are finished writing to a file, use `close`
 int close(int fd)
 ```
 
-### <span style="font-family:t">generating random numbers</span>
+### generating random numbers
 `rand()` will return any random number between 0 and `RAND_MAX` - to get values between 0 and other values, simply do `rand()%max` where `max` is the (non inclusive) upper bound you want to generate between
 
 random sequences will always be the same, so in order to generate *random* random sequences, you can generate a seed based on the current time:
@@ -67,7 +67,7 @@ long strtol(const char *nptr, char **endptr, int base);
 - `**endptr` points to the first invalid character of the string, or `\0` if the string is fully valid
 - under/overflows cause `errno` to be set to `ERANGE`, and the function returns `LONG_MIN` / `LONG_MAX` for underflow / overflow
 
-### <span style="font-family:t">stream-based file io</span>
+### stream based file io
 ```C
 FILE *fopen(const char *pathname, const char *mode);
 ```
