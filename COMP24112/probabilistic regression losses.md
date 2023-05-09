@@ -1,7 +1,9 @@
 [[COMP24112]]
 
+### definition
 - instead of maximising/minimising a loss function in a non probabilistic manner ([[non probabilistic regression losses]]), a model can be trained by maximising the ==likelihood== (or log likelihood) function of the training samples
-- to do this ==independence between the samples must be assumed==
+- ==likelihood==: given the observed data, likelihood is the probability of the observed data given the current model parameters
+- ==log likelihood== is just the natural log of the likelihood
 - a function called a ==maximum likelihood estimator (MLE)== is used in this case
 
 ### MLE for linear regression

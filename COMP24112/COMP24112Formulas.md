@@ -44,8 +44,6 @@ $$\frac{\textrm{true negatives}}{\textrm{no. of real negatives}}$$
 - 1-specificity (false positive rate):
 $$1 - \frac{\textrm{true negatives}}{\textrm{true negatives + false positives}}$$
 $$\frac{\textrm{false positives}}{\textrm{no. of real negatives}}$$
-### sum of squares error
-$$\sum^n_{i=1}(y_i-\hat{y}_i)^2$$
 ### mean square error (MSE)
 - formulas assume given $n$ samples and a single output for each ($\hat{y}$)
 $$\frac{1}{n}\sum^n_{i=1}(y_i-\hat{y}_i)^2$$
@@ -81,7 +79,32 @@ $$f(x) = \frac{1}{1+e^{-x}}$$
 ### softmax function
 $$\textrm{softmax}(x_i) = \frac{e^{x_i}}{\sum^c_{j=1}e^{x_j}}$$ 
 # chapter 5
+### sum of squares error (single-output)
+- the $\frac{1}{2}$ exists to make differentiation easier (?)
+$$\frac{1}{2}\sum^n_{i=1}(y_i-\hat{y}_i)^2$$
+### sum of squares error (multi-output)
+- the $\frac{1}{2}$ exists to make differentiation easier (?)
+$$\frac{1}{2}\sum^n_{i=1}\sum^c_{j=1}(y_{ij}-\hat{y}_{ij})^2$$
+### regularised linear least squares
+- sum of squares error + regularisation term
+$$\frac{1}{2}\sum^n_{i=1}(y_{i}-\hat{y}_{i})^2 + \frac{\lambda}{2}\sum^{d+1}_{j=1}w_j^2$$
+### regularised linear least squares (linear model)
+- sum of squares error + regularisation term
+- reformatted using weight vector, for the single-output case
+$$\frac{1}{2}\sum^n_{i=1}(y_{i}-w^T\tilde{x}_i)^2 + \frac{\lambda}{2}w^Tw$$
+### hinge loss for binary classification
+$$\sum^N_{i=1}\textrm{max}(0,1-y_if(\theta,x_i))$$
 
+### cross entropy loss (binary classification)
+- $b$ is either $e$, so you're using $\ln$, or 2
+$$-\sum^N_{i=1}\left[y_i\log_b(p(c_1|x_i))+(1-y_i)\log_b(c_2|x_i))\right]$$
+### cross entropy loss (multi-class classification)
+- $b$ is either $e$, so you're using $\ln$, or 2
+$$-\sum^N_{i=1}\sum^c_{k=1}y_{ik}\log_b(p(c_k|x_i))$$
+
+### likelihood (binary classification)
+- consider the i-th training sample to be $(x_i,y_i)$
+$$p(x_i,y_i|\theta) = \theta(x_i)^{y_i}(1-\theta(x_i))^{1-y_i}$$
 # chapter 6
 
 # chapter 7

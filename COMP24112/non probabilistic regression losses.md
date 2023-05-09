@@ -16,6 +16,6 @@
 - ==linear least squares== = training a linear model by minimising the sum-of-squares error loss
 - a regularisation term can then be added to this error function (<span style="color:red">term in red</span>)
 ![](https://i.imgur.com/gGITPVp.png)
-- the benefit of regularisation is that it prevents the model from overfitting to training data
-- when $\lambda$ is too large, underfitting will occur
+- the benefit of regularisation is that it prevents the model from ==overfitting== to training data
+- when $\lambda$ is too large, ==underfitting== will occur
 - [[overfitting and underfitting]]

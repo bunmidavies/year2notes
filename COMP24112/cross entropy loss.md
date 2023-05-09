@@ -1,10 +1,14 @@
 [[COMP24112]]
 
-- a cross entropy measures the distance between probability distributions
+### definition
+- cross entropy measures the ==distance between probability distributions==
 - its discrete version can be used to examine the distance between a predicted class probability and the true probability (i.e. the ==posterior== against the ==true probability==)
+- we use the discrete version because we are calculating the probabilities of ==classes==, rather than continuous values
 
 ### cross entropy loss for binary classification
-- $H(p,q) = -[p(1)log(q(1)) + p(0)log(q(0))]$ where $p$ = posterior and $q$ = true probability
+- $H(p,q) = -[p(1)log(q(1)) + p(0)log(q(0))]$
+	- $p$ = true probability
+	- $q$ = posterior
 - 0/1 label coding is used for a sample $(x,y)$
 - if $y=1$ then $x$ is from class 1, meaning $p(1)=100\%$ and $p(0)=0\%$
 - if $y=0$ then $x$ is from class 0 meaning $p(1)=0\%$ and $p(1)=100\%$
