@@ -1,5 +1,6 @@
 [[COMP24112]]
 
+### definition
 k-NN is the ==simplest of all machine learning algorithms==, and dates back very early by a scientist in optics and perception (965-1040)
 
 early academic works on k-NN start in the 60s
