@@ -76,6 +76,10 @@ $$\sigma = \sqrt{\frac{\textrm{error}_{s1}(A)[1-\textrm{error}_{s1}(A)]}{n_1}+\f
 # chapter 4
 ### conditional mean for regression + probabilistic inference
 $$\hat{y} = E_f[f|x]$$
+### logistic sigmoid
+$$f(x) = \frac{1}{1+e^{-x}}$$
+### softmax function
+$$\textrm{softmax}(x_i) = \frac{e^{x_i}}{\sum^c_{j=1}e^{x_j}}$$ 
 # chapter 5
 
 # chapter 6

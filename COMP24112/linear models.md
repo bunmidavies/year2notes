@@ -32,28 +32,13 @@ $$\hat{y} = W^T\tilde{x}$$
 - where $W^T$ is a singular vector extracted from the matrix for the according sample
 ![](https://i.imgur.com/UuFTovt.png)
 
-### linear model for classification
+### linear model for classification (==non-probabilistic==)
 
 - using this function which has been constructed, now the function can be used for [[classification]]
 - a [[discriminant function]] can be applied to either the single output or multiple outputs - in the case of the multi-output functions, an input will then be considered to belong to multiple classes
 
-### linear model for classification ==with probabilistic inference==
-
-[[logistic regression]] involves using a linear model for classification combined with ==probabilistic inference==
-
-it is possible to compute the ==class posterior== from a linear model, by using the logistic sigmoid or softmax function (depending on whether we are doing binary classification or multi-class classifcation)
-- basically, for a single-output linear model, the logistic sigmoid function converts this real valued number into a probability
-  ![](https://i.imgur.com/JNACPkB.png)
-
-  - meanwhile for multi-class classification involving a multi-output linear function, we use the ==softmax== function in order to convert each of the outputs into separate probabilities
-![](https://i.imgur.com/qsUrYss.png)
-
-- example of the softmax function working:
-![](https://i.imgur.com/7cyy6zb.png)
-
-- logistic regression (which just uses the softmax function as shown above
-![](https://i.imgur.com/SYaBBTE.png)
-
+### linear model for classification (==probabilistic==)
+- [[logistic regression]] involves using a linear model for classification combined with ==probabilistic inference==
 
 ### linear model for regression
 using a linear model for regression is focused on the case where a single-output function is used
