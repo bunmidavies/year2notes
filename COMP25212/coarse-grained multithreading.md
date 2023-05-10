@@ -13,4 +13,4 @@
 
 ![ | 450 ](https://i.imgur.com/y5Cpz3U.png)
 ![ | 450](https://i.imgur.com/jWbtSL7.png)
-[ note that the width in these threads represents the no of threads with ready instructions (SMT) ]
+[ note that the width in these threads represents how many instructions the superscalar pipeline can issue at the time ]
