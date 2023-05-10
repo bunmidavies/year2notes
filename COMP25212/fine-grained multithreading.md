@@ -1,5 +1,6 @@
 [[COMP25212]]
 
+### definition
 - in fine-grained threading, the processor will switch between threads every few cycles, if not every cycle - it is the number of cycles before a switch takes place which is what is described as being fine in ==granularity== here
 - this means thread switches occur much more commonly than in [[coarse-grained multithreading]] - this means ==instantaneous thread switching== is typically required, which involves complex hardware
 - in terms of which threads get switched, ==round robin== switching is the typical policy

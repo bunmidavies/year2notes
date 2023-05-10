@@ -1,5 +1,6 @@
 [[COMP25212]]
 
+### definition
 - in coarse-grained multithreading, instructions are issued from a ==single thread==
 - as opposed to [[fine-grained multithreading]] where thread switches happen every few cycles, a thread switch here only takes place in the case of:
 	- an ==expensive operation== (e.g. cache miss / data miss)
@@ -12,4 +13,4 @@
 
 ![ | 450 ](https://i.imgur.com/y5Cpz3U.png)
 ![ | 450](https://i.imgur.com/jWbtSL7.png)
-[ note that the width in these threads represents the no of pipelines ]
+[ note that the width in these threads represents the no of threads with ready instructions (SMT) ]
