@@ -3,6 +3,8 @@
 ### definition
 - snooping protocols are used within multicore processors - each cache 'snoops' for activity concerned with any address in its cache - it changes its status and reacts adequately when needed (==all caches are aware of all events==)   
 - this protocol requires a ==communications structure== (for instance, a [[bus]]) so that all communication is seen by all caches
+- this communications structure is also the main downfall of snooping protocols ==scalability sucks==
+- [[directory based protocols]] provide a solution to this drawback
 
 ### write update vs write invalidate
 - ==write update== = the core sends out new written data so that all other cores snooping in can update their caches  
