@@ -6,7 +6,7 @@
 
 
 ### direct mapped vs full associativity
-==direct mapped cache== is basically the opposite of full associativity, and simplifies the implementation of a cache, by providing the notion that any particular item has a predetermined place it might be cached in. this is determined by its ==lower address bits==
+- ==direct mapped cache== is basically the opposite of full associativity, and simplifies the implementation of a cache, by providing the notion that any particular item has a predetermined place it might be cached in. this is determined by its ==lower address bits==
 - note that the bottom bits are usually used because its likely that top bits in memory addresses are similar to each other if not the same
 
 ### tag and index
