@@ -3,6 +3,8 @@
 # chapter 1
 - no formulas
 
+<div style="page-break-after: always;">***</div>
+
 # chapter 2
 - $d$ = no of dimensions in the vectors
 ### ~ euclidean distance
@@ -23,6 +25,8 @@ $$\frac{p^Tq}{\sqrt{\sum^d_{i=1}p^2_i} \cdot \sqrt{\sum^d_{i=1}q^2_i}}$$
 $$\frac{\textrm{inner product}}{\textrm{euclid. norm of p}\cdot\textrm{euclid. norm of q}}$$
 
 - cosine distance = 1 - cosine similarity
+
+<div style="page-break-after: always;">***</div>
 
 # chapter 3
 ### classification accuracy / error
@@ -71,6 +75,8 @@ $$a = z_p\sqrt{\frac{\textrm{error}_s(1-\textrm{error}_s)}{n}}$$
 $$z = \frac{d}{\sigma}$$
 - $d = |\textrm{error}_{s1}(A) - \textrm{error}_{s2}(B)|$, where classifier A sample error > classifier B sample error
 $$\sigma = \sqrt{\frac{\textrm{error}_{s1}(A)[1-\textrm{error}_{s1}(A)]}{n_1}+\frac{\textrm{error}_{s2}(B)[1-\textrm{error}_{s2}(B)]}{n_2}}$$
+<div style="page-break-after: always;">***</div>
+
 # chapter 4
 ### conditional mean for regression + probabilistic inference
 $$\hat{y} = E_f[f|x]$$
@@ -78,6 +84,8 @@ $$\hat{y} = E_f[f|x]$$
 $$f(x) = \frac{1}{1+e^{-x}}$$
 ### softmax function
 $$\textrm{softmax}(x_i) = \frac{e^{x_i}}{\sum^c_{j=1}e^{x_j}}$$ 
+<div style="page-break-after: always;">***</div>
+
 # chapter 5
 ### sum of squares error (single-output)
 - the $\frac{1}{2}$ exists to make differentiation easier (?)
@@ -97,21 +105,45 @@ $$\sum^N_{i=1}\textrm{max}(0,1-y_if(\theta,x_i))$$
 
 ### cross entropy loss (binary classification)
 - $b$ is either $e$, so you're using $\ln$, or 2
-$$-\sum^N_{i=1}\left[y_i\log_b(p(c_1|x_i))+(1-y_i)\log_b(c_2|x_i))\right]$$
+$$-\sum^N_{i=1}\left[y_i\log_b(p(c_1|x_i))+(1-y_i)\log_b(p(c_2|x_i))\right]$$
 ### cross entropy loss (multi-class classification)
 - $b$ is either $e$, so you're using $\ln$, or 2
 $$-\sum^N_{i=1}\sum^c_{k=1}y_{ik}\log_b(p(c_k|x_i))$$
 
-### likelihood (binary classification)
+### MLE (binary classification)
 - consider the i-th training sample to be $(x_i,y_i)$
-$$p(x_i,y_i|\theta) = \theta(x_i)^{y_i}(1-\theta(x_i))^{1-y_i}$$
+$$L = \theta(x_i)^{y_i}(1-\theta(x_i))^{1-y_i}$$
+
+### MLE (multi-class classification)
+- $y_{ik}$ will either be 1 or 0, and for any given sample, only one $k$ will have $y_{ik}$ of 1 (since multi-class classification is assigning ==one== of many labels) 
+$$L = \prod_{i=1}^{N}\prod_{k=1}^{c} \theta_k(x_i)^{y_{ik}}$$
+
+<div style="page-break-after: always;">***</div>
+
 # chapter 6
+
+### gradient descent (general)
+$$w^{(t+1)} = w^{(t)} - \eta\sum^N_{i=1}\nabla O_i(w^{(t)})$$
+### stochastic gradient descent (general)
+- $i$ is a randomly chosen sample
+$$w^{(t+1)} = w^{(t)} - \eta\nabla O_i(w^{(t)})$$
+### minibatch gradient descent (general)
+- use a subset of all training samples, $n$
+$$w^{(t+1)} = w^{(t)} - \eta\sum^N_{n\in N}\nabla O_i(w^{(t)})$$
+
+<div style="page-break-after: always;">***</div>
 
 # chapter 7
 *revision week - no new content*
 
+<div style="page-break-after: always;">***</div>
+
 # chapter 8
 
+<div style="page-break-after: always;">***</div>
+
 # chapter 9
+
+<div style="page-break-after: always;">***</div>
 
 # chapter 10

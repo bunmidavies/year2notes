@@ -1,7 +1,10 @@
 [[COMP24112]]
 
+### definition
 - normal equations are used for solving linear systems when trying to reach the [[optimality condition]] for parameters in a given ML model
 - we aim to solve the equation where the ==gradient of the error function is equal to 0==
+
+ > in reality - these equations are not always solvable, or the computational complexity to solve them is so high that it is not feasible - this is why other methods like [[gradient descent]] exist
 
 ### single output
 ![ | 550](https://i.imgur.com/kJ2yWRb.png)

@@ -14,4 +14,5 @@
 
 ### kernel SVM
 - the kernel SVM essentially maps inputs from a 2D space to higher dimensional feature space - a kernel is useful for patterns which are ==non-linear==
+- see [[handling non-linear data patterns]] for more info on kernel functions
 ![](https://i.imgur.com/mzw4uE1.png)

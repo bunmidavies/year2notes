@@ -23,7 +23,7 @@ $$(\frac{N-F}{S}+1)\times(\frac{N-F}{S}+1)$$
 
 - this formula is slightly changed when dealing with 3D neurons and convolutional filter, but one activation map is still returned
 ![](https://i.imgur.com/T0IsLgB.png)
-- typically, multiple convolutional filters are applied - $T$ convolutional filters will result in $T$ separate activation maps
+- typically, ==multiple convolutional filters are applied== - $T$ convolutional filters will result in $T$ separate activation maps
 ![|450](https://i.imgur.com/KglZ5It.png)
 
 ### pooling layer

@@ -3,7 +3,7 @@
 ### definition
 - the original idea of an SVM was introduced by the generalised portrait algorithm (Vapnik and Lerner) in 1963
 - SVMs themselves were formally introduced in 1992
-- the main aim of an SVM is to find the ==optimal hyperplane== to separate ideally two classes of data points, with the widest margin - this technically involves 2 hyperplanes
+- in short, an SVM is a [[supervised learning]] algorithm, which takes a set of data points to find an ==optimal hyperplane== to separate (ideally) two classes of data points, with the ==widest margin== possible (using 2 hyperplanes)
 - [[hyperplanes in linear functions]] covers what a hyperplane is, as well as the separation margin
 
 ### hard-margin SVM
