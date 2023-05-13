@@ -13,3 +13,11 @@
 ### multi-output
 - the same idea basically applies to multi-output - read [[linear least squares]] to see where the multi-output equation is from
 ![ | 550](https://i.imgur.com/dWjXL5E.png)
+
+```mermaid
+graph TD 
+
+Biology --> Chemistry 
+
+class Biology,Chemistry internal-link;
+```

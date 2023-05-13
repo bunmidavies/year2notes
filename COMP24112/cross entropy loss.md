@@ -11,7 +11,7 @@
 	- $q$ = posterior
 - 0/1 label coding is used for a sample $(x,y)$
 - if $y=1$ then $x$ is from class 1, meaning $p(1)=100\%$ and $p(0)=0\%$
-- if $y=0$ then $x$ is from class 0 meaning $p(1)=0\%$ and $p(1)=100\%$
+- if $y=0$ then $x$ is from class 0 meaning $p(1)=0\%$ and $p(0)=100\%$
 - therefore $p(1)=y$ and $p(0)=1-y$
 
 - cross entropy loss can then be calculated over $N$ training samples as such:

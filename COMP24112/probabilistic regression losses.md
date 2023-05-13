@@ -6,7 +6,10 @@
 - ==log likelihood== is just the natural log of the likelihood
 - a function called a ==maximum likelihood estimator (MLE)== is used in this case
 
-### MLE for linear regression
+![](https://i.imgur.com/iNXa9SP.png)
+- the log of $L$ overall is equivalent to the sum of the individual logs of the likelihoods
+
+### MLE for linear regression example
 - the likelihood of $N$ training samples can be calculated (assuming a gaussian distribution for likelihood estimation)
 - in this example MLE is essentially equivalent to the sum-of-squares error minimisation
 ![](https://i.imgur.com/z9Z4EkC.png)
