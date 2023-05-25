@@ -8,3 +8,7 @@
 ![ | 450](https://i.imgur.com/0ezj2bh.png)
 
 - note that the pattern for `b|c` gets embedded within the pattern for any $*$ formula, shown in the key idea slide
+
+
+### links
+- [regex to NFA](https://cyberzhg.github.io/toolbox/regex2nfa?regex=YXxi)

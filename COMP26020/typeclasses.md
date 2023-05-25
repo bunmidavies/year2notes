@@ -10,11 +10,11 @@ for example, in Haskell itself `Eq` and `Show` are typeclasses which the regular
 class Descriptive a where
 	describe :: a -> String
 
-instance descriptive Bool where
+instance Descriptive Bool where
 	describe True = "Yep!"
 	describe False = "Don't bet on it!"
 
-instance descriptive Int where
+instance Descriptive Int where
 	describe 1 = "The loneliest number :("
 	describe _ = "Another boring number."
 
