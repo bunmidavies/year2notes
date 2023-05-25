@@ -13,3 +13,4 @@
 [DRAM & SDRAM](https://online.manchester.ac.uk/bbcswebdav/pid-13877526-dt-content-rid-132936572_1/courses/I3132-COMP-25212-1221-2SE-001895/html/DRAM.html)
 [Error Detection and Correction](https://online.manchester.ac.uk/bbcswebdav/pid-13877526-dt-content-rid-132936572_1/courses/I3132-COMP-25212-1221-2SE-001895/html/ECC.html)
 [Secondary Storage](https://online.manchester.ac.uk/bbcswebdav/pid-13877526-dt-content-rid-132936572_1/courses/I3132-COMP-25212-1221-2SE-001895/html/disk.html)
+[answers to problems](https://online.manchester.ac.uk/bbcswebdav/pid-13877526-dt-content-rid-132936572_1/courses/I3132-COMP-25212-1221-2SE-001895/html/answers.html)
