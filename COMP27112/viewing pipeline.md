@@ -11,7 +11,7 @@ the main algorithm used to perform scan conversion for a vertex is ==Bresenham's
 this algorithm was developed in the 60s and is still used today
 
 ```
-y = mx
+y = mx + c //vector
 for (x = x1; x <= x2, x++)
 {
 	y += m;

@@ -20,10 +20,9 @@ openGL functionality has evolved over time, originally having a fixed pipeline i
 
 DirectX, owned by Microsoft, is a similar system which achieves the same thing. The main difference is that OpenGL is an open standard, owned by the ==Khronos Group== (a group of a bunch of big computer companies)
 
-openGL is a library, so the openGL API sits between the application program and the hardware / input devices. Therefore the ==hardware is abstracted== when using the openGL API
+openGL is a library, so the openGL API sits between the application program and the hardware / input devices. Therefore ==hardware is abstracted== when using the openGL API
 
 ![](https://i.imgur.com/OAmE1OC.png)
-
 
 Conceptually, all graphics systems will work the same - graphics software will typically run on a GPU. The software will output a set of pixels, which is written into ==framebuffer memory==, which maps to a screen memory
 

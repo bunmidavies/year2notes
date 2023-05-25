@@ -3,15 +3,15 @@
 ==Uniforms==:
 - sent to vertex and fragment shaders
 - these stay ==constant throughout a single frame==
-- usually ==single values== i.e. material colour, shininess
+- typically ==single values== i.e. material colour, shininess
 
 ==Attributes==:
-- values applied to ==individual vertices==
+- values applied to ==individual vertices== - therefore if you had an array of attributes, you would want to have enough such that there is one array value per vertex
 - available only to the vertex shader
 - each vertex can have an array of attributes
 
 ==Varyings==:
-- variables declared in the vertex shader, and shared with the fragment shader
+- variables declared in the vertex shader, and shared to the fragment shader
 - i.e. the main way of passing data from vertex shader to fragment shader
 - the varying variable must be declared wtih the same name and type in both shaders
 
@@ -85,27 +85,31 @@ var shaderMaterial = new THREE.MeshShaderMaterial({
 
 // create sphere mesh
 var sphere = new THREE.Mesh(
-	new THREE.Sphere(radius, segments, rings),shaderMaterial);
+	new THREE.Sphere(radius, segments, rings),
+	shaderMaterial
+	);
 
-	var vertices = sphere.geometry.vertices;
-	var values = attributes.displacement.value;
-	for (var v = 0; v < vertices.length; v++)
-	{
-		values.push(Math.random() * 30);
-	}
+var vertices = sphere.geometry.vertices;
+var values = attributes.displacement.value;
+for (var v = 0; v < vertices.length; v++)
+{
+	values.push(Math.random() * 30);
+}
 
-	// add the sphere to the scene
-	scene.addChild(sphere);
+// add the sphere to the scene
+scene.addChild(sphere);
 
-	var frame = 0;
+var frame = 0;
 
-	// draw
-	function update()
-	{
-		uniforms.amplitude.value = Math.sin(frame);
-		frame += 0.1;
-	}
+// draw
+function update()
+{
+	uniforms.amplitude.value = Math.sin(frame);
+	frame += 0.1;
+}
 )
 
 ```
 
+- the important part to note is how the shaderMaterial - i.e. the material of the sphere mesh - defines is vertexShader and fragmentShader
+- it essentially takes the function names as attributes, and these end up being the actual shaders used for that mesh material
