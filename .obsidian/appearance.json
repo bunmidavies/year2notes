@@ -1,11 +1,11 @@
 {
   "cssTheme": "Willemstad",
-  "accentColor": "#ffffff",
+  "accentColor": "#a4a3f0",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "align"
   ],
-  "baseFontSize": 13,
+  "baseFontSize": 15,
   "translucency": false,
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Inter"

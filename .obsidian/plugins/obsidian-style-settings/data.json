@@ -31,5 +31,6 @@
   "New-Willemstad-Core@@header-padding": 12,
   "New-Willemstad-Core@@tab-icon-size": 20,
   "New-Willemstad-Core@@header-margin": 0,
-  "New-Willemstad-Core@@header-icon-size": 18
+  "New-Willemstad-Core@@header-icon-size": 18,
+  "New-Willemstad-Editor@@col-highlight-1-org@@dark": "#558B55"
 }
