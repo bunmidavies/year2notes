@@ -9,7 +9,7 @@
 | Green  | 546.1           |
 | Red    | 700.0                |
 
-- the possible colours that can be created with the standard can be represented with this diagram - these are known as [[perpetual spaces]]
+- the possible colours that can be created with the standard can be represented with this diagram - these are known as [[perceptual spaces]]
 
 ![ | 400](https://i.imgur.com/R5WAzGM.png)
 - other standards also exist (e.g. YCrCb for broadcasting, HSV, IHS, HSB, Lab)

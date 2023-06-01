@@ -13,7 +13,7 @@
 	4. Return current grey level as $T$
 - in the following example, you basically start from 0 on the x axis, and add the values until the cumulative sum is > expected object pixels
 ![ | 550](https://i.imgur.com/vsKKD6L.png)
-- P-tile calculation isnt affected by brightness adjustment, unlike if you were to be gauging the T value manually by eyue
+- P-tile calculation isnt affected by brightness adjustment, unlike if you were to be gauging the T value manually by eye
 
 ### finding a threshold between means of upper/lower parts
 - the average intensity is calculated by using the number of pixels at specific grey levels at any point

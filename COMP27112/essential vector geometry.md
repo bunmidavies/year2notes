@@ -3,6 +3,7 @@
 #### addition / subtraction
 - vector addition - pretty straightforward, can't perform on two vectors of different dimensions. ==Do not add the homogeneous component==
 - vector subtraction - same as addition, except subtraction. Represents a line between two points
+![](https://i.imgur.com/sRFloNg.png)
 
 #### multiplication
 - multiplication by a scalar - again, all components apart from $w$ are multiplied

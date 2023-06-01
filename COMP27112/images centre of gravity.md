@@ -6,7 +6,8 @@ $$M_{\alpha\beta} = \sum_{\text{image}}x^\alpha y^\beta I(x,y)$$
 - for binary images, $I(x,y) \in \{0,1\}$
 - by letting $\alpha,\beta = (1,0)$ and vice versa, one can obtain the sum of x/y values for a regions pixels - setting these to 0 just sums over all pixels, since $x^0/y^0 = 1$
 - therefore, $M_{00}$ returns the number of pixels in a binary image 
-- $(\frac{M_{10}}{M_{00}},\frac{M_{01}}{M_{00}})$ gives a regions centre of gravity as $(x,y)$
+- the following gives a regions centre of gravity as $(x,y)$
+$$(\frac{M_{10}}{M_{00}},\frac{M_{01}}{M_{00}})$$
 
 ![](https://i.imgur.com/JGscMKY.png)
 *example coloured calculation included for clarity*
