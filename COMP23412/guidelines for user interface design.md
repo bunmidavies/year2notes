@@ -6,7 +6,7 @@ there are many guideline sets for creating user interface designs
 
 ## Ben Shneiderman's 8 Golden Rules
 
-1. ==Strive for consistency - using the same fonts, colour pallets ==
+1. ==Strive for consistency - using the same fonts, colour pallets==
 
 sites like amazon use consistency to trick users - it becomes difficult to notice that to avoid trying prime for free you actually just need to click the 'Continue' button rather than the big Try Prime FREE button which sticks out to you
 
